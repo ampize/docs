@@ -1,8 +1,9 @@
 <header class="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4">
     <div role="button" on="tap:header-sidebar.toggle" tabindex="0" class="ampstart-navbar-trigger md-hide lg-hide pr2">☰</div>
-    <a href="{{g.doc('/content/pages/home.html', locale=doc.locale).url.path}}" class="tab header-title"><span></span></a>
+    <a href="{{g.doc('/content/pages/home.html', locale=doc.locale).url.path}}" class="tab"><svg width="200px" height="30px" viewBox="3 -8 275 63" version="1.1" xmlns="http:/www.w3.org/2000/svg" xmlns:xlink="http:/www.w3.org/1999/xlink"><text stroke="none" fill="none" font-size="52.4903461" font-weight="bold"><tspan x="3.03326649" y="43.12557" fill="#EF5425">AMP</tspan><tspan x="115.858894" y="43.12557" fill="#F5B718">ize</tspan><tspan x="180.011342" y="43.12557" fill="#329F92">.me</tspan></text></svg></a>
+
     <nav class="ampstart-headerbar-nav ampstart-nav xs-hide sm-hide">
-        <ul class="list-reset center m0 p0 flex justify-center nowrap">
+        <ul class="list-reset center m0 p0 flex nowrap">
             {% for entry in menu %}
             {% if entry.children %}
             <li class="ampstart-nav-item ampstart-nav-dropdown relative">
