@@ -1,0 +1,9 @@
+hero:
+  title@: Building the future web, together.
+  content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+  cta@: START BUILDING
+  cta_url: /content/docs/tutorials/create.md
+  cta2@: Discover AMPize
+  cta2_url: /content/docs/tutorials/create.md
+  phone_img_base: /static/img/home/home_hero_phone
+  carousel_title@: The Latest

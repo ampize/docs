@@ -1,0 +1,7 @@
+$title: Tutorials
+$path: /docs/tutorials
+
+$localization:
+  path: /{locale}/docs/tutorials
+
+$description: Tutorials for the AMPize project

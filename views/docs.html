@@ -1,0 +1,20 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+{% set tutorials = g.docs('/content' + doc.url.path) %}
+  <main>
+      <div class="flex flex-wrap">
+          {% for tutorial in tutorials %}
+          <div class="card sm-col md-col-4 lg-col-4 overflow-hidden">
+              <h4 class="caps blue bold">{{tutorial.title}}</h4>
+              <p class="pt4">{{tutorial.description}}</p>
+              <a href="{{tutorial.href}}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">GET STARTED</a>
+          </div>
+          {% endfor %}
+    </div>
+  </main>
+
+  <div class="doc-footer">
+    {% include "/views/partials/footer.html" %}
+  </div>
+{% endblock %}

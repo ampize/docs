@@ -1,0 +1,5 @@
+$title@: Guides
+$view: /views/doc.html
+$path: /docs/guides/{base}
+$localization:
+  path: /{locale}/docs/guides/{base}
