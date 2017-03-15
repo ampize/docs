@@ -30,7 +30,7 @@ rows:
           tweetid: 638793490521001985
           #cards: hidden
         - template: youtube
-          title@: Building the future web, together.
+          title@: Twitter, YouTube, Image
           #titleclass: h1
           videoid: mGENRKrdoGY
         - template: image
