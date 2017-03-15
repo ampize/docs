@@ -10,10 +10,10 @@ rows:
       columns:
         - template: text
           title@: A collaborative project
-          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+          content@: Just like the AMP project, AMPize embodies the values of open development, sharing and co-operation, and was initiated by a consortium of international media companies including French, Belgian and British publishers.
         - template: text
           title@: Funded by the Google DNI
-          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+          content@: The AMPize project has been awarded during the second round of funding from <a href="https://digitalnewsinitiative.com/" target="_blank">Google's Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.
     - template: col1
       columns:
         - template: hero
