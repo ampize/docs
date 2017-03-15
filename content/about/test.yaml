@@ -41,6 +41,31 @@ rows:
           height:  610
           alt: Alt text
           layout: responsive
+    - template: col1
+      columns:
+        - template: carousel
+          type: slides
+          width: 400
+          height: 300
+          layout: responsive
+          slides:
+            - template: text
+              title@: Carousel with html, image and video
+              titleclass: h1
+              content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+            - template: image
+              title@: Image
+              titleclass: h4
+              src: /static/img/amp.jpg
+              width: 1080
+              height:  610
+              alt: Alt text
+              layout: responsive
+            - template: youtube
+              title@: Building the future web, together.
+              #titleclass: h1
+              videoid: mGENRKrdoGY
 components:
   - youtube
   - twitter
+  - carousel
