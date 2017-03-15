@@ -1,0 +1,13 @@
+$title@: AMPize Project
+
+rows:
+    - template: col1
+      columns:
+        - template: hero
+          title@: Building the future web, together.
+          titleclass: green
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+          cta@: START BUILDING
+          cta_url: /content/docs/tutorials/create.md
+          cta2@: Discover AMPize
+          cta2_url: /content/docs/tutorials/create.md

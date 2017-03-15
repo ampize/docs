@@ -1,2 +1,4 @@
-view: /views/base.html
-path: /{root}/{base}/
+$view: /views/page.html
+path: /{root}/
+$localization:
+  path: /{locale}/
