@@ -2080,5 +2080,8 @@ article a {
 .intro {
     font-size: 16px;
     padding-bottom: 30px;
-    max-width: 500px;
+}
+
+.row {
+    margin-bottom:100px;
 }

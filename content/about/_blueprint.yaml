@@ -1,4 +1,4 @@
-$view: /views/base.html
+$view: /views/page.html
 $path: /about/{base}
 $localization:
   path: /{locale}/about/{base}
