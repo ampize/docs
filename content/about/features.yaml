@@ -1,1 +1,13 @@
 $title@: The AMPize project features
+rows:
+    - template: col1
+      columns:
+        - template: hero
+          title@: Core Features
+          titleclass: green
+    - template: col2
+      columns:
+        - template: text
+          content@: Feature list 1. Data Friendly, Fast, really Fast, Unlimited, ...
+        - template: text
+          content@: Feature list 2

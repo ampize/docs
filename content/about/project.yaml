@@ -1,1 +1,23 @@
 $title@: The AMPize project overview
+rows:
+    - template: col1
+      columns:
+        - template: hero
+          title@: Embrace the future web
+          titleclass: green
+          content@: <p class="mb2"><a href="http://www.ampproject.com" target="_blank">AMP</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.</p><p>AMPize is a complete, straightforward and plug&play ecosystem to publish and monetize existing contents leveraging the power of AMP </p>
+    - template: col2
+      columns:
+        - template: text
+          title@: A collaborative project
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+        - template: text
+          title@: Funded by the Google DNI
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+    - template: col1
+      columns:
+        - template: hero
+          title@: AMP for all
+          content@: <p class="mb2">for everyone, open-source, simple, affordable, plug&play, any data source, onpremise & cloud, with free PLAN</p>
+          acta2@: Discover AMPize Features
+          acta2_url: /about/features.yaml
