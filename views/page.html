@@ -3,7 +3,7 @@
 <main>
     {% for row in doc.rows %}
         {% if row.template %}
-            {% include "/views/partials/" + row.template %}
+            {% include "/views/partials/" + row.template + ".html" %}
         {% endif %}
     {% endfor %}
 </main>

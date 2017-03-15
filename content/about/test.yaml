@@ -1,0 +1,46 @@
+$title@: The AMPize project stop
+rows:
+    - template: col2
+      columns:
+        - template: hero
+          title@: 2 columns Hero with default H1 title
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+        - template: hero
+          title@: green H1 with CTA buttons
+          titleclass: green
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+          cta@: START BUILDING
+          cta_url: /content/docs/tutorials/create.md
+          cta2@: Discover AMPize
+          cta2_url: /content/docs/tutorials/create.md
+    - template: col1
+      columns:
+        - template: text
+          title@: Simple 1 column text with default H2
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+    - template: col1
+      columns:
+        - template: text
+          title@: Simple 1 column text with styled H2
+          titleclass: h1
+          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+    - template: col3
+      columns:
+        - template: twitter
+          tweetid: 638793490521001985
+          #cards: hidden
+        - template: youtube
+          title@: Building the future web, together.
+          #titleclass: h1
+          videoid: mGENRKrdoGY
+        - template: image
+          title@: Image
+          titleclass: h4
+          src: /static/img/amp.jpg
+          width: 1080
+          height:  610
+          alt: Alt text
+          layout: responsive
+components:
+  - youtube
+  - twitter

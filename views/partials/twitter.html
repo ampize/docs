@@ -1,0 +1,7 @@
+{%if data.title %}<h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>{% endif %}
+<amp-twitter width="375"
+    height="472"
+    layout="responsive"
+    data-tweetid="{{data.tweetid}}"
+    {% if data.cards %}data-cards="{{data.cards}}"{% endif %}>
+</amp-twitter>

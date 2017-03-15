@@ -1,4 +1,1 @@
----
-$title@: The AMPize project
----
-WIP use cases
+$title@: The AMPize project usecases
