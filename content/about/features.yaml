@@ -5,9 +5,51 @@ rows:
         - template: hero
           title@: Core Features
           titleclass: green
+          content@:
+              <p>AMPize is designed with and for Publishers, thanks to the joint effort of a number of great partners. Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p><p>Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
     - template: col2
       columns:
         - template: text
-          content@: Feature list 1. Data Friendly, Fast, really Fast, Unlimited, ...
+          title@: Plug (data) & Play
+          subtitle@: Easy plugin of your existing data sources
+          subtitleclass: squaretitle
+          content@:
+              <p>Feature list 1. Data Friendly, Fast, really Fast, Unlimited, ...<p>
+              <p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p>
+          contentclass: box
         - template: text
+          title@: Fast & Scalable
+          subtitle@: Consistenly Fast, protecting your infrastructure
+          subtitleclass: squaretitle
           content@: Feature list 2
+          contentclass: box
+    - template: col2
+      columns:
+        - template: text
+          title@: SEO Booster
+          subtitle@: Full featured AMP websites for great discoverability
+          subtitleclass: squaretitle
+          content@:
+              <p>Feature list 1. Data Friendly, Fast, really Fast, Unlimited, ...<p>
+              <p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p>
+          contentclass: box
+        - template: text
+          title@: Friendly Monetization
+          subtitle@: Smooth Ads & smart Paywall integration made easy
+          subtitleclass: squaretitle
+          content@: Feature list 2
+          contentclass: box
+    - template: col2
+      columns:
+        - template: text
+          title@: Easy Deployement
+          subtitle@: "AMPize.me come to you in two flavours: cloud and on-premise"
+          subtitleclass: squaretitle
+          content@:
+          contentclass: box
+        - template: text
+          title@: Open & forever Free
+          subtitle@: Our Free Plan offers to developers and small players
+          subtitleclass: squaretitle
+          content@: Feature list 2
+          contentclass: box

@@ -1840,7 +1840,7 @@ amp-carousel .ampstart-image-with-caption {
 }
 
 .ampstart-headerbar-nav {
-  line-height: 3.5rem
+  line-height: 4.5rem
 }
 
 .ampstart-nav-item:active,.ampstart-nav-item:focus,.ampstart-nav-item:hover {
@@ -2084,4 +2084,31 @@ article a {
 
 .row {
     margin-bottom:100px;
+}
+
+.squaretitle
+{  top: -2px;
+   margin-bottom: 10px;
+   padding: 0px 5px 5px 10px;
+   border-left: #329F92 solid;
+   width: 100%;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }

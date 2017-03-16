@@ -1,2 +1,5 @@
-<h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
-<p class="intro">{{_(data.content)}}</p>
+<div >
+<h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h2>
+{% if data.subtitle %}<p {% if data.subtitleclass %}class="{{data.subtitleclass}}"{% endif %}>{{data.subtitle}}</p>{% endif %}
+<p {% if data.contentclass %}class="{{data.contentclass}}"{% endif %}>{{_(data.content)}}</p>
+</div>

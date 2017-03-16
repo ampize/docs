@@ -3,21 +3,25 @@ rows:
     - template: col1
       columns:
         - template: hero
-          title@: Embrace the future web
+          title@: Embrace the future web. Now.
           titleclass: green
-          content@: <p class="mb2"><a href="http://www.ampproject.com" target="_blank">AMP</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.</p><p>AMPize is a complete, straightforward and plug&play ecosystem to publish and monetize existing contents leveraging the power of AMP </p>
+          content@:
+              <blockquote><a href="http://www.ampproject.com" target="_blank">AMP</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.</blockquote>
+              <p>AMPize is a complete, straightforward and plug&play ecosystem to publish and monetize existing contents leveraging the power of AMP </p>
     - template: col2
       columns:
         - template: text
           title@: A collaborative project
-          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+          content@: AMPize is built iteratively to meet the needs of a growing community of publishers, who are actively involved into design and test steps to make the better piece of software possible.
         - template: text
-          title@: Funded by the Google DNI
-          content@: The <a href="http://www.ampproject.org" target="_blank">AMP Project</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.
+          title@: Funded by Google
+          content@: The AMPize.me project got an initial funding and support by the Google Digital News Initiative fund, by November 2016.
     - template: col1
       columns:
         - template: hero
-          title@: AMP for all
+          title@: Built for All
           content@: <p class="mb2">for everyone, open-source, simple, affordable, plug&play, any data source, onpremise & cloud, with free PLAN</p>
-          acta2@: Discover AMPize Features
-          acta2_url: /about/features.yaml
+          cta@: START FOR FREE
+          cta_url: /content/docs/tutorials/create.md
+          cta2@: Discover AMPize Features
+          cta2_url: /content/about/features.yaml

@@ -1,4 +1,4 @@
-<h1 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
+<h1 class="{% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
 <p class="intro">{{_(data.content)}}</p>
 {% if data.cta or data.cta2%}
 <div class="flex mx-auto">
