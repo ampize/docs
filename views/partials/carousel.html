@@ -1,11 +1,13 @@
 <h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
 <amp-carousel
   height="{{data.height}}"
-  width="{{data.width}}"
+  {% if data.width %}width="{{data.width}}"{% endif %}
   layout="{{data.layout}}"
-  type="{{data.type}}">
+  type="{{data.type}}"
+  {% if data.delay %}autoplay delay={{ data.delay }}{% endif %}
+  >
   {% for slide in data.slides %}
-  <div>
+  <div {% if slide.class %}class="{{slide.class}}"{% endif %}>
       {% set data = slide %}
       {% include "/views/partials/" + data.template + ".html" %}
   </div>

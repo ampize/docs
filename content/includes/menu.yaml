@@ -7,6 +7,8 @@ menu:
         copy@: "The project"
       - href: /about/features
         copy@: "Core Features"
+      - href: /about/benefits
+        copy@: "AMP Benefits"
       - href: /about/usecases
         copy@: "Who is AMPize for?"
   - href: /content/learn/overview.html

@@ -1,0 +1,35 @@
+$title@: Benefits from AMP
+rows:
+    - template: col1
+      columns:
+        - template: hero
+          title@: Benefits from AMP
+          titleclass: green
+          content@:
+              <p>All the benefits from AMP, in a nutshell.</p>
+    - template: col1
+      columns:
+        - template: carousel
+          type: slides
+          height: 325
+          width: 400
+          layout: responsive
+          delay: 5000
+          slides:
+            - template: text
+              class: box
+              content:
+                  <p class="bignumber green center">88%%</p>
+                  <p class="caps center description">IMPROVEMENT IN LOAD TIME VS TRADITIONAL MOBILE WEB</p>
+            - template: text
+              class: bg-green
+              content:
+                  <p class="bignumber white center">3X</p>
+                  <p class="caps center description">FASTER PAGE LOAD TIME</p>
+            - template: text
+              class: box
+              content:
+                  <p class="bignumber green center">88%%</p>
+                  <p class="caps center description">IMPROVEMENT IN LOAD TIME VS TRADITIONAL MOBILE WEB</p>
+components:
+  - carousel

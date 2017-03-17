@@ -6,7 +6,7 @@ rows:
           title@: Core Features
           titleclass: green
           content@:
-              <p>AMPize is designed with and for Publishers, thanks to the joint effort of a number of great partners. Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p><p>Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
+              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners. Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p><p>Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
     - template: col2
       columns:
         - template: text
@@ -43,13 +43,13 @@ rows:
       columns:
         - template: text
           title@: Easy Deployement
-          subtitle@: "AMPize.me come to you in two flavours: cloud and on-premise"
+          subtitle@: "AMPize.me comes to you in two flavours: cloud and on-premise"
           subtitleclass: squaretitle
           content@:
           contentclass: box
         - template: text
           title@: Open & forever Free
-          subtitle@: Our Free Plan offers to developers and small players
+          subtitle@: Developers and small players are welcomed to use our Free Plan
           subtitleclass: squaretitle
           content@: Feature list 2
           contentclass: box

@@ -2112,3 +2112,33 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+.bignumber {
+    font-size: 120px;
+    font-weight: 200;
+    line-height: 120px;
+    margin-bottom: 10px;
+    overflow-wrap: normal;
+    white-space: nowrap;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.bignumber .white {
+    color: white;
+}
+
+.bignumber .green {
+    color: #329F92;
+}
+
+.description {
+    line-height: 24px;
+    margin: 0 auto;
+    max-width: 175px;
+}
+
+.bg-green {
+    background: linear-gradient(36deg, #329F92, #38b7a8);
+    padding: 35px 30px 20px;
+}
