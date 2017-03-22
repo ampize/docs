@@ -2083,7 +2083,7 @@ article a {
 }
 
 .row {
-    margin-bottom:100px;
+    margin-bottom:50px;
 }
 
 .squaretitle
@@ -2135,10 +2135,49 @@ blockquote p {
 .description {
     line-height: 24px;
     margin: 0 auto;
-    max-width: 175px;
+    max-width: 240px;
 }
 
 .bg-green {
     background: linear-gradient(36deg, #329F92, #38b7a8);
+    vertical-align: 50%;
     padding: 35px 30px 20px;
+}
+
+.bg-white {
+    vertical-align: 50%;
+    padding: 35px 30px 20px;
+}
+
+.link {
+    color: #329F92;
+    margin-top: 10px;
+}
+
+.amp-carousel-slide .hoverlink {
+   visibility: hidden;
+}
+
+.amp-carousel-slide:hover .hoverlink {
+   visibility: visible;
+   color: white;
+   font-weight: bolder;
+   text-decoration: none;
+   text-transform: uppercase;
+   position: absolute;
+   top: 50%;
+   left: 0px;
+   width: 100%;
+   text-align: center;
+}
+
+.amp-carousel-slide:hover {
+    opacity: 0.5;
+    background-color: grey;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.amp-carousel-slide p {
+    vertical-align: middle;
 }

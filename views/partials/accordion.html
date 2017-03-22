@@ -1,0 +1,11 @@
+<amp-accordion>
+    {% for section in data.sections %}
+    <section>
+      {% set data = section %}
+      <h4 {% if data.titleclass %}class="{{data.titleclass}}"{% endif %}>{{ section.title }}</h4>
+      <div>
+      {% include "/views/partials/" + data.template + ".html" %}
+    </div>
+    </section>
+    {% endfor %}
+</amp-accordion>

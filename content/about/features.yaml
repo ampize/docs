@@ -6,50 +6,66 @@ rows:
           title@: Core Features
           titleclass: green
           content@:
-              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners. Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p><p>Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
+              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
+              <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
+              <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
     - template: col2
       columns:
         - template: text
-          title@: Plug (data) & Play
-          subtitle@: Easy plugin of your existing data sources
+          title@: <span class="fa fa-plug"></span> Plug & Play
+          subtitle@: Seamless integration of your existing data sources
           subtitleclass: squaretitle
           content@:
-              <p>Feature list 1. Data Friendly, Fast, really Fast, Unlimited, ...<p>
-              <p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p>
+            <p class="mt2">Built on top of Facebook GraphQL, the powerful data framework of AMPize can handle multiple and heterogeneous data sources, such as databases or API's, and combine them under a single, friendly query interface.<p>
+            <p class="mt2">If your data sources are not easily accessible, don't worry, the Cloud version is even capable to scrape and normalize content from an existing website, keeping them updated in real time.</p>
+            <p class="right green"><a href="#">Learn More</a></p>
           contentclass: box
         - template: text
-          title@: Fast & Scalable
+          title@: <span class="fa fa-rocket"></span> Fast & Scalable
           subtitle@: Consistenly Fast, protecting your infrastructure
           subtitleclass: squaretitle
-          content@: Feature list 2
+          content@:
+            <p class="mt2">Our Cloud Platform relies on the Google AMP Cache to provide a fast-loading user experience, independantly from your original data source capacity.<p>
+            <p class="mt2">In other words, serving millions of unique visitors from a single MySQL database or your Wordpress Blog without any additional infrastructure is now possible!</p>
+            <p class="right green"><a href="#">Learn More</a></p>
           contentclass: box
     - template: col2
       columns:
         - template: text
-          title@: SEO Booster
+          title@: <span class="fa fa-line-chart"></span> SEO Booster
           subtitle@: Full featured AMP websites for great discoverability
           subtitleclass: squaretitle
           content@:
-              <p>Feature list 1. Data Friendly, Fast, really Fast, Unlimited, ...<p>
-              <p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p><p>line 2</p>
+            <p class="mt2">AMPize.me combines a growing library of 30+ core AMP components to deliver a stellar user experience.</p>
+            <p class="mt2">These performance gains often brings you benefits in terms of Performance, Traffic, Engagement and Revenues.</p>
+            <p class="right green"><a href="#">Learn More</a></p>
           contentclass: box
         - template: text
-          title@: Friendly Monetization
-          subtitle@: Smooth Ads & smart Paywall integration made easy
+          title@: <span class="fa fa-usd"></span> Friendly Monetization
+          subtitle@: Smooth Ads & Smart Paywalls integration made easy
           subtitleclass: squaretitle
-          content@: Feature list 2
+          content@:
+            <p class="mt2">Many Publishers are struggling to monetize their content, resulting in aggressive advertising strategies and unfriendly « PayWalls » with complex subscription processes.</p>
+            <p class="mt2">AMPize.me promotes smooth, respectful advertising experiences and offers throught carefully selected partners ready to use integration of smart and frictionless Paywalls.</p>
+            <p class="right green"><a href="#">Learn More</a></p>
           contentclass: box
     - template: col2
       columns:
         - template: text
-          title@: Easy Deployement
+          title@: <span class="fa fa-server"></span> Easy Deployement
           subtitle@: "AMPize.me comes to you in two flavours: cloud and on-premise"
           subtitleclass: squaretitle
           content@:
+            <p class="mt2">For those who want to get hands in, the open-source version of AMPize can be installed everywhere and connected to existing databases or API's whitin hours.</p>
+            <p class="mt2">The Cloud version si a delivering a complete "AMP as a service" solution with extended features such a crawling, versionning, caching, monetizing, offline support ... and much more!</p>
+            <p class="right green"><a href="#">Learn More</a></p>
           contentclass: box
         - template: text
-          title@: Open & forever Free
+          title@: <span class="fa fa-code"></span> Open & Forever Free
           subtitle@: Developers and small players are welcomed to use our Free Plan
           subtitleclass: squaretitle
-          content@: Feature list 2
+          content@:
+            <p class="mt2">The AMPize.me Cloud is FREE to test and use for developers and small publishers.</p>
+            <p class="mt2">Getting started is straight forward. Give us a try and Embrace the future web.</p>
+            <p class="white"><a class="ampstart-btn right" href="#">GET STARTED</a></p>
           contentclass: box

@@ -3,8 +3,6 @@ menu:
     copy@: About
     collection: learn
     children:
-      - href: /about/project
-        copy@: "The project"
       - href: /about/features
         copy@: "Core Features"
       - href: /about/benefits
