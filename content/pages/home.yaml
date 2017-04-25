@@ -1,7 +1,12 @@
 $title@: The AMPize project overview
 rows:
-    - template: col1
+    - template: col2
       columns:
+        - template: image
+          src: /static/img/illustration1.jpg
+          width: 517
+          height: 517
+          layout: responsive
         - template: hero
           title@: Embrace the future web. Now.
           titleclass: green

@@ -1,2 +1,2 @@
-<h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
+{% if data.title %}<h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h2>{% endif %}
 <amp-img src="{{data.src}}"  width="{{data.width}}"  height="{{data.height}}"  layout="{{data.layout}}"  alt="{{data.alt}}"></amp-img>

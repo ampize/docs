@@ -5,11 +5,15 @@ rows:
         - template: hero
           title@: Benefits from AMP
           titleclass: green
-          content@:
-              <p>All the benefits from AMP, in a nutshell.</p>
-    - template: col1
+    - template: col2
       columns:
+        - template: image
+          src: /static/img/illustration2.jpg
+          width: 517
+          height: 517
+          layout: responsive
         - template: accordion
+          title@: All the benefits, in a nutshell.
           sections:
               - title@: Performance
                 titleclass: h2 caps

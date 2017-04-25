@@ -1,7 +1,12 @@
 $title@: The AMPize project features
 rows:
-    - template: col1
+    - template: col2
       columns:
+        - template: image
+          src: /static/img/illustration4.jpg
+          width: 517
+          height: 517
+          layout: responsive
         - template: hero
           title@: Core Features
           titleclass: green
