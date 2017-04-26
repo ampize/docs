@@ -1,18 +1,20 @@
 $title@: Benefits from AMP
 rows:
-    - template: col1
+    - template: col
       columns:
         - template: hero
           title@: Benefits from AMP
           titleclass: green
-    - template: col2
+    - template: col
       columns:
         - template: image
-          src: /static/img/illustration2.jpg
+          size: 4
+          src: /static/img/benefits.jpg
           width: 517
           height: 517
           layout: responsive
         - template: accordion
+          size: 8
           title@: All the benefits, in a nutshell.
           sections:
               - title@: Performance

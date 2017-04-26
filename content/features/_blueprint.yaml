@@ -1,0 +1,4 @@
+$view: /views/page.html
+$path: /features/{base}
+$localization:
+  path: /{locale}/features/{base}

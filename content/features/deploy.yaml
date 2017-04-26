@@ -1,0 +1,18 @@
+$title@: The AMPize features - deploy
+rows:
+    - template: col
+      columns:
+        - template: image
+          size: 4
+          src: /static/img/deploy.jpg
+          width: 517
+          height: 517
+          layout: responsive
+        - template: hero
+          size: 8
+          title@: Deploy
+          titleclass: green
+          content@:
+              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
+              <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
+              <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>

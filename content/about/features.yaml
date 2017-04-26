@@ -1,20 +1,22 @@
 $title@: The AMPize project features
 rows:
-    - template: col2
+    - template: col
       columns:
-        - template: image
-          src: /static/img/illustration4.jpg
-          width: 517
-          height: 517
-          layout: responsive
         - template: hero
+          size: 8
           title@: Core Features
           titleclass: green
           content@:
               <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
               <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
               <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
-    - template: col2
+        - template: image
+          size: 4
+          src: /static/img/features.jpg
+          width: 517
+          height: 517
+          layout: responsive
+    - template: col
       columns:
         - template: text
           title@: <span class="fa fa-plug"></span> Plug & Play
@@ -23,7 +25,7 @@ rows:
           content@:
             <p class="mt2">Built on top of Facebook GraphQL, the powerful data framework of AMPize can handle multiple and heterogeneous data sources, such as databases or API's, and combine them under a single, friendly query interface.<p>
             <p class="mt2">If your data sources are not easily accessible, don't worry, the Cloud version is even capable to scrape and normalize content from an existing website, keeping them updated in real time.</p>
-            <p class="right green"><a href="#">Learn More</a></p>
+            <p class="right green"><a href="/features/connect">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-rocket"></span> Fast & Scalable
@@ -32,7 +34,7 @@ rows:
           content@:
             <p class="mt2">Our Cloud Platform relies on the Google AMP Cache to provide a fast-loading user experience, independantly from your original data source capacity.<p>
             <p class="mt2">In other words, serving millions of unique visitors from a single MySQL database or your Wordpress Blog without any additional infrastructure is now possible!</p>
-            <p class="right green"><a href="#">Learn More</a></p>
+            <p class="right green"><a href="/features/scale">Learn More</a></p>
           contentclass: box
     - template: col2
       columns:
@@ -43,7 +45,7 @@ rows:
           content@:
             <p class="mt2">AMPize.me combines a growing library of 30+ core AMP components to deliver a stellar user experience.</p>
             <p class="mt2">These performance gains often brings you benefits in terms of Performance, Traffic, Engagement and Revenues.</p>
-            <p class="right green"><a href="#">Learn More</a></p>
+            <p class="right green"><a href="/about/benefits">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-usd"></span> Friendly Monetization
@@ -52,7 +54,7 @@ rows:
           content@:
             <p class="mt2">Many Publishers are struggling to monetize their content, resulting in aggressive advertising strategies and unfriendly « PayWalls » with complex subscription processes.</p>
             <p class="mt2">AMPize.me promotes smooth, respectful advertising experiences and offers throught carefully selected partners ready to use integration of smart and frictionless Paywalls.</p>
-            <p class="right green"><a href="#">Learn More</a></p>
+            <p class="right green"><a href="/features/monetize">Learn More</a></p>
           contentclass: box
     - template: col2
       columns:
@@ -63,7 +65,7 @@ rows:
           content@:
             <p class="mt2">For those who want to get hands in, the open-source version of AMPize can be installed everywhere and connected to existing databases or API's whitin hours.</p>
             <p class="mt2">The Cloud version si a delivering a complete "AMP as a service" solution with extended features such a crawling, versionning, caching, monetizing, offline support ... and much more!</p>
-            <p class="right green"><a href="#">Learn More</a></p>
+            <p class="right green"><a href="/features/deploy">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-code"></span> Open & Forever Free
