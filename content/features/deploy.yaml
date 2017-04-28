@@ -4,7 +4,7 @@ rows:
       columns:
         - template: image
           size: 4
-          src: /static/img/deploy.jpg
+          src: /static/img/deploy.png
           width: 517
           height: 517
           layout: responsive

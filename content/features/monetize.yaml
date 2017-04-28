@@ -13,6 +13,5 @@ rows:
           title@: Monetize
           titleclass: green
           content@:
-              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
-              <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
-              <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
+              <p>AMPize is designed as a complete eco-system to publish and monetize valuable contents.</p>
+              <p class="mt2">Seamless integration of AMP Ads and carefully selected monetization solutions (paywalls, micro-payment, video advertising) gives you the opportunity to test drive and choose the optimal business model, for you and your customers.</p>

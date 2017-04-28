@@ -13,6 +13,35 @@ rows:
           title@: Connect
           titleclass: green
           content@:
-              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
-              <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
-              <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
+              <p >AMPize is not a CMS and doesn’t come with content (articles, posts) editing tools.</p>
+              <p>Instead, it aims to use your existing data sources, whatever they could be&#58;</p>
+              <ul><li>Databases</li><li>API’s</li><li>or even live websites</li></ul>
+              <p class="mb4">The AMPize Data Stack makes use of the powerful Facebook GraphQL framework to build a unified, abstract layer to query and feed data to your AMP pages. Thanks to AMPize connectors, pluging a data-source is easy and straight-forward.<p>
+          cta2@: Read our Tutorials
+          cta2_url: /content/docs/tutorials/plug.md
+    - template: col
+      columns:
+          - template: youtube
+            size: 6
+            title@: Plug the Guardian API in 90 seconds
+            titleclass: h3
+            videoid: N6n1m6vQ9ls
+          - template: text
+            class: bg-white
+            content:
+                <p class="center"><amp-img src="/static/img/dataplug.png" layout="responsive" height=397 width=478></p>
+    - template: col
+      columns:
+          - template: youtube
+            size: 6
+            title@: 30 seconds to connect your MySQL DB
+            titleclass: h3
+            videoid: N6n1m6vQ9ls
+          - template: youtube
+            size: 6
+            title@: Crawl a Website in 90 seconds
+            titleclass: h3
+            videoid: N6n1m6vQ9ls
+
+components:
+  - youtube

@@ -3,7 +3,7 @@ rows:
     - template: col2
       columns:
         - template: image
-          src: /static/img/illustration1.jpg
+          src: /static/img/home.jpg
           width: 517
           height: 517
           layout: responsive
@@ -16,7 +16,7 @@ rows:
           cta@: START FOR FREE
           cta_url: /content/docs/tutorials/create.md
           cta2@: Discover AMPize
-          cta2_url: /content/docs/tutorials/create.md
+          cta2_url: /about/features
     - template: col2
       columns:
         - template: text

@@ -5,14 +5,37 @@ rows:
         - template: image
           size: 4
           src: /static/img/scale.jpg
-          width: 517
-          height: 517
+          width: 3500
+          height: 3200
           layout: responsive
         - template: hero
           size: 8
           title@: Scale
           titleclass: green
           content@:
-              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
-              <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
-              <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
+              <p>One of the core principles of AMP is to provide a consistently FAST experience to end-users.</p>
+              <p>The Google AMP Cache is a one of the key ingredients to deliver a near instant experience.</p>
+              <p>This Content Delivery Network is designed to fetch, optimize and serve any valid AMP Content</p>
+              <p>with reduced latencies, images and network optimizations.</p>
+              <p class="mt2 squaretitle">The AMPize.me architecture integrates deeply with the AMP Cache to provide a fast-loading experience, independantly from the original scaling capabilities of your data-sources.</p>
+    - template: col
+      columns:
+        - template: hero
+          size: 5
+          title@: Anatomy of a Request
+          titleclass: h2 mb4
+          content@:
+              <ol>
+                <li class="mb2">The incoming request hits the AMPize server</li>
+                <li class="mb2">AMPize requires contents from the AMP Cache</li>
+                <li class="mb2">Existing contents are directly served from the cache</li>
+                <li class="mb2">The AMP Cache gets automatically refreshed, every 15 seconds (minimum time that is likely to evolve over time), from the original data-source</li>
+              </ol>
+              <p class="squaretitle">As a result, your data-source is protected by the cache and your site easily scale with incoming traffic</p>
+
+        - template: image
+          size: 7
+          src: /static/img/cache.png
+          width: 1142
+          height: 892
+          layout: responsive

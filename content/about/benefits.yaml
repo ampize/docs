@@ -9,7 +9,7 @@ rows:
       columns:
         - template: image
           size: 4
-          src: /static/img/benefits.jpg
+          src: /static/img/benefits.png
           width: 517
           height: 517
           layout: responsive
