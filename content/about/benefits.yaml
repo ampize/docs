@@ -28,25 +28,25 @@ rows:
                 displaytitle: false
                 slides:
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber green center">88%%</p>
                       <p class="caps center description">IMPROVEMENT IN LOAD TIME VS TRADITIONAL MOBILE WEB</p>
                       <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/washingtonpost/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">3X</p>
                       <p class="caps center description">FASTER PAGE LOAD TIME</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/gizmodo/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                         <p class="bignumber green center">700ms</p>
                         <p class="caps center description">AVERAGE PAGE LOAD TIME</p>
                         <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/relay_media/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">2X</p>
                       <p class="caps center description">INCREASE IN PAGE SPEED</p>
@@ -68,31 +68,31 @@ rows:
                       <p class="caps center description">AMP PAGE VISITS DAILY</p>
                       <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/gizmodo/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">25%%</p>
                       <p class="caps center description">INCREASE IN CTR FROM SEARCH RESULTS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/wired/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                         <p class="bignumber green center">44%%</p>
                         <p class="caps center description">INCREASE IN MONTHLY UNIQUE VISITORS</p>
                         <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/slate/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">73%%</p>
                       <p class="caps center description">INCREASE IN VISITS PER MONTHLY UNIQUE VISITOR </p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/slate/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">90%%</p>
                       <p class="caps center description">NEW TRAFFIC ON AMP (THE DAILY DOT)</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/relay_media/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">73%%</p>
                       <p class="caps center description">INCREASE IN CTR FROM SEARCH PLATFORMS ON AMP SITES</p>
@@ -108,67 +108,67 @@ rows:
                 displaytitle: false
                 slides:
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber green center">23%%</p>
                       <p class="caps center description">INCREASE IN MOBILE SEARCH USERS WHO RETURN WITHIN 7 DAYS</p>
                       <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/washingtonpost/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">50%%</p>
                       <p class="caps center description">INCREASE IN IMPRESSIONS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/gizmodo/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                         <p class="bignumber green center">133%%</p>
                         <p class="caps center description">AVG GROWTH IN CPMS</p>
                         <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/plista/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">220%%</p>
                       <p class="caps center description">AVG GROWTH IN CTRS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/plista/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber green center">10%%</p>
                       <p class="caps center description">INCREASE IN SESSION TIME (THE MIAMI HERALD)</p>
                       <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/relay_media/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">83%%</p>
                       <p class="caps center description">INCREASE IN MOBILE TRANSACTIONS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/milestone/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                         <p class="bignumber green center">68%%</p>
                         <p class="caps center description">INCREASE IN CONVERSION RATES</p>
                         <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/milestone/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">2X</p>
                       <p class="caps center description">MORE TIME SPENT ON AMP PAGES THAN ON OTHER MOBILE PAGES (BRAZIL)</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/terra/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber white center">33%%</p>
                       <p class="caps center description">INCREASE IN CLICKTHROUGH RATE</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/terra/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">105%%</p>
                       <p class="caps center description">CONVERSION RATE INCREASE ON AMP PAGES</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/wompmobile/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber white center">31%%</p>
                       <p class="caps center description">DECREASE IN BOUNCE RATE ON AMP PAGES </p>
@@ -184,57 +184,58 @@ rows:
                 displaytitle: false
                 slides:
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber green center">23%%</p>
                       <p class="caps center description">INCREASE IN MOBILE SEARCH USERS WHO RETURN WITHIN 7 DAYS</p>
                       <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/washingtonpost/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">50%%</p>
                       <p class="caps center description">INCREASE IN IMPRESSIONS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/gizmodo/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                         <p class="bignumber green center">133%%</p>
                         <p class="caps center description">AVG GROWTH IN CPMS</p>
                         <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/plista/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">220%%</p>
                       <p class="caps center description">AVG GROWTH IN CTRS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/plista/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                       <p class="bignumber green center">10%%</p>
                       <p class="caps center description">INCREASE IN SESSION TIME (THE MIAMI HERALD)</p>
                       <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/relay_media/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">83%%</p>
                       <p class="caps center description">INCREASE IN MOBILE TRANSACTIONS</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/milestone/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-white
+                    class: carousel bg-white
                     content:
                         <p class="bignumber green center">68%%</p>
                         <p class="caps center description">INCREASE IN CONVERSION RATES</p>
                         <p class="center hoverlink green"><a href="https://www.ampproject.org/case-studies/milestone/" target="_blank">Discover the use case</a></p>
                   - template: text
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">2X</p>
                       <p class="caps center description">MORE TIME SPENT ON AMP PAGES THAN ON OTHER MOBILE PAGES (BRAZIL)</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/terra/" target="_blank">Discover the use case</a></p>
-                    class: bg-green
+                    class: carousel bg-green
                     content:
                       <p class="bignumber white center">33%%</p>
                       <p class="caps center description">INCREASE IN CLICKTHROUGH RATE</p>
                       <p class="center hoverlink white"><a href="https://www.ampproject.org/case-studies/terra/" target="_blank">Discover the use case</a></p>
 components:
   - carousel
+  - accordion

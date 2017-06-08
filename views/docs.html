@@ -1,15 +1,25 @@
 {% extends "/views/base.html" %}
 
 {% block main %}
+
 {% set documents = g.docs('/content' + doc.url.path) %}
   <main>
       <div class="flex flex-wrap">
           {% for document in documents %}
+          {% if doc.url.path == "/docs/components" %}
+          <div class="card sm-col md-col-3 lg-col-3 overflow-hidden">
+              <h4 class="caps blue bold">{{document.title}}</h4>
+              <div class="tag">{{document.category}}</div>
+              <p class="pt4">{{document.description}}</p>
+              <a href="{{document.href}}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">READ</a>
+          </div>
+          {% else %}
           <div class="card sm-col md-col-4 lg-col-4 overflow-hidden">
               <h4 class="caps blue bold">{{document.title}}</h4>
               <p class="pt4">{{document.description}}</p>
               <a href="{{document.href}}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">GET STARTED</a>
           </div>
+          {% endif %}
           {% endfor %}
     </div>
   </main>

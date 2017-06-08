@@ -11,17 +11,48 @@ rows:
           title@: Embrace the future web. Now.
           titleclass: green
           content@:
-              <blockquote><a href="http://www.ampproject.com" target="_blank">AMP</a> is an open-source initiative aiming to make the web better for all. The project enables the creation of websites and ads that are consistently fast, beautiful and high-performing across devices and distribution platforms.</blockquote>
               <p class="mb4 h3 justify">AMPize is a complete, straightforward and plug & play ecosystem to publish and monetize existing contents leveraging the power of AMP.</p>
           cta@: START FOR FREE
           cta_url: /content/docs/tutorials/create.md
           cta2@: Discover AMPize
           cta2_url: /about/features
+    - template: col
+      columns:
+        - template: image
+          src: /static/img/logo-dni.png
+          width: 1451
+          height: 485
+          layout: responsive
+        - template: image
+          src: /static/img/logo-nrco.png
+          width: 227
+          height: 59
+          layout: responsive
+        - template: image
+          src: /static/img/logo-laprovence.png
+          width: 640
+          height: 144
+          layout: responsive
+        - template: image
+          src: /static/img/logo-lavenir.png
+          width: 400
+          height: 97
+          layout: responsive
+        - template: image
+          src: /static/img/logo-nicematin.png
+          width: 350
+          height: 58
+          layout: responsive
+        - template: image
+          src: /static/img/logo-publihebdos.png
+          width: 400
+          height: 170
+          layout: responsive
     - template: col2
       columns:
         - template: text
           title@: A collaborative project
           content@: Just like the AMP project, AMPize embodies the values of open development, sharing and co-operation, and was initiated by a consortium of international media companies including French, Belgian and British publishers.
         - template: text
-          title@: Funded by Google
+          title@: Supported by Google
           content@: The AMPize project has been awarded during the second round of funding from <a href="https://digitalnewsinitiative.com/" target="_blank">Google's Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.

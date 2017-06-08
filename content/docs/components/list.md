@@ -1,14 +1,13 @@
 ---
-$title@: Guide 1
+$title@: List
+$category: Content
 $order: 1
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
 description: >
-    Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-    Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-    **usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone
-href: /docs/guides/guide1
+    Dynamically displays list of items using a predefined or custom template
+href: /docs/components/list
 ---
 Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
 **usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,

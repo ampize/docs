@@ -1,0 +1,5 @@
+$title@: Components
+$view: /views/doc.html
+$path: /docs/components/{base}
+$localization:
+  path: /{locale}/docs/components/{base}

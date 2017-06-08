@@ -1,0 +1,10 @@
+$title@: About us
+rows:
+    - template: col
+      columns:
+        - template: hero
+          size: 8
+          title@: About us
+          titleclass: green
+          content@:
+              <p>WebTales is the editor of AMPize.</p>

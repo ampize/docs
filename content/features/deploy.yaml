@@ -13,6 +13,6 @@ rows:
           title@: Deploy
           titleclass: green
           content@:
-              <p>AMPize is designed with and for Publishers, thanks to the joint effort of our great partners.</p>
-              <p class="mt2">Our priority is to address common needs to provide a simple, packaged and affordable solution for everyone who wants to benefit from the AMP technology.</p>
-              <p class="mt2">Building a fast, beautiful and usable web shoudn't be restricted to big players with deep enough pockets.</p>
+              <p>Two ways to start using AMPize.me:</p>
+              <p class="mt2">Create an account on the AMPize.me Cloud</p>
+              <p class="mt2">Download and install the open-source version on your own server</p>

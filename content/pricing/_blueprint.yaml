@@ -1,0 +1,4 @@
+$view: /views/page.html
+path: /pricing/
+$localization:
+  path: /{locale}/pricing/

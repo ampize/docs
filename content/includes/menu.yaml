@@ -1,6 +1,6 @@
 menu:
-  - href: /content/learn/overview.html
-    copy@: About
+  - copy@: About
+    base: /about/
     collection: learn
     children:
       - href: /about/features
@@ -9,11 +9,21 @@ menu:
         copy@: "AMP Benefits"
       - href: /about/usecases
         copy@: "Who is AMPize for?"
-  - href: /content/learn/overview.html
-    copy@: Docs
+      - href: /about/us
+        copy@: "About us"
+  - copy@: Docs
+    base: /docs/
     collection: docs
     children:
       - href: /docs/tutorials
         copy@: "Tutorials"
       - href: /docs/guides
         copy@: "Guides"
+      - href: /docs/components
+        copy@: "Components"
+  - copy@: Pricing
+    base: /pricing
+    href: /pricing
+  - copy@: Contact
+    base: /contact
+    href: /contact

@@ -1,5 +1,5 @@
 grow_version: ">=0.0.60"
-home: /content/pages/home.yaml
+home: /content/home/home.yaml
 root: ""
 
 localization:

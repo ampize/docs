@@ -1,6 +1,6 @@
 ---
-$title@: Guide 2
-$order: 2
+$title@: Plugging a Database
+$order: 3
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -8,7 +8,7 @@ description: >
     Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
     Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
     **usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone
-href: /docs/guides/guide2
+href: /docs/guides/database
 ---
 Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
 **usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,

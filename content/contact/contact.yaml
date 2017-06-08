@@ -1,0 +1,13 @@
+$title@: Contact
+path: /contact/
+$localization:
+  path: /{locale}/contact/
+rows:
+    - template: col
+      columns:
+        - template: hero
+          size: 8
+          title@: Contact
+          titleclass: green
+          content@:
+              <p>Contact</p>
