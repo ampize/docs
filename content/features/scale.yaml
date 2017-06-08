@@ -36,6 +36,6 @@ rows:
         - template: image
           size: 7
           src: /static/img/cache.png
-          width: 1142
-          height: 892
+          width: 800
+          height: 600
           layout: responsive

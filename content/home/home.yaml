@@ -4,8 +4,8 @@ rows:
       columns:
         - template: image
           src: /static/img/home.jpg
-          width: 517
-          height: 517
+          width: 3090
+          height: 3090
           layout: responsive
         - template: hero
           title@: Embrace the future web. Now.

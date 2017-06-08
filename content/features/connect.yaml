@@ -29,7 +29,7 @@ rows:
           - template: text
             class: bg-white
             content:
-                <p class="center"><amp-img src="/static/img/dataplug.png" layout="responsive" height=397 width=478></p>
+                <p class="center"><amp-img src="/static/img/dataplug.png" layout="responsive" height=540 width=540></p>
     - template: col
       columns:
           - template: youtube

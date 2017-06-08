@@ -10,8 +10,8 @@ rows:
         - template: image
           size: 4
           src: /static/img/benefits.png
-          width: 517
-          height: 517
+          width: 3048
+          height: 3048
           layout: responsive
         - template: accordion
           size: 8
