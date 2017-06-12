@@ -11,13 +11,13 @@
               <h4 class="caps blue bold">{{document.title}}</h4>
               <div class="tag">{{document.category}}</div>
               <p class="pt4">{{document.description}}</p>
-              <a href="{{document.href}}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">READ</a>
+              <a href="{% if document.isDraft %}#{% else %}{{document.href}}{% endif %}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}READ{% endif %}</a>
           </div>
           {% else %}
           <div class="card sm-col md-col-4 lg-col-4 overflow-hidden">
               <h4 class="caps blue bold">{{document.title}}</h4>
               <p class="pt4">{{document.description}}</p>
-              <a href="{{document.href}}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">GET STARTED</a>
+              <a href="{% if document.isDraft %}#{% else %}{{document.href}}{% endif %}" class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}GET STARTED{% endif %}</a>
           </div>
           {% endif %}
           {% endfor %}

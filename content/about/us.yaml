@@ -2,9 +2,41 @@ $title@: About us
 rows:
     - template: col
       columns:
+        - template: image
+          size: 4
+          src: /static/img/logo-webtales.png
+          width: 1718
+          height: 809
+          layout: responsive
         - template: hero
           size: 8
           title@: About us
           titleclass: green
           content@:
-              <p>WebTales is the editor of AMPize.</p>
+              <p class="mb2">AMPize.me is a software developed by WebTales, a french startup created in 2012 and specialized in making open and innovative publishing products for web and mobile.</p>
+              <p>We're dedicated to make a better web for all, and we welcome any friendly collaboration to make this dream come true.</p>
+    - template: col
+      columns:
+        - template: hero
+          size: 6
+          title@: AMPize.me
+          titleclass: green
+          content@:
+              <p class="mb2">AMPize.me has been developed with the help of a number of european publishers which provided precious feedback and advice during the initial setup phase of the project (S1 2017).</p>
+        - template: hero
+          size: 6
+          title@: Our Partners
+          titleclass: green
+          content@:
+              <p>The project has received an initial funding from the Google DNI Fund, and is also supported by prestigious partners.</p>
+    - template: col
+      columns:
+        - template: text
+          size: 6
+          content@:
+              <div class="md-col md-col4"><amp-img src="/static/img/logo-dni.png" layout="responsive" width="1451" height="485" alt=""></amp-img></div>
+              <div class="md-col md-col4"><amp-img src="/static/img/logo-nrco.png" layout="responsive" width="227" height="59" alt=""></amp-img></div>
+              <div class="md-col md-col4"><amp-img src="/static/img/logo-laprovence.png" layout="responsive" width="640" height="144" alt=""></amp-img></div>
+              <div class="md-col md-col4"><amp-img src="/static/img/logo-lavenir.png" layout="responsive" width="400" height="97" alt=""></amp-img></div>
+              <div class="md-col md-col4"><amp-img src="/static/img/logo-nicematin.png" layout="responsive" width="350" height="58" alt=""></amp-img></div>
+              <div class="md-col md-col4"><amp-img src="/static/img/logo-publihebdos.png" layout="responsive" width="400" height="70" alt=""></amp-img></div>

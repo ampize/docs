@@ -22,26 +22,16 @@ rows:
     - template: col
       columns:
           - template: youtube
-            size: 6
+            size: 7
             title@: Plug the Guardian API in 90 seconds
             titleclass: h3
             videoid: N6n1m6vQ9ls
           - template: text
+            size: 5
             class: bg-white
             content:
                 <p class="center"><amp-img src="/static/img/dataplug.png" layout="responsive" height=540 width=540></p>
-    - template: col
-      columns:
-          - template: youtube
-            size: 6
-            title@: 30 seconds to connect your MySQL DB
-            titleclass: h3
-            videoid: N6n1m6vQ9ls
-          - template: youtube
-            size: 6
-            title@: Crawl a Website in 90 seconds
-            titleclass: h3
-            videoid: N6n1m6vQ9ls
+
 
 components:
   - youtube

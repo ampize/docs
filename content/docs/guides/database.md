@@ -1,6 +1,7 @@
 ---
 $title@: Plugging a Database
 $order: 3
+isDraft: 1
 $date: 2014-03-17
 $dates:
   published: 2014-03-17

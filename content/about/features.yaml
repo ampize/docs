@@ -74,5 +74,5 @@ rows:
           content@:
             <p class="mt2">The AMPize.me Cloud is FREE to test for everyone.</p>
             <p class="mt2">Getting started is straight forward. Give us a try and Embrace the future web.</p>
-            <p class="white"><a class="ampstart-btn right" href="/about/pricing">GET STARTED</a></p>
+            <p class="right green"><a href="/pricing">Learn More</a></p>
           contentclass: box

@@ -21,7 +21,7 @@ rows:
     - template: col
       columns:
         - template: hero
-          size: 5
+          size: 6
           title@: Anatomy of a Request
           titleclass: h2 mb4
           content@:
@@ -34,7 +34,7 @@ rows:
               <p class="squaretitle">As a result, your data-source is protected by the cache and your site easily scale with incoming traffic</p>
 
         - template: image
-          size: 7
+          size: 6
           src: /static/img/cache.png
           width: 800
           height: 600
