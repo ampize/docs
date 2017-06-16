@@ -39,13 +39,13 @@ rows:
     - template: col2
       columns:
         - template: text
-          title@: <span class="fa fa-line-chart"></span> SEO Booster
-          subtitle@: Full featured AMP websites for great discoverability
+          title@: <span class="fa fa-mobile"></span> Mobile
+          subtitle@: A true app-like experience
           subtitleclass: squaretitle
           content@:
-            <p class="mt2">AMPize.me combines a growing library of <a href="/docs/components">30+ core AMP components</a> to deliver a stellar user experience.</p>
-            <p class="mt2">These performance gains often brings you benefits in terms of Performance, Traffic, Engagement and Revenues.</p>
-            <p class="right green"><a href="/about/benefits">Learn More</a></p>
+            <p class="mt2">AMPize.me benefits from the combination of the AMP technology and the Progressive Web Apps (PWA) approach, to deliver a true app-like mobile experience.</p>
+            <p class="mt2">It allows you to offer advanced features to your visitors, such as offline support or push notification.</p>
+            <p class="right green"><a href="/features/mobile">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-usd"></span> Friendly Monetization
@@ -68,11 +68,11 @@ rows:
             <p class="right green"><a href="/features/deploy">Learn More</a></p>
           contentclass: box
         - template: text
-          title@: <span class="fa fa-code"></span> Open & Affordable
-          subtitle@: Developers and small players are welcomed to use our Free Plan
+          title@: <span class="fa fa-line-chart"></span> SEO Booster
+          subtitle@: Full featured AMP websites for great discoverability
           subtitleclass: squaretitle
           content@:
-            <p class="mt2">The AMPize.me Cloud is FREE to test for everyone.</p>
-            <p class="mt2">Getting started is straight forward. Give us a try and Embrace the future web.</p>
-            <p class="right green"><a href="/pricing">Learn More</a></p>
+            <p class="mt2">AMPize.me combines a growing library of <a href="/docs/components">30+ core AMP components</a> to deliver a stellar user experience.</p>
+            <p class="mt2">These performance gains often brings you benefits in terms of Performance, Traffic, Engagement and Revenues.</p>
+            <p class="right green"><a href="/about/benefits">Learn More</a></p>
           contentclass: box
