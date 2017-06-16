@@ -43,7 +43,7 @@ rows:
           subtitle@: Full featured AMP websites for great discoverability
           subtitleclass: squaretitle
           content@:
-            <p class="mt2">AMPize.me combines a growing library of 30+ core AMP components to deliver a stellar user experience.</p>
+            <p class="mt2">AMPize.me combines a growing library of <a href="/docs/components">30+ core AMP components</a> to deliver a stellar user experience.</p>
             <p class="mt2">These performance gains often brings you benefits in terms of Performance, Traffic, Engagement and Revenues.</p>
             <p class="right green"><a href="/about/benefits">Learn More</a></p>
           contentclass: box

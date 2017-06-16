@@ -18,25 +18,29 @@ rows:
     - template: col
       columns:
         - template: hero
-          size: 6
+          size: 7
           title@: AMPize.me
           titleclass: green
           content@:
               <p class="mb2">AMPize.me has been developed with the help of a number of european publishers which provided precious feedback and advice during the initial setup phase of the project (S1 2017).</p>
+              <p>A warm thank-you to all of them for supporting and challenging us to create a world class product.</p>
+        - template: image
+          size: 5
+          src: /static/img/logo-partners-dni.png
+          width: 498
+          height: 498
+          layout: responsive
+    - template: col
+      columns:
+        - template: image
+          size: 5
+          src: /static/img/logo-partners-webtales.png
+          width: 498
+          height: 498
+          layout: responsive
         - template: hero
-          size: 6
-          title@: Our Partners
+          size: 7
+          title@: Proudly supported by
           titleclass: green
           content@:
               <p>The project has received an initial funding from the Google DNI Fund, and is also supported by prestigious partners.</p>
-    - template: col
-      columns:
-        - template: text
-          size: 6
-          content@:
-              <div class="md-col md-col4"><amp-img src="/static/img/logo-dni.png" layout="responsive" width="1451" height="485" alt=""></amp-img></div>
-              <div class="md-col md-col4"><amp-img src="/static/img/logo-nrco.png" layout="responsive" width="227" height="59" alt=""></amp-img></div>
-              <div class="md-col md-col4"><amp-img src="/static/img/logo-laprovence.png" layout="responsive" width="640" height="144" alt=""></amp-img></div>
-              <div class="md-col md-col4"><amp-img src="/static/img/logo-lavenir.png" layout="responsive" width="400" height="97" alt=""></amp-img></div>
-              <div class="md-col md-col4"><amp-img src="/static/img/logo-nicematin.png" layout="responsive" width="350" height="58" alt=""></amp-img></div>
-              <div class="md-col md-col4"><amp-img src="/static/img/logo-publihebdos.png" layout="responsive" width="400" height="70" alt=""></amp-img></div>

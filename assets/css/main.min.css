@@ -1413,7 +1413,7 @@ a,a:active,a:visited {
   vertical-align: middle;
   cursor: pointer;
   background-color: #FFFFFF;
-  color: #fff;
+  color: #000;
 }
 
 .ampstart-btn-secondary {

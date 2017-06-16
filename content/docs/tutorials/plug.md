@@ -1,6 +1,6 @@
 ---
 $title@: Plug Your Own Data Source
-$order: 2
+$order: 1
 description: >
     Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
     Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet

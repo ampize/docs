@@ -1,6 +1,6 @@
 ---
 $title@: Create Your First Site
-$order: 1
+$order: 2
 description: >
     Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
     Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet

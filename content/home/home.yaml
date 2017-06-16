@@ -12,8 +12,8 @@ rows:
           titleclass: green
           content@:
               <p class="mb4 h3 justify">AMPize is a complete, straightforward and plug & play ecosystem to publish and monetize existing contents leveraging the power of AMP.</p>
-          cta@: START FOR FREE
-          cta_url: /content/docs/tutorials/create.md
+          cta@: GET ACCESS TO PRIVATE BETA
+          cta_url: /content/pricing/pricing.yaml
           cta2@: Discover AMPize
           cta2_url: /about/features
     - template: col

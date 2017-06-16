@@ -22,8 +22,9 @@ rows:
           subtitle@: Deliver a fast and compelling ad experience that users appreciate and advertisers value
           subtitleclass: squaretitle
           content@:
-            <p class="mt2">Our Cloud Platform relies on the Google AMP Cache to provide a fast-loading user experience, independantly from your original data source capacity.<p>
-            <p class="mt2">In other words, serving millions of unique visitors from a single MySQL database or your Wordpress Blog without any additional infrastructure is now possible!</p>
+            <p class="mt2">AMP currently supports about 130 ad networks, and various ad formats standard, sticky, flying carpet.<p>
+            <amp-anim width=202 height=360 src="/static/img/ads.gif">
+            </amp-anim>
             <p class="right green"><a href="/features/scale">Learn More</a></p>
           contentclass: box
         - template: text
@@ -31,6 +32,8 @@ rows:
           subtitle@: Get new revenue streams
           subtitleclass: squaretitle
           content@:
-            <p class="mt2">We're working together with inovative startups such as Poool and Swisspay to deliver engaging, frictionless payment solutions.<p>
+            <p class="mt2">We're working together with inovative startups to deliver engaging, frictionless payment solutions.<p>
             <p class="mt2">At this time these projects are still in progress, and the first integrated solutions should be available by the end of 2017.</p>
           contentclass: box
+components:
+  - anim
