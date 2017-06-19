@@ -45,7 +45,6 @@ rows:
           content@:
             <p class="mt2">AMPize.me benefits from the combination of the AMP technology and the Progressive Web Apps (PWA) approach, to deliver a true app-like mobile experience.</p>
             <p class="mt2">It allows you to offer advanced features to your visitors, such as offline support or push notification.</p>
-            <p class="right green"><a href="/features/mobile">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-usd"></span> Friendly Monetization
@@ -65,7 +64,6 @@ rows:
           content@:
             <p class="mt2">For those who want to get hands in, the open-source version of AMPize can be installed everywhere and connected to existing databases or API's whitin hours.</p>
             <p class="mt2">The Cloud version is delivering a complete "AMP as a service" solution with extended features such a crawling, versionning, caching, monetizing, offline support ... and much more!</p>
-            <p class="right green"><a href="/features/deploy">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-line-chart"></span> SEO Booster

@@ -1,5 +1,5 @@
 ---
-$title@: Springboard Player
+$title@: Springboard
 $category: Media
 $order: 1
 isDraft: 1

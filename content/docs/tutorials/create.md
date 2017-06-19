@@ -2,19 +2,7 @@
 $title@: Create Your First Site
 $order: 2
 description: >
-    Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-    Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-    **usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone
+    Once you've created a data-source, you can start building an AMPsite by drag&droping components in pages. This tutorial will show you how use lists, details, ads, menu, youtube and twitter components to create a page in a few minutes.
 href: /docs/tutorials/create
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. [Create a site](/docs/tutorials/create/site)
-2. [Add an article](/docs/tutorials/create/article)
-3. [Modify presentation and layout](/docs/tutorials/create/layout)
-4. [Preview and Publish](/docs/tutorials/create/publish)
-
-<p class="white"><a class="ampstart-btn right" href="/docs/tutorials/create/site">Continue to Step 1</a></p>
+<amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>

@@ -1,0 +1,6 @@
+$path: /docs/tutorials/plug/{base}
+$view: /views/doc.html
+$localization:
+  path: /{locale}/docs/tutorials/plug/{base}
+$title@: Plug your data-source
+index_path: /docs/tutorials
