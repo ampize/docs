@@ -18,22 +18,19 @@ rows:
     - template: col
       columns:
         - template: text
-          title@: <span class="fa fa-rocket"></span> Ads
+          title@: <span class="fa fa-rocket"></span> Ads, paywalls, and more to come...
           subtitle@: Deliver a fast and compelling ad experience that users appreciate and advertisers value
           subtitleclass: squaretitle
           content@:
-            <p class="mt2">AMP currently supports about 130 ad networks, and various ad formats standard, sticky, flying carpet.<p>
-            <amp-anim width=202 height=360 src="/static/img/ads.gif">
-            </amp-anim>
-            <p class="right green"><a href="/features/scale">Learn More</a></p>
+            <p>AMP currently supports about 130 ad networks, and various ad formats standard, sticky, flying carpet.</p>
+            <p class="mt2">We are also working actively to deliver smart, engaging, frictionless payment and monetization solutions. At this time these projects are still in progress, and the first integrated solutions should be available by the end of 2017.<p>
+            <p class="mt2">Stay tuned!</p>
           contentclass: box
         - template: text
-          title@: <span class="fa fa-rocket"></span> Content Monetization
-          subtitle@: Get new revenue streams
-          subtitleclass: squaretitle
+          title@:
+          subtitle@:
           content@:
-            <p class="mt2">We're working together with inovative startups to deliver engaging, frictionless payment solutions.<p>
-            <p class="mt2">At this time these projects are still in progress, and the first integrated solutions should be available by the end of 2017.</p>
+              <amp-img width=1024 height=684 src="/static/img/faster-is-better.png" layout="responsive"></amp-anim>
           contentclass: box
 components:
   - anim

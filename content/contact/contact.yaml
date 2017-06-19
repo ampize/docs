@@ -5,9 +5,30 @@ $localization:
 rows:
     - template: col
       columns:
+        - template: text
+          size: 6
+          content@:
+            <amp-iframe width="600" height="400"
+              layout="responsive"
+              sandbox="allow-scripts allow-same-origin allow-popups"
+              frameborder="0"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHF8VY23XaDbAqVnHu2Yhj1S3rQfIFuL8&q=Station+F,Paris,France">
+              <amp-img
+                src="https://maps.googleapis.com/maps/api/staticmap?center=48.8333381,2.3696351&zoom=15&size=600x400"
+                width="600"
+                height="400"
+                layout="responsive"
+                placeholder>
+            </amp-iframe>
         - template: hero
-          size: 8
+          size: 6
           title@: Contact
           titleclass: green
           content@:
-              <p>Contact</p>
+              <p class="mb4">AMPize is part of the Founders Program of Station F, the world's biggest startup campus.</p>
+              <p>WebTales</p>
+              <p>55 Boulevard Vincent-Auriol</p>
+              <p class="mb4">75013 Paris</p>
+              <a class="ampstart-btn-secondary mr4 right" href="mailto:info@ampize.me?Subject=Hello" target="_blank">SAY HELLO</a>
+components:
+  - iframe
