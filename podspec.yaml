@@ -18,10 +18,10 @@ meta:
 static_dirs:
 - static_dir: /assets/
   serve_at: "/static/"
-  fingerprinted: true
+  fingerprinted: false
 - static_dir: /source/images/
   serve_at: "/assets/static/images/"
-  fingerprinted: true
+  fingerprinted: false
 
 sitemap:
   enabled: true
