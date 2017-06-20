@@ -27,16 +27,16 @@ rows:
         - template: image
           size: 5
           src: /static/img/logo-partners-dni.png
-          width: 498
-          height: 498
+          width: 487
+          height: 484
           layout: responsive
     - template: col
       columns:
         - template: image
           size: 5
           src: /static/img/logo-partners-webtales.png
-          width: 498
-          height: 498
+          width: 487
+          height: 489
           layout: responsive
         - template: hero
           size: 7
