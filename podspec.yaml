@@ -31,3 +31,13 @@ preprocessors:
   name: sass
   sass_dir: /source/sass/
   out_dir: /dist/css/
+
+deployments:
+  default:
+    destination: local
+    out_dir: /var/www/html
+    env:
+      name: prod
+      host: www.ampize.me
+      port: 80
+      scheme: https
