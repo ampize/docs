@@ -2512,5 +2512,8 @@ a.ampize-menu-sidebar-item {
     width: 95px;
     margin-left: 70%;
     text-align: center;
+}
 
+.screenshot {
+    margin: 30px 100px;
 }

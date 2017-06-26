@@ -1,10 +1,16 @@
 ---
-$title@: Query parameters
-$order: 3
+$title@: Query params
+$order: 2
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
+Now we'll set a few more parameters specific to the Guardian API:
 
-<p class="white"><a class="ampstart-btn right" href="/docs/tutorials/plug/pagination">Continue to Step 4</a></p>
+- the query param "show-fields" is used to get the detailed article fields
+- the query-param "show-tags" to get the article tags.
+
+<amp-img src="/static/img/plug_query.png" width="897"height="583" layout="responsive" class="screenshot">  
+
+This API also needs a key in the http header.
+
+<amp-img src="/static/img/plug_header.png" width="899"height="491" layout="responsive" class="screenshot">  
+
+<p class="white"><a class="ampstart-btn right" href="/docs/tutorials/plug/model">Continue to Step 3</a></p>
