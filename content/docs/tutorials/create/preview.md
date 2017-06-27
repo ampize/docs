@@ -11,5 +11,3 @@ Click on the Preview icon.
 You can test your AMP site at different screen resolutions & devices.
 
 <amp-img src="/static/img/preview.png" width="1444" height="839" layout="responsive" class="screenshot">  
-
-<p class="white"><a class="ampstart-btn right" href="/docs/tutorials/create/publish">Continue to Step 6</a></p>
