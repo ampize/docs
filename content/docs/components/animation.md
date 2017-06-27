@@ -2,25 +2,22 @@
 $title@: Animation
 $category: Media
 $order: 1
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
 description: >
-    Displays multiple similar pieces of content along a horizontal axis, showing a single slide at a time.
+    Displays a runtime-managed animated image, typically a GIF.
 href: /docs/components/animation
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
+<p>The Animation component displays a runtime-managed animated image (typically a GIF).</p>
 
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Image URL</h3>
+The URL that points to the animated image file. 
+<h3 class="mb3 mt3">Alternate Text (alt)</h3>
+A string of alternate text.
+<h3 class="mb3 mt3">Attribution</h3>
+The attribution of the image (for example: 'The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions')
+<h3 class="mb3 mt3">srcset Attribute</h3>
+The URL of the image to use in different situations. It allows you to define multiple sizes of the same image, allowing the browser to select the appropriate image source.
