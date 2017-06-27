@@ -21,4 +21,4 @@ Now we'll add and configure more pages in our site, including a detail view of t
 
 <amp-img src="/static/img/listsettings.png" width="365" height="615" layout="responsive" class="screenshot"> 
 
-<p class="white"><a class="ampstart-btn right" href="/docs/tutorials/create/home">Continue to Step 5</a></p>
+<p class="white"><a class="ampstart-btn right" href="/docs/tutorials/create/preview">Continue to Step 5</a></p>
