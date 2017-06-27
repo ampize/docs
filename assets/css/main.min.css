@@ -210,6 +210,7 @@ canvas {
 
 .h3 {
   font-size: 1.5rem
+
 }
 
 .h4 {
@@ -1363,7 +1364,8 @@ p {
 
 .h3,h3 {
   font-size: 1.5rem;
-  line-height: 2rem
+  line-height: 2rem;
+  color: #329F92
 }
 
 .h4,h4 {

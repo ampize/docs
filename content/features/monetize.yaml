@@ -30,7 +30,7 @@ rows:
           title@:
           subtitle@:
           content@:
-              <amp-img width=1024 height=684 src="/static/img/faster-is-better.png" layout="responsive"></amp-anim>
+              <amp-img width=1024 height=684 src="/static/img/faster-is-better.png" layout="responsive"></amp-img>
           contentclass: box
 components:
   - anim
