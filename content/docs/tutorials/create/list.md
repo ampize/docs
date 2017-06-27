@@ -1,5 +1,5 @@
 ---
-$title@: Add an article list
+$title@: Article list
 $order: 2
 ---
 Now we'll add and configure an article list on the homepage.
