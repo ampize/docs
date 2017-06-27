@@ -2,7 +2,7 @@
 $title@: Dailymotion
 $category: Media
 $order: 1
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -10,17 +10,22 @@ description: >
     Displays a Dailymotion video.
 href: /docs/components/dailymotion
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
+<p>The Dailymotion component displays a Dailymotion video.</p>
 
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Video ID</h3>
+The Dailymotion video id found in every video page URL.
+<h3 class="mb3 mt3">Mute</h3>
+Indicates whether to mute the video. Default to false.
+<h3 class="mb3 mt3">End screen</h3>
+Indicates whether to enable the end screen. Default to true.
+<h3 class="mb3 mt3">Sharing</h3>
+Indicates whether to display the sharing button. Default to true.
+<h3 class="mb3 mt3">Start time</h3>
+Specifies the time (in seconds) from which the video should start playing (integer).
+<h3 class="mb3 mt3">Control color</h3>
+Change the default highlight color used in the controls (hexadecimal color value without the leading #).
+<h3 class="mb3 mt3">Display logo</h3>
+Indicates whether to display the Dailymotion logo. Default to true.
+<h3 class="mb3 mt3">Show info</h3>
+Indicates whether to show video information (title and owner) on the start screen. Default to true.
