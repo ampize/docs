@@ -2,7 +2,7 @@
 $title@: Apester Media
 $category: Media
 $order: 1
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -10,17 +10,15 @@ description: >
     Displays an Apester smart unit.
 href: /docs/components/apester
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
+<p>The Apester Media component displays an Apester smart unit.</p>
 
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Mode</h3>
 
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+- Single: displays a single Apester media.
+- Playlist: displays an Apester channel.
+
+<h3 class="mb3 mt3">Media ID</h3>
+The ID of the media (a string).
+<h3 class="mb3 mt3">Channel Token</h3>
+The token of the channel (a string).
