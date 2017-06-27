@@ -2,7 +2,7 @@
 $title@: Brightcove
 $category: Media
 $order: 1
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -10,17 +10,16 @@ description: >
     DDisplays a Brightcove Video Cloud or Perform player.
 href: /docs/components/brightcove
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
+<p>The Brightcove component displays a Brightcove Video Cloud or Perform player.</p>
 
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Video Cloud or Perform account ID</h3>
+The Brightcove Video Cloud or Perform account id.
+<h3 class="mb3 mt3">Player ID</h3>
+The Brightcove player id. This is a GUID, shortid or "default". The default value is "default".
+<h3 class="mb3 mt3">Embed</h3>
+Either default if the player is a parent embed, or the ID of the parent player. The default value is "default".
+<h3 class="mb3 mt3">Video Cloud video ID</h3>
+The Video Cloud video id.
+<h3 class="mb3 mt3">Video Cloud playlist ID</h3>
+The Video Cloud playlist id. If both a playlist and a video are specified, the playlist takes precedence.
