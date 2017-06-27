@@ -22,7 +22,7 @@ rows:
           title@: AMPize.me
           titleclass: green
           content@:
-              <p class="mb2">AMPize.me has been developed with the help of a number of european publishers which provided precious feedback and advice during the initial setup phase of the project (S1 2017).</p>
+              <p class="mb2">AMPize.me has been developed with the help of a number of european publishers who provided precious feedback and advice during the initial setup phase of the project (S1 2017).</p>
               <p>A warm thank-you to all of them for supporting and challenging us to create a world class product.</p>
         - template: image
           size: 5
