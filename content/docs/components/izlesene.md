@@ -2,8 +2,6 @@
 $title@: Izlesene
 $category: Media
 $order: 1
-components:
-  - izlesene
 isDraft: 0
 $date: 2014-03-17
 $dates:

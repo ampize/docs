@@ -2,6 +2,8 @@
 $title@: Twitter
 $category: Social
 $order: 1
+components:
+  - twitter
 isDraft: 1
 $date: 2014-03-17
 $dates:
@@ -10,17 +12,8 @@ description: >
     Displays a Twitter tweet.
 href: /docs/components/twitter
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<amp-twitter width="375"
+  height="472"
+  layout="responsive"
+  data-tweetid="638793490521001985">
+</amp-twitter>
