@@ -2,6 +2,8 @@
 $title@: Kaltura Player
 $category: Media
 $order: 1
+components:
+  - kalturaplayer
 isDraft: 1
 $date: 2014-03-17
 $dates:
@@ -10,17 +12,10 @@ description: >
     Displays the Kaltura Player as used in Kaltura's Video Platform.
 href: /docs/components/kalturaplayer
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<amp-kaltura-player data-uiconf="33502051"
+  data-partner="1281471"
+  data-entryid="1_3ts1ms9c"
+  data-param-streamerType="auto"
+  layout="responsive"
+  width="720"
+  height="480"></amp-kaltura-player>
