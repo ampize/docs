@@ -1,8 +1,10 @@
 ---
 $title@: Reach Player
 $category: Media
+components:
+  - reach-player
 $order: 1
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -10,17 +12,13 @@ description: >
     Displays a Beachfront Reach video player.
 href: /docs/components/reachplayer
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<p>The Reach Player component displays the Reach Player configured in the Beachfront Reach platform.</p>
+<amp-reach-player
+      data-embed-id="default"
+      layout="responsive"
+      width="560"
+      height="315">
+</amp-reach-player>
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Embed videos hosted on Beachfront Reach</h3>
+The Reach player embed id found in the "players" section or in the generated embed itself.
