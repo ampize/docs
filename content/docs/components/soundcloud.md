@@ -4,12 +4,19 @@ $category: Media
 $order: 1
 isDraft: 1
 $date: 2014-03-17
+components:
+  - soundcloud
 $dates:
   published: 2014-03-17
 description: >
     Displays a Soundcloud clip.
 href: /docs/components/soundcloud
 ---
+<amp-soundcloud height=166
+    layout="fixed-height"
+    data-trackid="243169232"
+     data-color="ff5500">
+</amp-soundcloud>
 Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
 **usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
 [patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine

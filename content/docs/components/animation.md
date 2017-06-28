@@ -11,10 +11,15 @@ description: >
 href: /docs/components/animation
 ---
 <p>The Animation component displays a runtime-managed animated image (typically a GIF).</p>
-
+<amp-anim width="245"
+  height="300"
+  src="/img/gopher.gif"
+  alt="an animation"
+  attribution="The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions.">
+</amp-anim>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Image URL</h3>
-The URL that points to the animated image file. 
+The URL that points to the animated image file.
 <h3 class="mb3 mt3">Alternate Text (alt)</h3>
 A string of alternate text.
 <h3 class="mb3 mt3">Attribution</h3>

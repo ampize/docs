@@ -1,6 +1,8 @@
 ---
 $title@: Brightcove
 $category: Media
+components:
+  - brightcove
 $order: 1
 isDraft: 0
 $date: 2014-03-17
@@ -11,7 +13,13 @@ description: >
 href: /docs/components/brightcove
 ---
 <p>The Brightcove component displays a Brightcove Video Cloud or Perform player.</p>
-
+<amp-brightcove data-account="906043040001"
+  data-video-id="1401169490001"
+  data-player-id="180a5658-8be8-4f33-8eba-d562ab41b40c"
+  layout="responsive"
+  width="480"
+  height="270">
+</amp-brightcove>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Video Cloud or Perform account ID</h3>
 The Brightcove Video Cloud or Perform account id.

@@ -1,6 +1,8 @@
 ---
 $title@: Dailymotion
 $category: Media
+components:
+  - dailymotion
 $order: 1
 isDraft: 0
 $date: 2014-03-17
@@ -11,7 +13,11 @@ description: >
 href: /docs/components/dailymotion
 ---
 <p>The Dailymotion component displays a Dailymotion video.</p>
-
+<amp-dailymotion data-videoid="x2m8jpp"
+  layout="responsive"
+  data-ui-highlight="FF4081"
+  width="480"
+  height="270"></amp-dailymotion>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Video ID</h3>
 The Dailymotion video id found in every video page URL.

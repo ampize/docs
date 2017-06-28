@@ -1,6 +1,8 @@
 ---
 $title@: Gfycat
 $category: Social
+components:
+  - gfycat
 $order: 1
 isDraft: 1
 $date: 2014-03-17
