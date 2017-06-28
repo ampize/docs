@@ -1,6 +1,8 @@
 ---
 $title@: Springboard
 $category: Media
+components:
+  - springboard-player
 $order: 1
 isDraft: 1
 $date: 2014-03-17
@@ -8,19 +10,15 @@ $dates:
   published: 2014-03-17
 description: >
     Displays a Springboard Platform video player.
-href: /docs/components/springboardplayer
+href: /docs/components/springboard
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<amp-springboard-player data-site-id="261"
+  data-mode="video"
+  data-content-id="1578473"
+  data-player-id="test401"
+  data-domain="test.com"
+  data-items="10"
+  layout="responsive"
+  width="480"
+  height="270">
+</amp-springboard-player>
