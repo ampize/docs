@@ -8,7 +8,7 @@ $dates:
   published: 2014-03-17
 description: >
     Displays an embedded HTML5 audio file 
-href: /docs/components/menu
+href: /docs/components/audio
 ---
 <p>The Audio component displays an embedded HTML5 audio file.</p>
 
