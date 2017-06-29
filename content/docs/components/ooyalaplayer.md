@@ -1,6 +1,8 @@
 ---
 $title@: Ooyala Player
 $category: Media
+components:
+  - ooyala-player
 $order: 1
 isDraft: 0
 $date: 2014-03-17

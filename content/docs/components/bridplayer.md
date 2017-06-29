@@ -2,7 +2,7 @@
 $title@: Brid Player
 $category: Media
 components:
-  - bridplayer
+  - brid-player
 $order: 1
 isDraft: 0
 $date: 2014-03-17

@@ -11,7 +11,11 @@ description: >
 href: /docs/components/image
 ---
 <p>The Image component displays an image and replaces the HTML5 img tag.</p>
-
+<amp-img src="https://ampbyexample.com/img/amp.jpg"
+  width="1080"
+  height="610"
+  layout="responsive"
+  alt="AMP"></amp-img>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Image URL</h3>
 Image URL.

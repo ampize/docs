@@ -2,6 +2,8 @@
 $title@: Animation
 $category: Media
 $order: 1
+components:
+  - anim
 isDraft: 0
 $date: 2014-03-17
 $dates:
@@ -13,7 +15,7 @@ href: /docs/components/animation
 <p>The Animation component displays a runtime-managed animated image (typically a GIF).</p>
 <amp-anim width="245"
   height="300"
-  src="/img/gopher.gif"
+  src="https://ampbyexample.com/img/gopher.gif"
   alt="an animation"
   attribution="The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions.">
 </amp-anim>

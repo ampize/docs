@@ -1,6 +1,8 @@
 ---
 $title@: Pinterest
 $category: Social
+components:
+  - pinterest
 $order: 1
 isDraft: 0
 $date: 2014-03-17
@@ -20,4 +22,3 @@ href: /docs/components/pinterest
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Pinterest URL</h3>
 The fully-qualified URL of the Pinterest resource to be shown as a widget.
- 
