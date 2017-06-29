@@ -3,7 +3,7 @@ $title@: Pinterest
 $category: Social
 components:
   - pinterest
-$order: 1
+$order: 415
 isDraft: 0
 $date: 2014-03-17
 $dates:
