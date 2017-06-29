@@ -1,7 +1,7 @@
 ---
 $title@: Detail
 $category: Content
-$order: 1
+$order: 105
 isDraft: 1
 $date: 2014-03-17
 $dates:
