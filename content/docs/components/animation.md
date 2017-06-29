@@ -1,7 +1,7 @@
 ---
 $title@: Animation
 $category: Media
-$order: 1
+$order: 300
 components:
   - anim
 isDraft: 0
