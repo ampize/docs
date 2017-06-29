@@ -3,7 +3,7 @@ $title@: O2 Player
 $category: Media
 components:
   - o2-player
-$order: 1
+$order: 355
 isDraft: 0
 $date: 2014-03-17
 $dates:
