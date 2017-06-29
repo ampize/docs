@@ -3,7 +3,7 @@ $title@: Dailymotion
 $category: Media
 components:
   - dailymotion
-$order: 1
+$order: 325
 isDraft: 0
 $date: 2014-03-17
 $dates:
