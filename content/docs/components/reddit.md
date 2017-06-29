@@ -1,7 +1,7 @@
 ---
 $title@: Reddit
 $category: Social
-$order: 1
+$order: 420
 components:
   - reddit
 isDraft: 0
