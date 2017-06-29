@@ -2,7 +2,7 @@
 $title@: Ad
 $category: Monetize
 $order: 500
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -10,17 +10,11 @@ description: >
     A container to display an ad or a sticky ad.
 href: /docs/components/ad
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<p>The Ad component displays an Ad.</p>
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Sticky mode</h3>
+Indicates whether the ad is fixed to the bottom of a page. 
+<h3 class="mb3 mt3">Network</h3>
+Specifies an identifier for the ad network.
+<h3 class="mb3 mt3">Specific parameters</h3>
+Most ad networks require additional parameters, specific to each network.
