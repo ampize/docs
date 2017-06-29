@@ -2,7 +2,7 @@
 $title@: List
 $category: Content
 $order: 120
-isDraft: 1
+isDraft: 0
 $date: 2014-03-17
 $dates:
   published: 2014-03-17
@@ -10,17 +10,14 @@ description: >
     Dynamically displays list of items using a predefined or custom template
 href: /docs/components/list
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<p>The List Component dynamically displays list of items using a predefined or custom template.</p>
+<amp-img width=446 height=794 src="/static/img/components/list.png" layout="fixed"></amp-img>
+<h2 class="mt4 mb4">Settings</h2>
+<h3 class="mb3 mt3">Detail page</h3>
+Page of the site (containing a Detail component) to which the user should be redirected when clicking on an item.
+<h3 class="mb3 mt3">Paging</h3>
+Indicates whether the list should be paginated.
+<h3 class="mb3 mt3">Items per page</h3>
+Number of slides displayed in the carousel
+<h3 class="mb3 mt3">Offset</h3>
+The number of items to skip in the query results.
