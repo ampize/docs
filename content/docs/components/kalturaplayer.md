@@ -1,7 +1,7 @@
 ---
 $title@: Kaltura Player
 $category: Media
-$order: 1
+$order: 350
 components:
   - kaltura-player
 isDraft: 0
