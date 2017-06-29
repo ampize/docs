@@ -2143,6 +2143,25 @@ blockquote p {
     color: #329F92;
 }
 
+.bigtext{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 80px;
+    margin-bottom: 10px;
+    overflow-wrap: normal;
+    white-space: nowrap;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+.bigtext .white {
+    color: white;
+}
+
+.bigtext .green {
+    color: #329F92;
+}
+
 .description {
     line-height: 24px;
     margin: 0 auto;
@@ -2163,6 +2182,7 @@ blockquote p {
 }
 
 .bg-white {
+    background: #FFFFFF;
     vertical-align: 50%;
 }
 
@@ -2517,4 +2537,7 @@ a.ampize-menu-sidebar-item {
 
 .screenshot {
     margin: 30px 100px;
+}
+.grey {
+    color: #D3D3D3;
 }

@@ -1,0 +1,119 @@
+$title@: The AMPize project stop
+rows:
+    - template: col
+      columns:
+        - template: hero
+          title@: What can AMPize.me do for you?
+          titleclass: green
+    - template: col
+      columns:
+        - template: accordion
+          size: 10
+          title@: Check out our common use cases
+          sections:
+              - title@: UC1 - Boost your Search Visibility
+                titleclass: h2 caps
+                template: carousel
+                type: slides
+                height: 300
+                width: 480
+                layout: responsive
+                delay: 5000
+                displaytitle: false
+                slides:
+                  - template: text
+                    content:
+                      <div class="clearfix m0 bg-green">
+                          <div class="caps bigtext white p2 m2">
+                            <div>Be featured in Google “Top Stories” carousel</div>
+                            <div>Appear in search results with rich result features</div>
+                          </div>
+                      </div>
+                      <div class="clearfix bg-white m0">
+                        <div class="ml2 mt3"><h3>Expected Benefits:</h3></div>
+                        <div class="table p3 ml2">
+                            <div class="table-cell caps">Traffic<br>Retention<br>User&nbsp;Experience<br>Costs&nbsp;Savings</div>
+                            <div class="table-cell p2 grey caps"><span class="bold green">+</span>++<br>+++<br>+++<br><span class="bold green">+</span>++</div>
+                            <div class="table-cell p2">
+                                <p>Being featured in Google "Top Stories" requires that your content be published in AMP and include a structured data markup. In AMPize.me this can be done in two simple steps, independently from your web language or CMS&#58;</p>
+                                <ol type="1">
+                                <li>Plug your website or data source</li>
+                                <li>Create an article page</li>
+                                </ol>
+                                <p>A part of your mobile traffic (pages accessed by search) will be saved from your infrastructures.</p>
+                            </div>
+                        </div>
+                      </div>
+                  - template: text
+                    class: carousel bg-white
+                    content:
+                      <amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>
+              - title@: UC2 - Convert your website to Mobile
+                titleclass: h2 caps
+                template: carousel
+                type: slides
+                height: 300
+                width: 480
+                layout: responsive
+                delay: 5000
+                displaytitle: false
+                slides:
+                  - template: text
+                    content:
+                      <div class="clearfix m0 bg-green">
+                          <div class="caps bigtext white p2 m2">
+                            <div>Provide instant load experience to your readers</div>
+                            <div>Anticipate the “mobile-first” Google index</div>
+                          </div>
+                      </div>
+                      <div class="clearfix bg-white m0">
+                        <div class="ml2 mt3"><h3>Expected Benefits:</h3></div>
+                        <div class="table p3 ml2">
+                            <div class="table-cell caps">Traffic<br>Retention<br>User&nbsp;Experience<br>Costs&nbsp;Savings</div>
+                            <div class="table-cell p2 grey caps"><span class="bold green">++</span>+<br><span class="bold green">++</span>+<br><span class="bold green">++</span>+<br><span class="bold green">+++</span></div>
+                            <div class="table-cell p2">
+                                <p>Creating a full AMP site will provide your readers all the benefits of AMP, even outside specific mobile search contexts. Your AMP pages will be accessible from everywhere (mobile, desktop, links, ...) and will provide your readers a consistent instant load experience. The mobile traffic will be integrally absorbed by AMPize.me, saving you high infrastructures costs.</p>
+                            </div>
+                        </div>
+                      </div>
+                  - template: text
+                    class: carousel bg-white
+                    content:
+                      <amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>
+              - title@: UC3 - Replace your mobile Apps
+                titleclass: h2 caps
+                template: carousel
+                type: slides
+                height: 300
+                width: 480
+                layout: responsive
+                delay: 5000
+                displaytitle: false
+                slides:
+                  - template: text
+                    content:
+                      <div class="clearfix m0 bg-green">
+                          <div class="caps bigtext white p2 m2">
+                            <div>Installable</div>
+                            <div>Works Off-line</div>
+                            <div>Web push notifications</div>
+                          </div>
+                      </div>
+                      <div class="clearfix bg-white m0">
+                        <div class="ml2 mt3"><h3>Expected Benefits:</h3></div>
+                        <div class="table p3 ml2">
+                            <div class="table-cell caps">Traffic<br>Retention<br>User&nbsp;Experience<br>Costs&nbsp;Savings</div>
+                            <div class="table-cell p2 grey caps"><span class="bold green">+++</span><br><span class="bold green">+++</span><br><span class="bold green">+++</span><br><span class="bold green">+++</span></div>
+                            <div class="table-cell p2">
+                                <p>Combining the power of AMP with the Progressive Web App technology (PWA) makes it possible to replace your existing Apps on Android Phones. The "add to home screen" feature will add a shortcut to your AMPsite, directly on the user home screen. The PWA will use a local cache to support network outages. Push notifications will also be supported soon in AMpize.me.</p>
+                            </div>
+                        </div>
+                      </div>
+                  - template: text
+                    class: carousel bg-white
+                    content:
+                      <amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>
+components:
+  - carousel
+  - accordion
+  - youtube
