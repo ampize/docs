@@ -1,7 +1,7 @@
 ---
 $title@: Share
 $category: Social
-$order: 1
+$order: 425
 components:
   - social-share
 isDraft: 0
