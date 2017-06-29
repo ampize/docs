@@ -13,18 +13,16 @@ description: >
 href: /docs/components/video
 ---
 <p>The Audio component displays an embedded HTML5 video file.</p>
-<amp-video controls
-  width="640"
-  height="360"
+<amp-video width="480"
+  height="270"
+  src="https://ampbyexample.com/video/tokyo.mp4"
+  poster="https://ampbyexample.com/img/tokyo.jpg"
   layout="responsive"
-  poster="images/kitten-playing.png">
-  <source src="videos/kitten-playing.webm"
-    type="video/webm" />
-  <source src="videos/kitten-playing.mp4"
-    type="video/mp4" />
-  <div fallback>
-    <p>This browser does not support the video element.</p>
-  </div>
+  controls>
+  <source type="video/mp4"
+    src="https://ampbyexample.com/video/tokyo.mp4">
+  <source type="video/webm"
+    src="https://ampbyexample.com/video/tokyo.webm">
 </amp-video>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Source URL</h3>
