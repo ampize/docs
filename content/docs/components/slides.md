@@ -1,7 +1,7 @@
 ---
 $title@: Slides
 $category: Content
-$order: 1
+$order: 130
 components:
   - carousel
 isDraft: 1
