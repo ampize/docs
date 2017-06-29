@@ -1,7 +1,7 @@
 ---
 $title@: Instagram
 $category: Social
-$order: 1
+$order: 410
 components:
   - instagram
 isDraft: 0
