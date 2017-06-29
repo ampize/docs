@@ -1,7 +1,7 @@
 ---
 $title@: Twitter
 $category: Social
-$order: 1
+$order: 430
 components:
   - twitter
 isDraft: 0
