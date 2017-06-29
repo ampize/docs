@@ -1,7 +1,7 @@
 ---
 $title@: Vimeo
 $category: Media
-$order: 1
+$order: 390
 components:
   - vimeo
 isDraft: 0
