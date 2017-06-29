@@ -3,7 +3,7 @@ $title@: Springboard
 $category: Media
 components:
   - springboard-player
-$order: 1
+$order: 380
 isDraft: 0
 $date: 2014-03-17
 $dates:
