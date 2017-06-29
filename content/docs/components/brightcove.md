@@ -3,7 +3,7 @@ $title@: Brightcove
 $category: Media
 components:
   - brightcove
-$order: 1
+$order: 320
 isDraft: 0
 $date: 2014-03-17
 $dates:
