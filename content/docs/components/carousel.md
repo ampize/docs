@@ -3,7 +3,7 @@ $title@: Carousel
 $category: Content
 components:
   - carousel
-$order: 1
+$order: 100
 isDraft: 1
 $date: 2014-03-17
 $dates:
