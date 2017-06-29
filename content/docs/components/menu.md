@@ -1,7 +1,7 @@
 ---
 $title@: Menu
 $category: Navigation
-$order: 0
+$order: 200
 isDraft: 0
 $date: 2014-03-17
 $dates:
