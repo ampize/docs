@@ -1,7 +1,7 @@
 ---
 $title@: JW Player
 $category: Media
-$order: 1
+$order: 345
 components:
   - jwplayer
 isDraft: 0
