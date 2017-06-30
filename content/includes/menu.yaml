@@ -7,6 +7,8 @@ menu:
         copy@: "Core Features"
       - href: /about/benefits
         copy@: "AMP Benefits"
+      - href: /about/usecases
+        copy@: "Use Cases"
       - href: /about/us
         copy@: "About us"
   - copy@: Docs

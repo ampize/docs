@@ -40,14 +40,10 @@ rows:
                                 <li>Plug your website or data source</li>
                                 <li>Create an article page</li>
                                 </ol>
-                                <p>A part of your mobile traffic (pages accessed by search) will be saved from your infrastructures.</p>
+                                <p>On top of that, a part of your mobile traffic (pages accessed by search) will be saved from your existing infrastructures.</p>
                             </div>
                         </div>
                       </div>
-                  - template: text
-                    class: carousel bg-white
-                    content:
-                      <amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>
               - title@: UC2 - Convert your website to Mobile
                 titleclass: h2 caps
                 template: carousel
@@ -76,10 +72,6 @@ rows:
                             </div>
                         </div>
                       </div>
-                  - template: text
-                    class: carousel bg-white
-                    content:
-                      <amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>
               - title@: UC3 - Replace your mobile Apps
                 titleclass: h2 caps
                 template: carousel
@@ -109,10 +101,6 @@ rows:
                             </div>
                         </div>
                       </div>
-                  - template: text
-                    class: carousel bg-white
-                    content:
-                      <amp-youtube data-videoid="aj-j68fsqtE" layout="responsive" width="480" height="270"></amp-youtube>
 components:
   - carousel
   - accordion

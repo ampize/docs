@@ -2208,7 +2208,7 @@ blockquote p {
    text-align: center;
 }
 
-.amp-carousel-slide:hover {
+.amp-carousel-slide-hover:hover {
     opacity: 0.5;
     background-color: grey;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
