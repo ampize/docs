@@ -13,11 +13,16 @@ description: >
 href: /docs/components/iframe
 ---
 <p>The IFrame component displays an iframe.</p>
-<amp-iframe width="200" height="100"
-    sandbox="allow-scripts allow-same-origin"
-    layout="responsive"
-    frameborder="0"
-    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDG9YXIhKBhqclZizcSzJ0ROiE0qgVfwzI&q=iceland">
+<amp-iframe width="500"
+  height="281"
+  layout="responsive"
+  sandbox="allow-scripts allow-same-origin allow-popups"
+  allowfullscreen
+  frameborder="0"
+  src="https://player.vimeo.com/video/140261016">
+  <amp-img layout="fill"
+    src="https://i.vimeocdn.com/video/536538454_640.webp"
+    placeholder></amp-img>
 </amp-iframe>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Src (https)</h3>
