@@ -23,8 +23,7 @@ rows:
           subtitleclass: squaretitle
           content@:
             <p>AMP currently supports about 130 ad networks, and various ad formats standard, sticky, flying carpet.</p>
-            <p class="mt2">We are also working actively to deliver smart, engaging, frictionless payment and monetization solutions. At this time these projects are still in progress, and the first integrated solutions should be available by the end of 2017.<p>
-            <p class="mt2">Stay tuned!</p>
+            <p class="mt2">AMPize can also integrates with your custom paywall and registration process.<p>
           contentclass: box
         - template: text
           title@:

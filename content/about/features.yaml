@@ -52,7 +52,7 @@ rows:
           subtitleclass: squaretitle
           content@:
             <p class="mt2">Many Publishers are struggling to monetize their content, resulting in aggressive advertising strategies and unfriendly « PayWalls » with complex subscription processes.</p>
-            <p class="mt2">AMPize.me promotes smooth, respectful advertising experiences and offers throught carefully selected partners ready to use integration of smart and frictionless Paywalls.</p>
+            <p class="mt2">AMPize.me promotes smooth, respectful advertising experiences and can integrate with your existing paywalls and registration processes.</p>
             <p class="right green"><a href="/features/monetize">Learn More</a></p>
           contentclass: box
     - template: col2
