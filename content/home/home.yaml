@@ -2,10 +2,8 @@ $title@: The AMPize project overview
 rows:
     - template: col2
       columns:
-        - template: image
-          src: /static/img/home.jpg
-          width: 3090
-          height: 3090
+        - template: youtube
+          videoid: 1tDV6p-1V48
           layout: responsive
         - template: hero
           title@: Embrace the future web. Now.
@@ -56,3 +54,5 @@ rows:
         - template: text
           title@: Supported by Google
           content@: The AMPize project has been awarded during the second round of funding from <a href="https://digitalnewsinitiative.com/" target="_blank">Google's Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.
+components:
+  - youtube
