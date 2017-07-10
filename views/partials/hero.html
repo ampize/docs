@@ -3,16 +3,14 @@
 <p class="intro">{{_(data.content)}}</p>
 {% endif %}
 {% if data.cta or data.cta2%}
-<div class="flex mx-auto center">
+<div class="flex mx-auto center flex-wrap justify-around">
     {% if data.cta2 %}
-    <a class="ampstart-btn-secondary mr4" href="{{g.doc(data.cta2_url, locale=doc.locale).url.path}}">
+    <a class="ampstart-btn-secondary mb1" href="{{g.doc(data.cta2_url, locale=doc.locale).url.path}}">
       {{_(data.cta2)}}
     </a>
     {% endif %}
     {% if data.cta %}
-    <div class="white">
-        <a class="ampstart-btn right" href="{{g.doc(data.cta_url, locale=doc.locale).url.path}}">{{_(data.cta)}}</a>
-    </div>
+        <a class="white ampstart-btn right mb1" href="{{g.doc(data.cta_url, locale=doc.locale).url.path}}">{{_(data.cta)}}</a>
     {% endif %}
 </div>
 {% endif %}
