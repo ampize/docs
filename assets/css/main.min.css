@@ -2555,3 +2555,27 @@ a.ampize-menu-sidebar-item {
         padding-bottom: 2rem;
     }
 }
+
+amp-accordion > section > h4.accordion-header {
+    background-color: white;
+    border-top: none;
+    padding: 5px 10px;
+}
+
+amp-accordion > section:first-child > h4.accordion-header {
+    border-top: 1px solid #dfdfdf;
+}
+
+amp-accordion > section > h4.accordion-header > i {
+    padding-top: 4px;
+}
+
+amp-accordion > section[expanded] > h4.accordion-header > i {
+    transform: scaleY(-1);
+    padding-top: 0px;
+    padding-bottom: 4px;
+}
+
+amp-accordion > section > div {
+    border-bottom: 1px solid #dfdfdf;
+}
