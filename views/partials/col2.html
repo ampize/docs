@@ -1,10 +1,11 @@
 <div class="clearfix row">
     <div class="md-col-10 mx-auto mb4">
-        <div class="md-col md-col-6 px4">
+        <div class="md-col md-col-6 px2">
             {% set data = row.columns[0] %}
             {% include "/views/partials/" + data.template + ".html" %}
         </div>
-        <div class="md-col md-col-6 px1">
+        <div class="md-col md-col-6 px2">
+            <div class="mt3 md-hide lg-hide"></div>
             {% set data = row.columns[1] %}
             {% include "/views/partials/" + data.template + ".html" %}
         </div>

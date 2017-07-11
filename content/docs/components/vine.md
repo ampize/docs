@@ -13,7 +13,9 @@ description: >
 href: /docs/components/vine
 ---
 <p>The Vine component displays a Vine simple embed.</p>
-<amp-vine width="400"
+<amp-vine 
+  layout="responsive"
+  width="400"
   height="400"
   data-vineid="MdKjXez002d">
 </amp-vine>

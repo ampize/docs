@@ -1,5 +1,5 @@
 <div>
-{% if data.title %}<h2 class="mb4 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{_(data.title)}}</h2>{% endif %}
+{% if data.title %}<h2 class="mb3 {% if data.titleclass %}{{data.titleclass}}{% endif %}">{{_(data.title)}}</h2>{% endif %}
 {% if data.subtitle %}<p {% if data.subtitleclass %}class="{{data.subtitleclass}}"{% endif %}>{{data.subtitle}}</p>{% endif %}
 <p {% if data.contentclass %}class="{{data.contentclass}}"{% endif %}>{{_(data.content)}}</p>
 </div>

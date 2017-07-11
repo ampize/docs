@@ -11,7 +11,9 @@ description: >
 href: /docs/components/list
 ---
 <p>The List Component dynamically displays list of items using a predefined or custom template.</p>
-<amp-img width=446 height=794 src="/static/img/components/list.png" layout="fixed"></amp-img>
+<div class="md-col-5 col-12">
+<amp-img width=446 height=794 src="/static/img/components/list.png" layout="responsive"></amp-img>
+</div>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Detail page</h3>
 Page of the site (containing a Detail component) to which the user should be redirected when clicking on an item.

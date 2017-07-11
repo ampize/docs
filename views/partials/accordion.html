@@ -3,10 +3,10 @@
     {% for section in data.sections %}
     <section>
       {% set data = section %}
-      <h4 {% if data.titleclass %}class="{{data.titleclass}}"{% endif %}>{{ section.title }}</h4>
+        <h4 {% if data.titleclass %}class="accordion-header {{data.titleclass}}"{% endif %}>{{ section.title }} <i class="right fa fa-angle-down" aria-hidden="true"></i></h4>
       <div>
       {% include "/views/partials/" + data.template + ".html" %}
-    </div>
+      </div>
     </section>
     {% endfor %}
 </amp-accordion>
