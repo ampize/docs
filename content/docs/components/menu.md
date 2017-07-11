@@ -11,7 +11,9 @@ description: >
 href: /docs/components/menu
 ---
 <p>The Menu component displays a responsive navigation toolbar, built from the pages tree.</p>
-<amp-img width=496 height=396 src="/static/img/components/menu.png" layout="fixed"></amp-img>
+<div class="md-col-5 col-12">
+<amp-img width=496 height=396 src="/static/img/components/menu.png" layout="responsive"></amp-img>
+</div>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Root</h3>
 The start page to generate the menu, usually the Home page.

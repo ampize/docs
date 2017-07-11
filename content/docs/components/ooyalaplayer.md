@@ -12,8 +12,9 @@ description: >
     Displays an Ooyala video.
 href: /docs/components/ooyalaplayer
 ---
-<p>The Dailymotion component displays an Ooyala video.</p>
+<p>The Ooyala component displays an Ooyala video.</p>
 <amp-ooyala-player
+    layout="responsive"
     data-embedcode="Vxc2k0MDE6Y_C7J5podo3UDxlFxGaZrQ"
     data-pcode="5zb2wxOlZcNCe_HVT3a6cawW298X"
     data-playerid="6440813504804d76ba35c8c787a4b33c"
