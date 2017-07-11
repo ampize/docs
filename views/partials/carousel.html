@@ -1,5 +1,5 @@
 <amp-carousel
-  height="{{data.height}}"
+  {% if data.height %}height="{{data.height}}"{% endif %}
   {% if data.width %}width="{{data.width}}"{% endif %}
   layout="{{data.layout}}"
   type="{{data.type}}"
