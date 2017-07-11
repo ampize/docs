@@ -2531,6 +2531,7 @@ a.ampize-menu-sidebar-item {
     background-color: #78909c;
     width: 95px;
     text-align: center;
+    max-height: 24px;
 }
 
 .screenshot {
