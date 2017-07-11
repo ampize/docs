@@ -25,7 +25,7 @@ rows:
           content@:
             <p class="mt2">Built on top of Facebook GraphQL, the powerful data framework of AMPize can handle multiple and heterogeneous data sources, such as databases or API's, and combine them under a single, friendly query interface.<p>
             <p class="mt2">If your data sources are not easily accessible, don't worry, the Cloud version is even capable to scrape and normalize content from an existing website, keeping them updated in real time.</p>
-            <p class="right green"><a href="/features/connect">Learn More</a></p>
+            <p class="green flex justify-end mb4"><a href="/features/connect">Learn More</a></p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-rocket"></span> Fast & Scalable
@@ -34,7 +34,7 @@ rows:
           content@:
             <p class="mt2">Our Cloud Platform relies on the Google AMP Cache to provide a fast-loading user experience, independantly from your original data source capacity.<p>
             <p class="mt2">In other words, serving millions of unique visitors from a single MySQL database or your Wordpress Blog without any additional infrastructure is now possible!</p>
-            <p class="right green"><a href="/features/scale">Learn More</a></p>
+            <p class="flex justify-end green"><a href="/features/scale">Learn More</a></p>
           contentclass: box
     - template: col2
       columns:
@@ -53,7 +53,7 @@ rows:
           content@:
             <p class="mt2">Many Publishers are struggling to monetize their content, resulting in aggressive advertising strategies and unfriendly « PayWalls » with complex subscription processes.</p>
             <p class="mt2">AMPize.me promotes smooth, respectful advertising experiences and can integrate with your existing paywalls and registration processes.</p>
-            <p class="right green"><a href="/features/monetize">Learn More</a></p>
+            <p class="flex justify-end green"><a href="/features/monetize">Learn More</a></p>
           contentclass: box
     - template: col2
       columns:
@@ -72,5 +72,5 @@ rows:
           content@:
             <p class="mt2">AMPize.me combines a growing library of <a href="/docs/components">30+ core AMP components</a> to deliver a stellar user experience.</p>
             <p class="mt2">These performance gains often brings you benefits in terms of Performance, Traffic, Engagement and Revenues.</p>
-            <p class="right green"><a href="/about/benefits">Learn More</a></p>
+            <p class="flex justify-end green"><a href="/about/benefits">Learn More</a></p>
           contentclass: box

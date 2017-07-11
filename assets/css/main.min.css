@@ -2543,7 +2543,7 @@ a.ampize-menu-sidebar-item {
 
 @media only screen and (max-width: 52rem) {
     main#content > main {
-        padding: 0;
+        padding: 1rem;
     }
 
     .row {
