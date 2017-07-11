@@ -21,9 +21,8 @@ rows:
                 titleclass: h2 caps
                 template: carousel
                 type: slides
-                height: 200
-                width: 400
-                layout: responsive
+                height: 350
+                layout: flex-item
                 delay: 5000
                 displaytitle: false
                 slides:
@@ -55,9 +54,8 @@ rows:
                 titleclass: h2 caps
                 template: carousel
                 type: slides
-                height: 200
-                width: 400
-                layout: responsive
+                height: 350
+                layout: flex-item
                 delay: 5000
                 displaytitle: false
                 slides:
@@ -101,9 +99,8 @@ rows:
                 titleclass: h2 caps
                 template: carousel
                 type: slides
-                height: 200
-                width: 400
-                layout: responsive
+                height: 350
+                layout: flex-item
                 delay: 5000
                 displaytitle: false
                 slides:
@@ -177,9 +174,8 @@ rows:
                 titleclass: h2 caps
                 template: carousel
                 type: slides
-                height: 200
-                width: 400
-                layout: responsive
+                height: 350
+                layout: flex-item
                 delay: 5000
                 displaytitle: false
                 slides:
@@ -235,9 +231,8 @@ rows:
                 titleclass: h2 caps
                 template: carousel
                 type: slides
-                height: 200
-                width: 400
-                layout: responsive
+                height: 350
+                layout: flex-item
                 delay: 5000
                 displaytitle: false
                 slides:
