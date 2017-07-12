@@ -16,7 +16,7 @@ href: /docs/guides/crawl
 <p>During crawls, only new items are extracted. Items are updated when displayed by a visitor in the AMP site, and will be deleted if the source page doesn't exist anymore.</p>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">Name</h3>
-<p>Name of your datesource. Cannot contain spaces, special caracters or numbers.</p>
+<p>Name of your datasource. Cannot contain spaces, special caracters or numbers. The datasource name cannot be modified afterwards.</p>
 <h3 class="mb3 mt3">Source URL</h3>
 <p>Starting or seed URL from which your site will be spidered.</p>
 <h3 class="mb3 mt3">Template URL</h3>
@@ -80,5 +80,21 @@ href: /docs/guides/crawl
 
 <p>As for fields based on CSS selectors, you must give it a name and you can select a schema.org output property if you want this field to be used for the generated JSON-LD markup (see <a href="docs/guides/seo">SEO</a> guide).</p>
 <h2 class="mt4 mb4">Manage list queries</h2>
+<p>If you want to display article lists on your AMP site that perfectly match the corresponding list on your source site, you can manage list queries.</p>
+<p>Such a list query is defined by:</p>
 
+- the name of your choice
+- the page URL from the source site
+- the CSS selector that matches the div tag surrounding the list of articles on this page
+
+<p>Once you have defined a list query, you can use it for any of your AMP sites in the Query Builder. To mimic the list of your source site, you just have to apply a filter (yourQueryListName_tag = TRUE) and a sort property (order by: yourQueryListName_order, direction: Ascendant) on your query.</p>
 <h2 class="mt4 mb4">Other actions</h2>
+<p>For each site source, the following actions are available:</p>
+<h3 class="mb3 mt3">Run/Stop</h3>
+<p>To run/stop the crawl manually.</p>
+<h3 class="mb3 mt3">Crawl specific URLs</h3>
+<p>If you want an item to be extracted without having to wait for the next round, you can crawl specific URLs.</p>
+<h3 class="mb3 mt3">Delete data</h3>
+<p>To delete all the items already extracted. The settings of your source and the extraction template are unaffected.</p>
+<h3 class="mb3 mt3">Delete source</h3>
+<p>To delete the whole source (items, settings, extraction template).</p>
