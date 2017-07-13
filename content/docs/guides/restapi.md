@@ -9,17 +9,15 @@ description: >
 
 href: /docs/guides/restapi
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<p>Plugging your REST API is quite easy and shouldn't take more than a few minutes.</p>
+<h2 class="mt4 mb4">Source</h2>
+<p>To connect a REST API, you must first give a name to this source and define the API base URL (common base URL to all API endpoints).</p>
+<h2 class="mt4 mb4">Params</h2>
+<h3 class="mb3 mt3">Basic auth params</h3>
+<p>User / password to connect to the API.</p>
+<h3 class="mb3 mt3">Query param</h3>
+<p>You can add as many API Query parameters as you need.</p>
+<h3 class="mb3 mt3">HTTP headers</h3>
+<p>You can add as many API HTTP headers as you need.</p>
+<h2 class="mt4 mb4">Data model</h2>
+<p>You source must be represented by its data model: it is a basic JSON configuration to describe the data structure (Types: objects and relations between these objects) and how data can be fetched (Connectors). See <a href="docs/guides/datamodels">Data Models<a> guide for more info.</p>
