@@ -87,7 +87,7 @@ href: /docs/guides/crawl
 - the page URL from the source site
 - the CSS selector that matches the div tag surrounding the list of articles on this page
 
-<p>Once you have defined a list query, you can use it for any of your AMP sites in the Query Builder. To mimic the list of your source site, you just have to apply a filter (yourQueryListName_tag = TRUE) and a sort property (order by: yourQueryListName_order, direction: Ascendant) on your query.</p>
+<p>Once you have defined a list query, you can use it for any of your AMP sites in the <a href="docs/guides/querybuilder">Query Builder</a>. To mimic the list of your source site, you just have to apply a filter (yourQueryListName_tag = TRUE) and a sort property (order by: yourQueryListName_order, direction: Ascendant) on your query.</p>
 <h2 class="mt4 mb4">Other actions</h2>
 <p>For each site source, the following actions are available:</p>
 <h3 class="mb3 mt3">Run/Stop</h3>
