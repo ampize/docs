@@ -9,17 +9,9 @@ description: >
 
 href: /docs/guides/database
 ---
-Lorem markdownum ulterius: data *vires curvantur*, aliquo et fuerat sustinet
-**usus**, disparibus tui ullas nota ramis quas. In sidera atria Alcyone,
-[patuisset](http://www.wtfpl.net/) esse semine harundine rudentes carmine
-genialiter adspexit, et vult tua genetricis proelia.
-
-1. Erat sui viaque quater
-2. Antro diffidunt nova secabatur medium aequora et
-3. Gelidos quoque fatebor
-4. O dignus a in ad ait rapiunt
-
-Nunc aether dotaliaque mollit vasti ima propior solidas! Nunc tellus cervice
-incendia cunctis cesserunt optima deorum vidit parte pectore foret relinquam
-vulnus. Cadmeida tortilis illis, tantos, eo, pollice puppe nostrae cantu
-recentem collo: est. Credere volucris.
+<p>Plugging your database is quite easy and shouldn't take more than a few minutes.</p>
+<h2 class="mt4 mb4">Connection to your database</h2>
+<p>To connect a database, you must give a name to this source, select the DB Engine type (PDO MySQL / MySQLi) and define the usual connection settings (host, port, user, password, schemaDB).</p>
+<h2 class="mt4 mb4">Data model</h2>
+<p>You source must be represented by its data model: it is a basic JSON configuration to describe the data structure (Types: objects and relations between these objects) and how data can be fetched (Connectors).</p>
+<p>You can either upload your own JSON model, or click on 'Build model form DB' to automatically generate the model. It's just magic.</p>
