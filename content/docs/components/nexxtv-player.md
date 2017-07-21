@@ -3,7 +3,7 @@ $title@: NexxTV Player
 $category: Media
 components:
   - nexxtv-player
-$order: 360
+$order: 353
 isDraft: 0
 $date: 2014-03-17
 $dates:
