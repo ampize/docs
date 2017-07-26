@@ -66,4 +66,5 @@ href: /docs/guides/templating
 {{/ampizePaging}}
 </code></pre>
 <p>This template works just like the first one but adds a HTML tag (h2) around the title.</p>
+<p>One thing that is not very clear in the docs is how to output a non-associative array. The answer is pretty simple : <code>{{#property}} {{.}} {{/property}}</code>. The <code>{{.}}</code> tag designates the root value of the current section. </p> 
 <h3 class="mb3 mt3">Component-specific elements</h3>
