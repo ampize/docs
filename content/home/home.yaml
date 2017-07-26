@@ -52,7 +52,7 @@ rows:
           title@: A collaborative project
           content@: Just like the AMP project, AMPize embodies the values of open development, sharing and co-operation, and was initiated by a consortium of international media companies including French, Belgian and British publishers.
         - template: text
-          title@: Supported by Google
-          content@: The AMPize project has been awarded during the second round of funding from <a href="https://digitalnewsinitiative.com/" target="_blank">Google's Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.
+          title@: Funded by Google's DNI
+          content@: The AMPize project received a financial support from the <a href="https://digitalnewsinitiative.com/" target="_blank">Google Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.
 components:
   - youtube
