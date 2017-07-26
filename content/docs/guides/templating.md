@@ -66,5 +66,9 @@ href: /docs/guides/templating
 {{/ampizePaging}}
 </code></pre>
 <p>This template works just like the first one but adds a HTML tag (h2) around the title.</p>
+<p>In addition to the fields from your query that can be outputted using <code>{{field}}</code> tags, component variables(variables set in JSON in the "variables" tool of the current component and GET params of the current page can be displayed with the same syntax. </p>
 <p>One thing that is not very clear in the docs is how to output a non-associative array. The answer is pretty simple : <code>{{#property}} {{.}} {{/property}}</code>. The <code>{{.}}</code> tag designates the root value of the current section. </p> 
 <h3 class="mb3 mt3">Component-specific elements</h3>
+<p>Depending on what type of component your template is used in, certain special elements can be used. In our list template those would be the detail link and the pager.</p>
+<p>In all list templates a field called "ampizeDetailUrl" is injected at the root of every result item. It is automatically field with the detail URL of that item (if a detail page is configured in the component settings).You should remove the entire <code><a class="ampize-primary-color" href="{{ampizeDetailUrl}}">Read more</a></code> link if you don't want this behaviour (otherwise you just get empty links). </p>
+<p>The entire "ampizePaging" section is used for paging and will only be displayed if paging is activated in the component settings. Please note the use of the "prevPage" section as a form of conditional display : if it is not defined the "previous page" link is not rendered.</p>
