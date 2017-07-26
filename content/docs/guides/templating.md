@@ -45,4 +45,25 @@ href: /docs/guides/templating
 <p>It displays the title followed by a "read more" link for each item in the list. As you can see it's just HTML enriched with some Moustache code in order to repeat the div for each item and output the data.</p>
 <p>The first part of the code between <code>{{#capitalList}}</code> and <code>{{/capitalList}}</code> is specific to the data and is repeated for each item (capitalList is the internal name of the query). The second part between <code>{{#ampizePaging}}</code> and <code>{{/ampizePaging}}</code> is component-specific code : in this case the paging links that will be displayed under the list if you activate paging in the component settings.</p>
 <h3 class="mb3 mt3">Data output</h3>
+<p>AMPize automatically generates templates that display all the fields in your query. This means that all of the Mustache code required to display data is already in the template. Nevertheless it can be very useful to know how Mustache code works.</p>
+<p>The <a href="https://mustache.github.io/mustache.5.html">Mustache doc</a> is a a very quick read (shorter than this templating guide) and will teach you all you need to know about outputting data in templates. We recommend that you read it before proceeding. </p>
+<p>Now that you know what <code>{{#capitalList}}</code> means you're probably wondering where the name came from. It's the internal name of the query (in this case the name of the multiEndpoint of the "capital" model) that serves as a root for the Mustache repetition (top section). You don't have to worry about guessing its name since AMPize will auto-generate it with the first custom template for this component. The fields of your query will be within this initial section.</p>
+<p>The key to customising templates efficiently resides in the effective use of sections. They can display arrays ir single items or act as a form of conditional (if the value is empty everything with the section is hidden) with the same syntax. This is why list templates and detail templates are almost identical (except for the "read more" link and the paging).</p>
+<p>Another important fact is that Mustache tags are independent from your HTML. This means that you can add any HTML you want (as long as it's valid AMP HTML of course) between the tags. Here's a simple example :</p>
+<pre><code>
+{{#capitalList}}
+ <div>
+<h2>{{title}}</h2>
+<a class="ampize-primary-color" href="{{ampizeDetailUrl}}">Read more</a>
+<hr></div>
+ {{/capitalList}}
+ {{#ampizePaging}}
+<div class="flex justify-center ampize-paging">
+{{#prevPage}}<button class="ampize-btn ampize-btn-secondary"><a href="{{url}}"><<</a></button> {{/prevPage}} 
+ <span class="ampize-paging-current-page">{{currentPage}}</span> 
+{{#nextPage}} <button class="ampize-btn ampize-btn-secondary"><a href="{{url}}">>></a></button>{{/nextPage}} 
+</div>
+{{/ampizePaging}}
+</code></pre>
+<p>This template works just like the first one but adds a HTML tag (h2) around the title.</p>
 <h3 class="mb3 mt3">Component-specific elements</h3>
