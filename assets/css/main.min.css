@@ -2051,7 +2051,7 @@ h1 + .ampstart-byline time {
     padding: 35px 30px 20px;
 }
 
-.white {
+.white, a.white {
     color: #fff;
 }
 
