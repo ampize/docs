@@ -29,3 +29,4 @@ href: /docs/guides/seo
 - type: schema.org type. Must be configured in the data source. For a 'Site' source, select the correct 'Schema.org Type' in the first step ('Source'). Can be either NewsArticle, Article or BlogPosting.
 - mainEntityOfPage: the canonical URL of the article page, determined automatically by AMPize.me 
 - headline: the headline of the article. Must be declared in the data model of your data source. For a 'Site' source, in your Extraction template, select 'headline' in the 'Schema.org output property' for the field that must be used as headline.
+- image (URL, height and width): the representative image of the article. Must be declared in the data model of your data source. For a 'Site' source, in your Extraction template, select 'image' in the 'Schema.org output property' for the field that must be used as an image. Beware! Images should be at least 696 pixels wide and in .jpg, .png, or. gif format.
