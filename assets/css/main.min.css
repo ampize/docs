@@ -2597,3 +2597,8 @@ amp-accordion > section[expanded] > h4.accordion-header > i {
 amp-accordion > section > div {
     border-bottom: 1px solid #dfdfdf;
 }
+
+table th, table td {
+    padding: 6px 13px;
+    border: 1px solid #999;
+}
