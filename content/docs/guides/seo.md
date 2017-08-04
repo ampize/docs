@@ -37,4 +37,10 @@ href: /docs/guides/seo
 - author.name: The name of the author of the article. Must be declared in the data model of your data source. For a 'Site' source, in your Extraction template, select 'author.name' in the 'Schema.org output property' for the field that must be used as the author name. You can set a default author name in the Site Settings (SEO tab), that will be used if an article doesn't come with an author name.
 - description: A short description of the article. Can be declared in the data model of your data source (recommended, but not required). For a 'Site' source, in your Extraction template, select 'description' in the 'Schema.org output property' for the field that must be used as a description.
 
-<h2 class="mt4 mb4">How to make your AMP pages discoverable</h2>
+<h2 class="mt4 mb4">How to make your AMP pages discoverable?</h2>
+<p>So that Google easily find your AMP pages, you should add to your non-AMP pages links to the AMP versions, using the following tag in the `<head>` section of your page:</p>
+```
+<link rel="amphtml" href="https://www.example.com/url/to/amp/document.html">
+```
+<p>To get the URL of detail pages, you can use the API of AMPize.me.</p> 
+<p>The head of AMP pages should also contain a link tag, to the related non-AMP version of the page. To do so, you should fill in the 'Canonical URL' field in the Page Settings (SEO tab). Detail pages will automatically include such a tag, provided that you enable the 'Use original URL as canonical' option in the Site Settings (SEO tab).</p>
