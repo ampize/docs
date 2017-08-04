@@ -9,7 +9,7 @@ description: >
 
 href: /docs/guides/datamodels
 ---
-AMPize uses its own data framework called Alambic to connect heterogeneous data sources. The core system is based on Facebook GraphQL and relies on a declarative and strong-types data model, which describes the types of objects that can be returned, the relations between them and the queries endpoints.
+AMPize uses its own data framework called Alambic to connect and query heterogeneous data sources. Alambic is based on Facebook GraphQL and relies on a declarative and strong-types data model, which describes the types of objects that can be returned, the relations between them and the queries endpoints.
 
 <br>
 
@@ -22,17 +22,17 @@ A basic data model configuration describes:
 * the data structure: Types
 * how data can be fetched: Connectors
 
-## Built in Connectors Types
+## Built in Connectors
 
 <br>
 
-AMPize.me currently supports three different types of connector, also know as data sources:
+AMPize.me currently supports three different types of connectors, also know as data sources:
 
 * Websites
 * Databases
 * REST API's
 
-More connectors will be added in the future, including specific API's, such as Magento API for example.
+More connectors will be added in the future, including product specific API's, such as Magento API for example.
 
 <br>
 
@@ -44,14 +44,14 @@ At the heart of any GraphQL implementation is a description of what types of obj
 
 <br>
 
-The Alambic type system extends the GraphQL initial format by adding information about data validation and relations between objects.
+The Alambic type system extends the GraphQL initial format by adding information about data validation and relations between objects, along with new internal types, such as ImageUrl, Date, ...
 
 <br>
 
 ### Internal Object Types
 
 <br>
-Alambic provides several internal types that can be used to compose your own custom type definition:
+These internal types that can be used to compose your own custom type definition:
 <br><br>
 
 | Internal Type | Description |
@@ -125,18 +125,18 @@ Fields are part of Object Types definitions.
 
 <br>
 
-They are described by the following options:
+They are described by the following properties:
 
 <br>
 
 | Property | Type | Required | Description |
 |----------|------|-----------------------|----------|
 | name | String | No | Name of the field. If not set GraphQL will use the key of fields array |
-| type | Type | Yes | Must be an Internal Type or an existing foreign object Type |
+| type | Type | Yes | Must be an Internal Type or an existing foreign or embedded object type |
 | description | String | No | Field description for clients |
 | required | Boolean | No | Is this field required? default to false |
-| args | Array | No | The args array is usually used to describe the fields that can be retrieved from a foreign object Type |
-| relation | Key:Value | No | Describes the relation between the current and the foreign object Type. Key = foreign key name; Value = local key Name. |
+| args | Array | No | The args array is usually used to describe the fields that can be retrieved from a foreign object type |
+| relation | Key:Value | No | Describes the relation between the current and the foreign object type.<br> Key = foreign key name; Value = local key Name. |
 
 <br>
 
@@ -328,3 +328,138 @@ In Alambic every foreign field type declared without the "relation" property is 
   }
 }
 ```
+
+### Connectors settings
+
+<br>
+
+Once you described the data structure (types, fields) and the relations between types, you'll need to set up a few more more attributes in your model to specify how to fetch data from the original source.
+
+<br>
+
+| Attribute | Description |
+|----------|------|
+| expose | Boolean, usually true if this type can be directly queried |
+| singleEndpoint | Describes the API endpoint used to retrieve one item |
+| multiEndpoint | Describes the API endpoint used to retrieve a list of items |
+| connector | Describes the connector settings specific to this type |
+
+<br>
+
+The configuration can be slightly different depending on the source type: Database or REST API.
+
+<br>
+
+## REST API settings
+
+<br>
+
+```json
+{
+    "content": {
+        "name": "content",
+        "description": "The Guardian API content",
+        "fields": {
+            "id": {...},
+            ...
+        },
+        "expose": true,
+        "multiEndpoint": {
+            "name": "contents",
+            "args": {
+                "q": {
+                    "type": "String"
+                }
+            }
+        },
+        "singleEndpoint": {
+            "name": "content",
+            "args": {
+                "ids": {
+                    "type": "String",
+                    "required": true,
+                    "modelField": "id",
+                    "description": "Content ID"
+                }
+            }
+        },
+        "connector": {
+            "type": "guardian",
+            "configs": {
+                "segment": "search",
+                "resultsPath": "response.results",
+                "startFieldName": "page",
+                "limitFieldName": "page-size",
+                "orderByFieldName": "order-by"
+            }
+        }
+    }
+}
+```
+In this configuration:
+
+* a "content" object can be retrieved one at a time by passing a required "ids" string parameter to the API. This parameter is mapped to the "id" field.
+
+```json
+    "singleEndpoint": {
+        "name": "content",
+        "args": {
+            "ids": {
+                "type": "String",
+                "required": true,
+                "modelField": "id",
+                "description": "Content ID"
+            }
+        }
+    }
+```
+
+* a list of "contents" can be also be retrieved by passing a "q" string argument to the API.
+
+```json
+    "multiEndpoint": {
+        "name": "contents",
+        "args": {
+            "q": {
+                "type": "String"
+            }
+        }
+    }
+```
+
+The connector configuration is done through the following properties:
+
+```json
+    "connector": {
+        "type": "guardian",
+        "configs": {
+            "segment": "search",
+            "resultsPath": "response.results",
+            "startFieldName": "page",
+            "limitFieldName": "page-size",
+            "orderByFieldName": "order-by",
+            "orderByDirectionFieldName": "order-direction",
+            "ascendantValue": "ASC",
+            "descendantValue": "DESC"
+        }
+    }
+```
+
+* the "type" value must be the name given to the data source
+* the "segment" value is concatenated with the to base API url of the data source
+* the API response is attended to yield results in the "response.results" path
+* pagination can be triggered by passing the "page" (start) and "page-size" (limit) arguments
+* the order of the results can be set by passing the "order-by" argument
+* the sort direction can be set by passing the "order-direction" argument
+* Ascendant sort direction is set to "ASC"
+* Descendant sort direction is set to "DESC"
+
+<br>
+Beware that:
+
+- depending on your API, pagination and sorting may not be available
+- Ascendant and Descendant values may be omitted if they match the default values: "ASC" and "DESC"
+
+<br>
+
+## Database settings
