@@ -5,17 +5,15 @@ isDraft: 0
 $date: 2014-08-07
 $dates:
   published: 2014-08-07
+components:
+  - gist
 description: >
 
 href: /docs/guides/datamodels
 ---
 AMPize uses its own data framework called Alambic to connect and query heterogeneous data sources. Alambic is based on Facebook GraphQL and relies on a declarative and strong-types data model, which describes the types of objects that can be returned, the relations between them and the queries endpoints.
 
-<br>
-
 ## Models
-
-<br>
 
 A basic data model configuration describes:
 
@@ -23,8 +21,6 @@ A basic data model configuration describes:
 * how data can be fetched: Connectors
 
 ## Built in Connectors
-
-<br>
 
 AMPize.me currently supports three different types of connectors, also know as data sources:
 
@@ -34,27 +30,17 @@ AMPize.me currently supports three different types of connectors, also know as d
 
 More connectors will be added in the future, including product specific API's, such as Magento API for example.
 
-<br>
+Types are described through Json files that can be uploaded in AMPize during the configuration process of REST API's and databases data sources.
 
-Types are described through Json files that can be uploaded in AMPize during the configuration process of REST API's and databases data sources. Let's take a dive into this JSON configuration.
-
-<br>
+Let's take a dive into this JSON configuration.
 
 ## Types
 
-<br>
-
 At the heart of any GraphQL implementation is a description of what types of objects it can return, described in a GraphQL Type system and returned in the GraphQL Schema.
-
-<br>
 
 The Alambic Type system extends the GraphQL initial format by adding information about data validation and relations between objects, along with new internal Types, such as ImageUrl, Date, ... these internal Types that can be used to compose your own custom Type definition.
 
-<br>
-
 ### Internal Object Types
-
-<br>
 
 | Internal Type | Description |
 |----------|------|
@@ -71,14 +57,9 @@ The Alambic Type system extends the GraphQL initial format by adding information
 | JSON | JSON data|
 | JSONArray | JSON array data |
 
-<br>
-
 ### Custom Object Types
 
-<br>
-
 Every object field that compose your custom Type must belongs to one of internal or custom Types:
-
 
 ```json
 {
@@ -121,15 +102,9 @@ Every object field that compose your custom Type must belongs to one of internal
 
 ## Fields
 
-<br>
-
 Fields are part of Object Types definitions.
 
-<br>
-
 They are described by the following properties:
-
-<br>
 
 | Property | Type | Required | Description |
 |----------|------|-----------------------|----------|
@@ -140,15 +115,9 @@ They are described by the following properties:
 | args | Array | No | The args array is usually used to describe the fields that can be retrieved from a foreign object Type |
 | relation | Key:Value | No | Describes the relation between the current and the foreign object Type.<br> Key = foreign key name; Value = local key Name. |
 
-<br>
-
 ## Relations
 
-<br>
-
 Individual object Types are easy to setup, but when building real applications developers will often need to connect objects together and build relations.
-
-<br>
 
 You can define the following relations between object Types:
 
@@ -157,21 +126,13 @@ You can define the following relations between object Types:
 * Many to Many
 * Embedded Types
 
-<br>
-
 ### One to One
-
-<br>
 
 A one to one relation between object Type A and object Type B defines that every instance of A "has one" instance of B. For example every "Post" has one "Author".
 
-<br>
-
 The declaring Type (Post) has a foreign key property (authorId) that references the primary key (id) of the target Type (Author).
 
-<br>
 <amp-img src="/static/img/hasOne.png" width="461" height="133" layout="fixed" alt="has many relation"></amp-img>
-<br>
 
 ```json
 {
@@ -192,23 +153,14 @@ The declaring Type (Post) has a foreign key property (authorId) that references 
 
 The relation is always built as a "key:value" expression where the key is the target Type key name and the value is the declaring Type key name.
 
-<br>
-
 ### One to many
-
-<br>
 
 A one to many relation between object Type A and object Type B defines that every instance of A "has many" instances of B. For example every "Author" has many "Posts".
 
-<br>
-
 The target Type (Post) has a foreign key property that references the primary key of the declaring Type (Author).
-
-<br>
 
 <amp-img src="/static/img/hasMany.png" width="460" height="133" layout="fixed" alt="has many relation"></amp-img>
 
-<br>
 The only difference between one-to-one and one-to-many declarations is that the "multivalued" option is set to true for one-to-many.
 
 ```json
@@ -228,19 +180,14 @@ The only difference between one-to-one and one-to-many declarations is that the 
   }
 }
 ```
-<br>
+
 ### Many to Many
-<br>
 
 A many to many relation between two object Types can be established through a third Type.  
 
-<br>
-
 For example Author and Blog can share many posts.
 
-<br>
 <amp-img src="/static/img/manyToMany.png" width="750" height="148" layout="fixed" alt="has many relation"></amp-img>
-<br>
 
 ```json
 {
@@ -267,11 +214,7 @@ For example Author and Blog can share many posts.
 
 ### Embedded Types
 
-<br>
-
 Embedded relations are used to represent a Type that embeds another Type.
-
-<br>
 
 For example a post embeds one or many comments.
 
@@ -317,11 +260,7 @@ In Alambic every foreign field Type declared without the "relation" property is 
 
 ## Connectors settings
 
-<br>
-
 Once you described the data structure (Types, fields) and the relations between Types, you'll need to set up a few more more attributes in your model to specify how to fetch data from the original source.
-
-<br>
 
 | Attribute | Description |
 |----------|------|
@@ -330,15 +269,9 @@ Once you described the data structure (Types, fields) and the relations between 
 | multiEndpoint | Describes the API endpoint used to retrieve a list of items |
 | connector | Describes the connector settings specific to this Type |
 
-<br>
-
 The configuration can be slightly different depending on the source Type: Database or REST API.
 
-<br>
-
 ### REST API settings
-
-<br>
 
 ```json
 {
@@ -443,17 +376,12 @@ The connector configuration is done through the following properties:
 * Ascendant sort direction is set to "ASC"
 * Descendant sort direction is set to "DESC"
 
-<br>
 Beware that:
 
 - depending on your API, pagination and sorting may not be available
 - Ascendant and Descendant values may be omitted if they match the default values: "ASC" and "DESC"
 
-<br>
-
 ### Database settings
-
-<br>
 
 In AMPize.me the database model is automatically generated from the database schema.
 A Type is generated from each table.
@@ -490,13 +418,20 @@ A Type is generated from each table.
 * you don't need to set any arguments for endpoints, they will be automatically injected in the model, based on the table fields
 * the connector config only takes a "table" attribute that maps the type to a db table
 
-<br>
-
 ## Examples
-
-<br>
 
 These files are used in AMPize samples:
 
 * [REST API Sample Model for the Guardian API](https://gist.github.com/dfanchon/a1d6f1a358767008797de8ab2b4e51d3)
+<amp-gist
+    data-gistid="a1d6f1a358767008797de8ab2b4e51d3"
+    layout="fixed-height"
+    height="50">
+</amp-gist>
+<br>
 * [DB Sample Model for MySQL Sakila database](https://gist.github.com/dfanchon/89986c8637606f650a5558bbc22e7975)
+<amp-gist
+    data-gistid="89986c8637606f650a5558bbc22e7975"
+    layout="fixed-height"
+    height="50">
+</amp-gist>

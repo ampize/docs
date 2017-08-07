@@ -11,7 +11,7 @@ The last step is to describe the API data model through a JSON file that we can 
 This file basically describes how to get data (API endpoints and parameters) and the response we get.
 
 <amp-gist
-    data-gistid="7a5d7d097b46aa4d08d3bd39b3958c55"
+    data-gistid="a1d6f1a358767008797de8ab2b4e51d3"
     layout="fixed-height"
     height="225">
 </amp-gist>

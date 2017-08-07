@@ -13,7 +13,7 @@
                 <h4 class="caps blue bold">{{document.title}}</h4>
                 <div class="tag">{{document.category}}</div>
               </div>
-              <p class="pt4">{{document.description}}</p>
+              <p>{{document.description}}</p>
               <a href="{% if document.isDraft %}#{% else %}{{document.href}}{% endif %}"
                  class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}READ{% endif %}</a>
             </div>
@@ -22,7 +22,7 @@
           <div class="py1 px1 col-12 sm-col-12 md-col-4 lg-col-4 overflow-hidden">
             <div class="card flex-column flex justify-between">
               <h4 class="caps blue bold">{{document.title}}</h4>
-              <p class="pt4">{{document.description}}</p>
+              <p>{{document.description}}</p>
               <a href="{% if document.isDraft %}#{% else %}{{document.href}}{% endif %}"
                  class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}GET STARTED{% endif %}</a>
             </div>
