@@ -6,7 +6,9 @@
               <ul class="list-reset m2 pt2 pb2 px1 caps">
                   {% set pages = g.docs(doc.collection.pod_path) %}
                   {% for page in pages %}
+                     {% if not page.isDraft %}
                      <li class="clearfix mb3 {% if doc.url.path == page.url.path %}current{% endif %}"><a href="{{page.url.path}}" class="text-decoration-none left" role="option" aria-selected="true" tabindex="0">{{page.title}}</a></li>
+                     {% endif %}
                   {% endfor %}
               </ul>
          </div>
