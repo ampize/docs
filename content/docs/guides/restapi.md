@@ -2,9 +2,9 @@
 $title@: Plugging a REST API
 $order: 1
 isDraft: 0
-$date: 2014-08-31
+$date: 2017-08-31
 $dates:
-  published: 2014-08-31
+  published: 2017-08-31
 description: >
 
 href: /docs/guides/restapi

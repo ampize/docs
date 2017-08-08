@@ -1,10 +1,10 @@
 ---
-$title@: Plugging a website
+$title@: Plugging a Website
 $order: 2
 isDraft: 0
-$date: 2014-08-07
+$date: 2017-08-07
 $dates:
-  published: 2014-08-07
+  published: 2017-08-07
 description: >
 
 href: /docs/guides/crawl

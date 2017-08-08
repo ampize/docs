@@ -2,9 +2,9 @@
 $title@: Custom Data models
 $order: 99
 isDraft: 0
-$date: 2014-08-07
+$date: 2017-08-07
 $dates:
-  published: 2014-08-07
+  published: 2017-08-07
 components:
   - gist
 description: >
@@ -132,7 +132,7 @@ A one to one relation between object Type A and object Type B defines that every
 
 The declaring Type (Post) has a foreign key property (authorId) that references the primary key (id) of the target Type (Author).
 
-<amp-img src="/static/img/hasOne.png" width="461" height="133" layout="fixed" alt="has many relation"></amp-img>
+<amp-img class="col-12 md-col-5" src="/static/img/hasOne.png" width="461" height="133" layout="responsive" alt="has many relation"></amp-img>
 
 ```json
 {
@@ -159,7 +159,7 @@ A one to many relation between object Type A and object Type B defines that ever
 
 The target Type (Post) has a foreign key property that references the primary key of the declaring Type (Author).
 
-<amp-img src="/static/img/hasMany.png" width="460" height="133" layout="fixed" alt="has many relation"></amp-img>
+<amp-img class="col-12 md-col-5" src="/static/img/hasMany.png" width="460" height="133" layout="responsive" alt="has many relation"></amp-img>
 
 The only difference between one-to-one and one-to-many declarations is that the "multivalued" option is set to true for one-to-many.
 
@@ -187,7 +187,7 @@ A many to many relation between two object Types can be established through a th
 
 For example Author and Blog can share many posts.
 
-<amp-img src="/static/img/manyToMany.png" width="750" height="148" layout="fixed" alt="has many relation"></amp-img>
+<amp-img class="col-12 md-col-5" src="/static/img/manyToMany.png" width="750" height="148" layout="responsive" alt="has many relation"></amp-img>
 
 ```json
 {

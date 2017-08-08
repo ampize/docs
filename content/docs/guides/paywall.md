@@ -2,9 +2,9 @@
 $title@: Plugging a paywall
 $order: 99
 isDraft: 1
-$date: 2014-03-17
+$date: 2017-03-17
 $dates:
-  published: 2014-03-17
+  published: 2017-03-17
 description: >
 
 href: /docs/guides/paywall
