@@ -55,3 +55,7 @@ That's the basis of page layout. With this simple and intuitive method you can b
 
 
 ## Preview
+
+The page preview shows what the current page looks like on mobile, tablet or desktop. This shows the page using the settings currently in your editor and not the published version of the page so it is a very useful tool to test the effects of your changes before publishing them.
+
+You can also open the preview in a new window (one of the size adjustment buttons in the preview). This can be useful in a dual screen configuration with editor on one side and result on the other. 
