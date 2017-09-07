@@ -1,6 +1,6 @@
 ---
 $title@: Versioning
-$order: 6
+$order: 7
 isDraft: 0
 $date: 2017-08-07
 $dates:

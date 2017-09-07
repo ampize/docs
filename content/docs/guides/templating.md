@@ -1,6 +1,6 @@
 ---
 $title@: Templating
-$order: 6
+$order: 8
 isDraft: 0
 $date: 2017-03-17
 $dates:

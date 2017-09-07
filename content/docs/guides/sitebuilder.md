@@ -1,6 +1,6 @@
 ---
 $title@: Building Sites
-$order: 4
+$order: 5
 isDraft: 1
 $date: 2017-03-17
 $dates:
@@ -46,7 +46,7 @@ The page editor is basically an editable representation of the responsive grid o
 
 Whenever you click on a component in the "components" tab of the side panel it is added to your page with its default settings. The new component wil appear at the bottom of the page and will take up an entire line. You can then resize it to the desired number of columns and drag it in the desired position. If there is another component in the way it will automatically move over.
 
-That's the basis of page layout. With this simple and intuitive method you can build any responsive grid-based layout. There are however a few special cases : 
+That's the basis of page layout. With this simple and intuitive method you can build any responsive grid-based layout. There are however a few special cases :
 
 * The "Menu" and "User notification" components won't be rendered within the grid as they are floating components. This means that if they were placed in a specific place in the page editor they will automatically leave that place and move to the top of the page on render. As this can potentially disrupt the layout of the line in which tey were it is best to place them alone in a full line either at the top or bottom of the page editor.
 * Components can also be resized vertically. This is used to create more complex layouts as it considers any components within the height range of that component as being on the same line wth it. The most basic use case fo this is having 3 components stacked in the center of the page with a component on the side that runs for several lines (or even the whole page) : simply add the side component, stretch it for 3 lines and the desired column width and set it on the right of the page, add the 3 components to its left having one line each.
@@ -58,4 +58,4 @@ That's the basis of page layout. With this simple and intuitive method you can b
 
 The page preview shows what the current page looks like on mobile, tablet or desktop. This shows the page using the settings currently in your editor and not the published version of the page so it is a very useful tool to test the effects of your changes before publishing them.
 
-You can also open the preview in a new window (one of the size adjustment buttons in the preview). This can be useful in a dual screen configuration with editor on one side and result on the other. 
+You can also open the preview in a new window (one of the size adjustment buttons in the preview). This can be useful in a dual screen configuration with editor on one side and result on the other.

@@ -1,6 +1,6 @@
 ---
 $title@: Advanced Queries
-$order: 5
+$order: 6
 isDraft: 0
 $date: 2017-08-07
 $dates:
