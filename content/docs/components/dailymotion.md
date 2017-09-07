@@ -13,7 +13,7 @@ description: >
 href: /docs/components/dailymotion
 ---
 <p>The Dailymotion component displays a Dailymotion video.</p>
-<amp-dailymotion data-videoid="x2m8jpp"
+<amp-dailymotion data-videoid="x1r0aw6"
   layout="responsive"
   data-ui-highlight="FF4081"
   width="480"
