@@ -15,4 +15,4 @@ href: /docs/components/pixel
 <p>The Pixel component behaves like a simple tracking pixel img.</p>
 <h2 class="mt4 mb4">Settings</h2>
 <h3 class="mb3 mt3">URL (https)</h3>
-A simple URL to a remote endpoint that must be https protocol (standard URL variable substitutions allowed).
+A simple URL to a remote endpoint that must be https protocol ([__standard URL variable substitutions__](https://github.com/ampproject/amphtml/blob/master/spec/amp-var-substitutions.md) allowed).
