@@ -41,11 +41,19 @@ Any top-level page can be set to be the homepage from the right-side menu. The c
 
 Both site settings and page settings apply to the currently selected website/page. Remember that any changes made to those settings will not apply to the live version of your website until you publish so feel free to test them in the preview. This is especially usefull for CSS changes where the dual-screen approach (site builder on one screen and preview on the other) is very convenient. Some of the page settings such as analytics vars are overrides to be merged into site settings for that particular page while ohters are stand-alone configs or are simply added after the site settongs (like CSS code). Here is a list of those settings tab by tab and what they do : 
 
+Site settings
+
+* Style : allows configuration of the favicon URL, responsive breakpoint (screen width threshold underneath which all columns stack instead of allign themselves on the same row resulting in a much more mobile-friendly layout), the date format which will be applied to all dates rendered on the website and the CSS code to be injected into every page of the website. The last one is already initialised with the defualt CSS code for your website. We recommend editing or adding on top of what is already there because emptying the field and starting from scratch can cause some componenets such as the menu to malfunction.
+* URLs : this is where you define the domain of your website. If you only have a trial account, this is limited to subdomains of ampize.me. Please keep in mind that for any other domains such as mywebsitedomain.com we do not offer domain registration services so you wil have to obtain it from your domain registrar and have it point at the designated IP adress (displayed right under the field).
+* SEO : provides basic SEO settings such as title, description and keywords to be added on very page which does not have its own equivalent settings as well as a bot indexing switch (disabled by default in order to avoid accidental indexing of unfinished websites), language settings, default settings for JSON-LD markup and a choice on wether to use the original URL as the canonical on detail rendering. Please check our [SEO guide](/docs/guides/seo) for more information on canonical URLs, JSON-LD markup and making your AMP pages discoverable. 
+* Progressive Web App : provides a json field in which you can configure the manifest of your web app and enable Android and Windows Mobile users to add your website to their home screen for an app-like experience. Please consult the [official docs](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) for the basics and specifics of configuring a web app manifest.
+
+
 Page settings
 
 * Style : allows disabling of automatic inclusion of menu and/or footer if they were defined and activated in the site settings as well as a CSS code editor in which you can add CSS that will be injected in the page after the CSS code defined in the site settings. This can be very usefull for styles that only apply to the current page.
 * URLs : allows changing the URL segment of the current page (without affecting its name or title) or even applying a full vanity URL (this option overrides the first)
-* SEO : provides basic SEO settings such as title, description and keywords as well as the canonical URL field. Please check our [SEO guide](/docs/guides/seo) for morze information on canonical URLs and making your AMP pages discoverable. 
+* SEO : provides basic SEO settings such as title, description and keywords as well as the canonical URL field. Please check our [SEO guide](/docs/guides/seo) for more information on canonical URLs and making your AMP pages discoverable. 
 * Analytics : analytics vars to be merged into those from the site settings overriding/enriching them for the current page
 
 ## Page layout
