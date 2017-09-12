@@ -39,6 +39,14 @@ Any top-level page can be set to be the homepage from the right-side menu. The c
 
 ## Page and site settings
 
+Both site settings and page settings apply to the currently selected website/page. Remember that any changes made to those settings will not apply to the live version of your website until you publish so feel free to test them in the preview. This is especially usefull for CSS changes where the dual-screen approach (site builder on one screen and preview on the other) is very convenient. Some of the page settings such as analytics vars are overrides to be merged into site settings for that particular page while ohters are stand-alone configs or are simply added after the site settongs (like CSS code). Here is a list of those settings tab by tab and what they do : 
+
+Page settings
+
+* Style : allows disabling of automatic inclusion of menu and/or footer if they were defined and activated in the site settings as well as a CSS code editor in which you can add CSS that will be injected in the page after the CSS code defined in the site settings. This can be very usefull for styles that only apply to the current page.
+* URLs : allows changing the URL segment of the current page (without affecting its name or title) or even applying a full vanity URL (this option overrides the first)
+* SEO : provides basic SEO settings such as title, description and keywords as well as the canonical URL field. Please check our [SEO guide](/docs/guides/seo) for morze information on canonical URLs and making your AMP pages discoverable. 
+* Analytics : analytics vars to be merged into those from the site settings overriding/enriching them for the current page
 
 ## Page layout
 
