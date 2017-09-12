@@ -11,7 +11,7 @@ href: /docs/guides/analytics
 ---
 AMP currently supports a large number of **[analytics vendors](https://www.ampproject.org/docs/guides/analytics/analytics-vendors)**.
 
-Analytics must be set first at site level and can be completed/overridden at page level.
+Analytics must first be configured in the site settings and can be completed/overridden in page settings.
 
 ## Setting up your analytics
 
@@ -19,7 +19,7 @@ Tap the settings menu at site or page level
 
 <amp-img src="/static/img/components/analytics_1.png"  width="850"  height="110"  layout="fixed" alt="settings"></amp-img>
 
-Fill the "Analytics" tab with your vendor and the related settings.
+Configure the "Analytics" tab with your vendor type and the appropriate json settings.
 
 ### Example for GA
 
