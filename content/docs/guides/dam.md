@@ -10,8 +10,8 @@ description: >
 href: /docs/guides/dam
 ---
 
-AMPize offers a graphical interface to manage digital assets which came from your data sources or allows you to upload your own images.
-Moreover this interface allows you to choose an image for all image type fields.
+AMPize offers a graphical interface for managing digital assets already present in your data sources or uploading your own images.
+Moreover this interface allows you to choose an image for all image fields.
 
 ## Launching the image library
 
