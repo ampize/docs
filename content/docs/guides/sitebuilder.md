@@ -53,6 +53,9 @@ That's the basis of page layout. With this simple and intuitive method you can b
 
 ## Component settings
 
+Depending on its type, each component has a variety of settings. When your mouse hovers over a component a toolbar with different tools becomes visible. It always contains at least a name editor, a deletor and a settings tool. The first two are self-explanatory. The settings tool is used to configure basic settings such as text and number fields, page links, image links, checkboxes, component layout, etc. It is by far the most common tool for configuring components. Some settings however are more complex and require special editing tools.
+
+Specialized tools handle settings that a simple form cannot such as rich text, HTML code, and datasource queries and templates. The rich text editor displays a full-screen WYSIWYG editor in which the CSS code of your website and current page are automatically applied in order to make the preview as close as possible to the rendered result. The HTML editor works in a similar way but uses a raw HTML editor instead of a WYSIWYG editor. In both cases the resulting HTML will be automatically converted to valid AMP HTML on render. This means you don't have to worry about learning AMP in order to use these editors : rich text or HTML editing skills will do just fine.
 
 ## Preview
 
