@@ -57,6 +57,10 @@ Depending on its type, each component has a variety of settings. When your mouse
 
 Specialized tools handle settings that a simple form cannot such as rich text, HTML code, and datasource queries and templates. The rich text editor displays a full-screen WYSIWYG editor in which the CSS code of your website and current page are automatically applied in order to make the preview as close as possible to the rendered result. The HTML editor works in a similar way but uses a raw HTML editor instead of a WYSIWYG editor. In both cases the resulting HTML will be automatically converted to valid AMP HTML on render. This means you don't have to worry about learning AMP in order to use these editors : rich text or HTML editing skills will do just fine.
 
+Components that display content form your datasources such as lists, details and carousels also have query and template settings. Both are handled by the query builder tool. I displays a wizzard with three steps : building your query, choosing a custom template or an existing one and fiannly result preview/custom template editing. The last step also uses the CSS code of your website and current page in ordedr to ensure the preview is as close as possible to th rendered result. Once these settings are completeand if you chose to use a custom template, the component will also display a template tool wich alows direct access to the last stage of this wizard in edit mode for convenience.
+
+Because of the highly specific nature of its settings, components that use the query builder tool require configuration before they can be rendered unlike the majority of components which come with valid default settings.
+
 ## Preview
 
 The page preview shows what the current page looks like on mobile, tablet or desktop. This shows the page using the settings currently in your editor and not the published version of the page so it is a very useful tool to test the effects of your changes before publishing them.
