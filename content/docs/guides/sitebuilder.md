@@ -1,7 +1,7 @@
 ---
 $title@: Building Sites
 $order: 5
-isDraft: 1
+isDraft: 0
 $date: 2017-03-17
 $dates:
   published: 2017-03-17
