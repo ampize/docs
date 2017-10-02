@@ -34,4 +34,4 @@ AMPize has a tab in the site settings interface dedicated to amp-access. Simply 
   }
 ```
 
-
+You can then add code such as `amp-access="access"` in a Mustache template or even a template override on any component in your website. We recommend that you experiment with the different code samples presented in the tutorial.
