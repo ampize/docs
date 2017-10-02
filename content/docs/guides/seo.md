@@ -48,12 +48,7 @@ AMPize.me will add a structured data element (JSON-LD markup) describing the cur
 
 ## How to make your AMP pages discoverable?
 
-So that Google easily find your AMP pages, you should add to your non-AMP pages links to the AMP versions, using the following tag in the `<head>` section of your page:
-
-```
-<link rel="amphtml" href="https://www.example.com/url/to/amp/document.html">
-```
-
-To get the URL of detail pages, you can use the API of AMPize.me.
+So that Google can easily find your AMP pages, you should add to your non-AMP pages links to the AMP versions. The easiest way to do this is to include our automated discovery script by adding the following code to the head section of your detail pages : `<script type="text/javascript" src="https://your-ampize-domain.com/ampize.js"></script>`. The exact script link can be found in the site settings tool in the SEO tab right beneath the 'Use original URL as canonical' switch provided that your website has a domain name.
+If your AMP website only has one detail page than this link will do : the script will automatically insert the link to the AMP equivalent of your detail page in the head section. However, if you have several detail pages displaying data from several datasources than the script will need an extra hint in order to choose the most appropriate page on which to display the AMP version of your detail : simply add `?model=nameOfYourModelDetail` to the script tag. So if you have a site source called 'content' than the script link will be `<script type="text/javascript" src="https://your-ampize-domain.com/ampize.js?model=contentDetail"></script>`. For other datasource types such as databases and REST APIs simply use the name you gave the singleEndpoint of the desired model.
 
 The head of AMP pages should also contain a link tag, to the related non-AMP version of the page. To do so, you should fill in the 'Canonical URL' field in the Page Settings (SEO tab). Detail pages will automatically include such a tag, provided that you enable the 'Use original URL as canonical' option in the Site Settings (SEO tab).
