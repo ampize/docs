@@ -22,6 +22,8 @@ This makes templating productive as most of the time you can either leave the au
 
 You can also save your templates and reuse them in other components of the same type and perform centralized updates.
 
+In case you need extra control you can also override the source code of our component templates.
+
 ## Template management
 
 ### Using templates in components
@@ -111,3 +113,9 @@ Depending on what type of component your template is used in, certain special el
 In all list templates a field called "ampizeDetailUrl" is injected at the root of every result item. It is automatically field with the detail URL of that item (if a detail page is configured in the component settings).You should remove the entire `<a class="ampize-primary-color" href="{{ampizeDetailUrl}}">Read more</a>` link if you don't want this behaviour (otherwise you just get empty links).
 
 The entire "ampizePaging" section is used for paging and will only be displayed if paging is activated in the component settings. Please note the use of the "prevPage" section as a form of conditional display: if it is not defined the "previous page" link is not rendered.
+
+### Template overrides
+
+Template overrides go beyond Mustache to give you full control of the way a component is rendered. 
+The template override tool allows you to change the code of the Blade template used to render that component. For more about Laravel Blade please check out the [official docs](https://laravel.com/docs/5.3/blade).
+Please note that editing Blade directives (code starting with @) and output code such as `[[ something ]]` or `{!! something !!}` can result in page-breaking php errors so it its best to stick to the html code unless you know Blade.
