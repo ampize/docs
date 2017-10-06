@@ -11,7 +11,7 @@ href: /docs/guides/seo
 ---
 ## Allow bot indexing
 
-By default, AMPize.me prevents new sites from being indexed indexed by search engines with a 'noindex,nofollow' meta tag.
+By default, AMPize.me prevents new sites from being indexed by search engines with a 'noindex,nofollow' meta tag.
 
 To authorize bot indexing, just enable the 'Allow bot indexing' property in the Site Settings (SEO tab).
 
