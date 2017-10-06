@@ -1,5 +1,5 @@
 ---
-$title@: AMP Validation
+$title@: Publishing your AMPsite
 $order: 11
 isDraft: 0
 $date: 2017-08-07
