@@ -1,6 +1,6 @@
 ---
 $title@: Analytics
-$order: 9
+$order: 10
 isDraft: 0
 $date: 2017-03-17
 $dates:

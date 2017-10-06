@@ -1,6 +1,6 @@
 ---
 $title@: SEO
-$order: 10
+$order: 11
 isDraft: 0
 $date: 2017-08-07
 $dates:

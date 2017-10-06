@@ -1,6 +1,6 @@
 ---
 $title@: Templating
-$order: 8
+$order: 9
 isDraft: 0
 $date: 2017-03-17
 $dates:
@@ -116,6 +116,6 @@ The entire "ampizePaging" section is used for paging and will only be displayed 
 
 ### Template overrides
 
-Template overrides go beyond Mustache to give you full control of the way a component is rendered. 
+Template overrides go beyond Mustache to give you full control of the way a component is rendered.
 The template override tool allows you to change the code of the Blade template used to render that component. For more about Laravel Blade please check out the [official docs](https://laravel.com/docs/5.3/blade).
 Please note that editing Blade directives (code starting with @) and output code such as `[[ something ]]` or `{!! something !!}` can result in page-breaking php errors so it its best to stick to the html code unless you know Blade.

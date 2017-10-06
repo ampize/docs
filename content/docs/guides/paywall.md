@@ -1,6 +1,6 @@
 ---
 $title@: Plugging a paywall
-$order: 11
+$order: 13
 isDraft: 0
 $date: 2017-03-17
 $dates:
