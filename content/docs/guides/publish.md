@@ -24,7 +24,7 @@ If you are using a paid plan, you can use your own domain name, unless you make 
 ### HTTPS and SSL certificates
 
 Modern web requires security, and communications to every website should be encrypted over HTTPS.
-Using HTTPS allows Progressive Web Apps and is now a "must have" if you want to get high SEO rankings.
+Using HTTPS allows Progressive Web Apps to run and is now a "must have" if you want to get high SEO rankings.
 
 The AMPize.me cloud infrastructure will automatically generate a SSL certificate for your website, so you don't have to care about it. Just provide us your domain name and point it to our servers. We handle the rest.
 
