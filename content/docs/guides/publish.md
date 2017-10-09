@@ -9,7 +9,7 @@ description: >
 
 href: /docs/guides/publish
 ---
-## How to publish you website?
+## How to publish your website?
 
 Once your AMPsite is ready to go live, it's time to publish it.
 
@@ -30,4 +30,4 @@ The AMPize.me cloud infrastructure will automatically generate a SSL certificate
 
 ### AMP validation
 
-By default, AMPize.me prevents publishing of invalid AMP pages by running an internal validation process prior to every site publication action. See the [AMP validation](/docs/guides/ampvalidation) guide for more information.
+By default, AMPize.me prevents publishing of invalid AMP pages by running an internal validation process prior to every site publication action. See the [__AMP validation__](/docs/guides/ampvalidation) guide for more information.
