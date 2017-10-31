@@ -23,7 +23,7 @@
             <div class="card flex-column flex justify-between">
               <h4 class="caps blue bold">{{document.title}}</h4>
               <p>{{doc.description}}</p>
-              <a href="{% if document.isDraft %}#{% else %}{{doc.url}}/{{document.base}}{% endif %}"
+              <a href="{% if document.isDraft %}#{% else %}{{doc.url.path}}/{{document.base}}{% endif %}"
                  class="ampstart-rekated-article-readmore block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}GET STARTED{% endif %}</a>
             </div>
           </div>

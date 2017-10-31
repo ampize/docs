@@ -42,7 +42,7 @@ rows:
           content@:
             <div class="pricing-plan">
             <h3 class="center"><span class="fa fa-plane"></span><br>Business</h3>
-            <p class="center bold">499€ per month</p>
+            <p class="center bold">€499 per month</p>
             <p class="center mb1">Unlimited PWAs</p>
             <p class="center mb1"><span class="bold">1,000,000</span> page views&#42;&#42;</p>
             <p class="center mb1">Managed Service</p>
