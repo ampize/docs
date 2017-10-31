@@ -6,7 +6,7 @@ rows:
           videoid: 1tDV6p-1V48
           layout: responsive
         - template: hero
-          title@: Embrace the future web. Now.
+          title@: Embrace the future web. Maintenant.
           titleclass: green
           content@:
               <p class="mb4 h3 justify">AMPize is a complete, straightforward and plug & play ecosystem to publish and monetize existing contents leveraging the power of AMP.</p>

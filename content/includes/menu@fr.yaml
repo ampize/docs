@@ -1,0 +1,29 @@
+menu:
+  - copy@: Overview
+    base: /about/
+    collection: learn
+    children:
+      - href: /about/features
+        copy@: "Fonctionnalités"
+      - href: /about/benefits
+        copy@: "AMP Benefits"
+      - href: /about/usecases
+        copy@: "Use Cases"
+      - href: /about/us
+        copy@: "About us"
+  - copy@: Docs
+    base: /docs/
+    collection: docs
+    children:
+      - href: /docs/tutorials
+        copy@: "Tutorials"
+      - href: /docs/guides
+        copy@: "Guides"
+      - href: /docs/components
+        copy@: "Components"
+  - copy@: Pricing
+    base: /pricing
+    href: /pricing
+  - copy@: Contact
+    base: /contact
+    href: /contact

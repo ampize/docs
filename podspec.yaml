@@ -4,7 +4,9 @@ root: ""
 
 localization:
   default_locale: en
-
+  locales:
+  - en
+  - fr
 title: "Site Title"
 meta:
   google_analytics_id: ""

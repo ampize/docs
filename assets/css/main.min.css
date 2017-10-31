@@ -2598,5 +2598,161 @@ amp-accordion > section > div {
 
 table th, table td {
     padding: 6px 13px;
-    border: 1px solid #999;
+    border: 1px;
+}
+.ampTabContainer {
+       display: flex;
+       flex-wrap: wrap;
+   }
+
+   .tabButton[selected] {
+       outline: none;
+   }
+
+   .tabButton {
+       list-style: none;
+       flex-grow: 1;
+       text-align: center;
+       cursor: pointer;
+   }
+
+   .tabContent {
+       display: none;
+       width: 100%;
+       order: 1; /* must be greater than the order of the tab buttons to flex to the next line */
+   }
+
+   .tabButton[selected]+.tabContent {
+       display: block;
+   }
+
+   amp-selector {
+     padding: 1rem;
+     margin: 1rem;
+   }
+
+   .pricing-plan {
+    border-radius: 8px;
+    box-shadow: 0 8px 15px 0 rgba(5, 57, 106, 0.06);
+    border: solid 1px grey;
+    width: 100%;
+    background-color: var(--color-white);
+    text-align: center;
+    bottom: 1rem;
+    height: 25em;
+  }
+
+  input[type=range] {
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 5px 0;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    box-shadow: 0.1px 0.1px 0px #9e5900, 0px 0px 0.1px #b86700;
+    background: #329f92;
+    border-radius: 8.9px;
+    border: 0px solid #010101;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 4.3px 4.3px 0.2px rgba(0, 0, 0, 0.33), 0px 0px 4.3px rgba(13, 13, 13, 0.33);
+    border: 0px solid rgba(49, 162, 85, 0.62);
+    height: 20px;
+    width: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #7bd5cb;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    box-shadow: 0.1px 0.1px 0px #9e5900, 0px 0px 0.1px #b86700;
+    background: #329f92;
+    border-radius: 8.9px;
+    border: 0px solid #010101;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 4.3px 4.3px 0.2px rgba(0, 0, 0, 0.33), 0px 0px 4.3px rgba(13, 13, 13, 0.33);
+    border: 0px solid rgba(49, 162, 85, 0.62);
+    height: 20px;
+    width: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #133e39;
+    border: 0px solid #010101;
+    border-radius: 17.8px;
+    box-shadow: 0.1px 0.1px 0px #9e5900, 0px 0px 0.1px #b86700;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #329f92;
+    border: 0px solid #010101;
+    border-radius: 17.8px;
+    box-shadow: 0.1px 0.1px 0px #9e5900, 0px 0px 0.1px #b86700;
+  }
+  input[type=range]::-ms-thumb {
+    box-shadow: 4.3px 4.3px 0.2px rgba(0, 0, 0, 0.33), 0px 0px 4.3px rgba(13, 13, 13, 0.33);
+    border: 0px solid rgba(49, 162, 85, 0.62);
+    height: 20px;
+    width: 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    cursor: pointer;
+    height: 10px;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #329f92;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #7bd5cb;
+  }
+
+.pricing {
+    font-size: 1.5rem;
+}
+
+.pricelegend {
+    font-size: 0.8rem;
+    color: #8FA1B3;
+}
+
+.plan-table {
+    margin: auto;
+}
+.plan-table td {
+    height: 2.5rem;
+    padding: 10px 5px 15px 30px;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.plan-table td.plan-feature {
+    background-color: #F9FAFB;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.29;
+    height: 2rem;
+    vertical-align: inherit;
 }

@@ -1,0 +1,20 @@
+<div class="clearfix row">
+    <div class="md-col-10 mx-auto mb4">
+        <div class="md-col md-col-3 px2">
+            {% set data = row.columns[0] %}
+            {% include "/views/partials/" + data.template + ".html" %}
+        </div>
+        <div class="md-col md-col-3 px2">
+            {% set data = row.columns[1] %}
+            {% include "/views/partials/" + data.template + ".html" %}
+        </div>
+        <div class="md-col md-col-3 px2">
+            {% set data = row.columns[2] %}
+            {% include "/views/partials/" + data.template + ".html" %}
+        </div>
+        <div class="md-col md-col-3 px2">
+            {% set data = row.columns[3] %}
+            {% include "/views/partials/" + data.template + ".html" %}
+        </div>
+    </div>
+</div>

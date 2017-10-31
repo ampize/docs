@@ -2,4 +2,4 @@ $title@: Tutorials
 $view: /views/doc.html
 $path: /docs/tutorials/{base}
 $localization:
-  path: /{locale}/docs/tutorials/{base}.html
+  path: /{locale}/docs/tutorials/{base}

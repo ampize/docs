@@ -27,7 +27,8 @@ rows:
           content@:
               <p class="mb4">AMPize is part of the Founders Program of Station F, the world's biggest startup campus.</p>
               <p>WebTales</p>
-              <p>55 Boulevard Vincent-Auriol</p>
+              <p>Station F, Guilde 14</p>
+              <p>14 rue Eugène Freyssinet</p>
               <p class="mb4">75013 Paris</p>
               <a class="ampstart-btn-secondary mr4 right" href="mailto:info@ampize.me?Subject=Hello" target="_blank">SAY HELLO</a>
 components:

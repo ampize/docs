@@ -1,0 +1,15 @@
+$title@: Sample
+rows:
+    - template: col
+      columns:
+        - template: text
+          title@: Sample
+          titleclass: green
+          content@:
+            <amp-img src="/static/img/mobile.svg" width="458" height="806" alt="Mobile outline" layout="responsive"></amp-img>
+            <amp-iframe width="400" height="500" sandbox="allow-same-origin allow-scripts allow-popups" layout="fixed" frameborder="0" src="https://sample.ampize.me">
+                <amp-img layout="fill" src="https://www.ampize.me/static/img/benefits.png" placeholder>
+            </amp-iframe>
+components:
+  - iframe
+  - img
