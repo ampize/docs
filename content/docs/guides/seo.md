@@ -46,6 +46,8 @@ AMPize.me will add a structured data element (JSON-LD markup) describing the cur
 - **author.name**: The name of the author of the article. Must be declared in the data model of your data source. For a 'Site' source, in your Extraction template, select 'author.name' in the 'Schema.org output property' for the field that must be used as the author name. You can set a default author name in the Site Settings (SEO tab), that will be used if an article doesn't come with an author name.
 - **description**: A short description of the article. Can be declared in the data model of your data source (recommended, but not required). For a 'Site' source, in your Extraction template, select 'description' in the 'Schema.org output property' for the field that must be used as a description.
 
+More details are available in the **[Google Structured Data Guidelines](https://developers.google.com/search/docs/guides/sd-policies)**.
+
 ## How to make your AMP pages discoverable?
 
 So that Google can easily find your AMP pages, you should add to your non-AMP pages links to the AMP versions. The easiest way to do this is to include our automated discovery script by adding the following code to the head section of your detail pages : `<script type="text/javascript" src="https://your-ampize-domain.com/ampize.js"></script>`. The exact script link can be found in the site settings tool in the SEO tab right beneath the 'Use original URL as canonical' switch provided that your website has a domain name.
