@@ -12,7 +12,7 @@ rows:
           title@: Simple. Predictable. Affordable.
           titleclass: green
           content@:
-              <p>The AMPize.me pricing is designed to be affordable for every business size and simply scales with your growth.</p>
+              <p>The AMPize.me pricing is designed to be affordable for every business sizes and simply scales with your growth.</p>
     - template: col3
       columns:
         - template: text
@@ -23,7 +23,7 @@ rows:
             <p class="center mb1">Unlimited PWAs</p>
             <p class="center mb1"><span class="bold">250,000</span> page views included&#42;</p>
             <p class="center mb1">Self Service</p>
-            <p class="center mb1">Mail support</p>
+            <p class="center mb1">Mail Support</p>
             <p class="center mt4"><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=pro" target="_blank">Try Free for 30 days</a></p>
             </div>
             <p class="center mb1">&#42; + €0.5 per 1,000 MPV extra</p>
@@ -137,7 +137,7 @@ rows:
                     <tr class="get-started">
                       <td>
                         <b>Get started today</b>
-                        <p>Choose the plan that fit your needs</p>
+                        <p>Choose the plan that fits your needs</p>
                       </td>
                       <td>
                         <b>Pro</b>
@@ -189,7 +189,7 @@ rows:
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
-                        Web crawl
+                        Web Crawl
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -264,7 +264,7 @@ rows:
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
-                        Offline support
+                        Offline Support
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -278,7 +278,7 @@ rows:
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
-                        Add to Home screen
+                        Add to Home Screen
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -311,13 +311,13 @@ rows:
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
-                        Page views per month
+                        Page Views Per Month
                       </td>
                       <td class="center">
-                        250,000 mpv included
+                        250,000 MPV included
                       </td>
                       <td class="center">
-                        1,000,000 mpv included
+                        1,000,000 MPV included
                       </td>
                       <td class="center">
                         Unlimited
@@ -347,18 +347,18 @@ rows:
                         Environment
                       </td>
                       <td class="center">
-                        cloud
+                        Cloud
                       </td>
                       <td class="center">
-                        cloud
+                        Cloud
                       </td>
                       <td class="center">
-                        cloud / on-premise
+                        Cloud / On-premise
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        High level caches
+                        High Level Caches
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -367,12 +367,12 @@ rows:
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
-                        cloud only
+                        Cloud Only
                       </td>
                     </tr>
                     <tr>
                       <td>
-                        Automatic SSL certificates
+                        Automatic SSL Security
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -381,7 +381,7 @@ rows:
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
-                        cloud only
+                        Cloud Only
                       </td>
                     </tr>
                     <tr>
@@ -395,7 +395,7 @@ rows:
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
-                        cloud only
+                        Cloud Only
                       </td>
                     </tr>
                     <tr>
@@ -409,7 +409,7 @@ rows:
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
-                        cloud only
+                        Cloud Only
                       </td>
                     </tr>
                     <tr>
