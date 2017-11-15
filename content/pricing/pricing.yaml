@@ -68,7 +68,7 @@ rows:
                   "pro":{
                     "basePrice":119,
                     "cpmPrice":0.5,
-                    "baseViews":200000
+                    "baseViews":250000
                   },
                   "business":{
                     "basePrice":499,
@@ -108,7 +108,7 @@ rows:
           size: 4
           title@: <span class="fa fa-wrench"></span> No setup fees
           content@:
-            <p class="mt2">You can start plugging your data sources and buiding websites at any moment, without setup fees.<p>
+            <p class="mt2">You can start plugging your data sources and building websites at any moment, without setup fees.<p>
         - template: text
           size: 4
           title@: <span class="fa fa-cubes"></span> Flexible
