@@ -1,7 +1,7 @@
 $title@: Pricing
-path: /pricing/
+path: /pricingdev/
 $localization:
-  path: /{locale}/pricing/
+  path: /{locale}/pricingdev/
 components:
   - bind
 rows:
@@ -13,15 +13,26 @@ rows:
           titleclass: green
           content@:
               <p>The AMPize.me pricing is designed to be affordable for every business size and simply scales with your growth.</p>
-    - template: col3
+    - template: col4
       columns:
+        - template: text
+          content@:
+            <div class="pricing-plan">
+            <h3 class="center"><span class="fa fa-wrench"></span><br>Discovery</h3>
+            <p class="center bold">FREE</p>
+            <p class="center mb1">One Progressive Web App</p>
+            <p class="center mb1">Limited page views</p>
+            <p class="center mb1">Self Service</p>
+            <p class="center mb1">Forum Support</p>
+            <p class="center mt4"><a class="ampstart-btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true" target="_blank">Create your account</a></p>
+            </div>
         - template: text
           content@:
             <div class="pricing-plan">
             <h3 class="center"><span class="fa fa-paper-plane"></span><br>Pro</h3>
             <p class="center bold"><span class="bold">€119</span> per month</p>
             <p class="center mb1">Unlimited PWAs</p>
-            <p class="center mb1"><span class="bold">250,000</span> page views included&#42;</p>
+            <p class="center mb1"><span class="bold">250,000</span> page views&#42;</p>
             <p class="center mb1">Self Service</p>
             <p class="center mb1">Mail support</p>
             <p class="center mt4"><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=pro" target="_blank">Try Free for 30 days</a></p>
@@ -33,7 +44,7 @@ rows:
             <h3 class="center"><span class="fa fa-plane"></span><br>Business</h3>
             <p class="center bold">€499 per month</p>
             <p class="center mb1">Unlimited PWAs</p>
-            <p class="center mb1"><span class="bold">1,000,000</span> page views included&#42;&#42;</p>
+            <p class="center mb1"><span class="bold">1,000,000</span> page views&#42;&#42;</p>
             <p class="center mb1">Managed Service</p>
             <p class="center mb1">Account Manager</p>
             <p class="center mt4"><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=business" target="_blank">Try Free for 30 days</a></p>
@@ -129,6 +140,7 @@ rows:
             <table class="plan-table">
                   <thead>
                     <tr><th></th>
+                    <th>Discovery</th>
                     <th>Pro</th>
                     <th>Business</th>
                     <th>Premium</th>
@@ -138,6 +150,10 @@ rows:
                       <td>
                         <b>Get started today</b>
                         <p>Choose the plan that fit your needs</p>
+                      </td>
+                      <td>
+                        <b>Discovery</b>
+                        <p><a class="ampstart-btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true">Create your account</a></p>
                       </td>
                       <td>
                         <b>Pro</b>
@@ -172,6 +188,9 @@ rows:
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
@@ -186,10 +205,16 @@ rows:
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
                         Web crawl
+                      </td>
+                      <td class="center">
+                        Limited to 50 items
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -209,6 +234,9 @@ rows:
                     <tr class="bottom-table-line">
                       <td>
                         Sites
+                      </td>
+                      <td class="center">
+                        1 site
                       </td>
                       <td class="center">
                         Unlimited
@@ -233,6 +261,9 @@ rows:
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
@@ -247,10 +278,16 @@ rows:
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
                         Progressive Web Apps
+                      </td>
+                      <td class="center">
+                        1 PWA
                       </td>
                       <td class="center">
                         Unlimited
@@ -275,10 +312,16 @@ rows:
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
                     </tr>
                     <tr class="bottom-table-line">
                       <td>
                         Add to Home screen
+                      </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -303,6 +346,9 @@ rows:
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
                     </tr>
                     <tr>
                       <td colspan="4" class="plan-feature">
@@ -314,10 +360,13 @@ rows:
                         Page views per month
                       </td>
                       <td class="center">
-                        250,000 mpv included
+                        Limited
                       </td>
                       <td class="center">
-                        1,000,000 mpv included
+                        Up to 2M MPV
+                      </td>
+                      <td class="center">
+                        Unlimited
                       </td>
                       <td class="center">
                         Unlimited
@@ -326,6 +375,8 @@ rows:
                     <tr class="bottom-table-line">
                       <td>
                         Extra 1,000 MPV
+                      </td>
+                      <td class="center">
                       </td>
                       <td class="center">
                         €0.5
@@ -353,12 +404,18 @@ rows:
                         cloud
                       </td>
                       <td class="center">
+                        cloud
+                      </td>
+                      <td class="center">
                         cloud / on-premise
                       </td>
                     </tr>
                     <tr>
                       <td>
                         High level caches
+                      </td>
+                      <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -381,12 +438,17 @@ rows:
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
                       <td class="center">
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                      </td>
+                      <td class="center">
                         cloud only
                       </td>
                     </tr>
                     <tr>
                       <td>
                         High Availability
+                      </td>
+                      <td class="center">
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -401,6 +463,8 @@ rows:
                     <tr>
                       <td>
                         Autoscaling
+                      </td>
+                      <td class="center">
                       </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
@@ -421,6 +485,9 @@ rows:
                       <td>
                         Support
                       </td>
+                      <td>
+                        Forum
+                      </td>
                       <td class="center">
                         Mail
                       </td>
@@ -435,6 +502,8 @@ rows:
                       <td>
                         First Site Creation
                       </td>
+                      <td>
+                      </td>
                       <td class="center">
                       </td>
                       <td class="center">
@@ -447,6 +516,8 @@ rows:
                     <tr class="bottom-table-line">
                       <td>
                         Account Manager
+                      </td>
+                      <td>
                       </td>
                       <td>
                       </td>
@@ -465,6 +536,8 @@ rows:
                       </td>
                       <td>
                       </td>
+                      <td>
+                      </td>
                       <td class="center">
                         <i class="fa fa-check" aria-hidden="true"></i>
                       </td>
@@ -472,6 +545,8 @@ rows:
                     <tr class="bottom-table-line">
                       <td>
                         Custom Developments
+                      </td>
+                      <td>
                       </td>
                       <td>
                       </td>
@@ -491,6 +566,9 @@ rows:
                         Billing
                       </td>
                       <td class="center">
+                        N/A
+                      </td>
+                      <td class="center">
                         Credit Card
                       </td>
                       <td class="center">
@@ -503,6 +581,9 @@ rows:
                     <tr>
                       <td>
                         Plan
+                      </td>
+                      <td class="center">
+                        Free
                       </td>
                       <td class="center">
                         Monthly
