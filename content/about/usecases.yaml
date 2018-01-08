@@ -4,7 +4,6 @@ rows:
       columns:
         - template: hero
           title@: What can AMPize.me do for you?
-          titleclass: green
     - template: col
       columns:
         - template: accordion

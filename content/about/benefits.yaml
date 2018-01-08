@@ -4,7 +4,6 @@ rows:
       columns:
         - template: hero
           title@: Benefits from AMP
-          titleclass: green
     - template: col
       columns:
         - template: image

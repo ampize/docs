@@ -1,11 +1,13 @@
+{% if data.title %}
 <h1 class="{% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
+{% endif %}
 {% if data.content %}
 <p class="intro">{{_(data.content)}}</p>
 {% endif %}
 {% if data.cta or data.cta2%}
-<div class="flex mx-auto center flex-wrap justify-around">
+<div class="flex left mt4">
     {% if data.cta2 %}
-    <a class="ampstart-btn-secondary mb1" href="{{g.doc(data.cta2_url, locale=doc.locale).url.path}}">
+    <a class="ampstart-btn-secondary mb1 mr2" href="{{g.doc(data.cta2_url, locale=doc.locale).url.path}}">
       {{_(data.cta2)}}
     </a>
     {% endif %}

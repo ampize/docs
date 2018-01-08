@@ -15,7 +15,7 @@ In order to configure push notifications on your website simply access it in the
 
 <amp-img src="/static/img/notifications-settings.png"  width="1310"  height="372"  layout="responsive" alt="Enabling notifications"></amp-img>
 
-Once you save the changes don't forget to publish your website. Please note that these changes have no effect on the preview : only the live version is affected once the website is published.
+Once you save the changes don't forget to publish your website. Please note that these changes have no effect on the preview: only the live version is affected once the website is published.
 
 Your website now contains a notification subscription icon which will appear in the bottom right corner of any compatible browser. Your users can use this icon to subscribe and unsubscribe from push notifications from your website.
 

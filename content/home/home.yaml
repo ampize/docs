@@ -1,20 +1,28 @@
 $title@: The AMPize project overview
 rows:
-    - template: col2
-      columns:
-        - template: youtube
-          videoid: 1tDV6p-1V48
-          layout: responsive
-        - template: hero
-          title@: Embrace the future web. Now.
-          titleclass: green
-          content@:
-              <p class="mb4 h3 justify">AMPize is a complete, straightforward and plug & play ecosystem to publish and monetize existing contents leveraging the power of AMP.</p>
-          cta@: Start your FREE Plan
-          cta_url: /content/pricing/pricing.yaml
-          cta2@: Discover AMPize
-          cta2_url: /about/features
     - template: col
+      class: home-hero
+      columns:
+        - template: hero
+          title@:
+          content@:
+              <h1>Supercharge<br>your mobile web</h1>
+              <p class="intro">Give your customers the perfect user journey they expect today on the mobile web and get the profit you deserve by increasing  traffic, engagement and loyalty.</p>
+              <form method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
+                  <div class="flex left mt4">
+                  <input type="email" name="email" class="login mr2" placeholder="Your work e-mail" required>
+                  <input type="submit" class="white ampstart-btn right mb1" value="Start your FREE Plan">
+                  </div>
+              </form>
+              <div><a href="https://app.hubspot.com/meetings/didier-fanchon" target="_blank">Request a demo</a></div>
+        - template: image
+          class: mark
+          src: /static/img/home-metrics.png
+          width: 960
+          height: 540
+          layout: responsive
+    - template: col
+      class: logos mt4 center
       columns:
         - template: image
           src: /static/img/logo-dni.png
@@ -46,6 +54,64 @@ rows:
           width: 400
           height: 170
           layout: responsive
+    - template: col
+      columns:
+        - template: text
+          content@:
+            <amp-img src="/static/img/test.png" width="355" height="398" layout="fixed" class="right mt4">
+        - template: text
+          content@:
+              <h2>Attract</h2>
+                <ol class="mt4">
+                  <h3><li>Get featured in “Top Stories”</h3>
+                    AMP pages can be displayed  in the “Top stories” section at the top of the search results page, giving you an instant SEO boost, whatever your actual ranking may be.
+                  </li>
+                  <h3><li>Easy identification</h3>
+                    The AMP logo allows mobile users to quickly identify constantly fast loading mobile pages.
+                  </li>
+                  <h3><li>Rich Snipets</h3>
+                    AMP pages for a topic or search are grouped into rich carousels, in a visual attractive way.
+                  </li>
+                </ul>
+    - template: col
+      columns:
+        - template: text
+          content@:
+              <h2>Convert</h2>
+              <p class="intro">No matter what, faster is better and less is more. It's no secret that users expect a fast mobile experience. If there is too much friction, the will abandon your site and move on.</p>
+              <p><amp-img src="/static/img/thespeedproblem.png" width="1441" height="317" layout="responsive"></p>
+              <p class="ampstart-pullquote">Publishers whose mobile sites load in 5 seconds earn up to 2x more mobile ad revenue than those whose sites load in 19 seconds.</p>
+        - template: text
+          class: home-hero2 home-test
+          content@:
+              <h3>>> Estimate your ROI <<</h3>
+              <p>Learn what you could expect from shifting to AMP/PWA and using AMPize with our deep learning based ROI calculator:</p>
+              <form method="get" action="https://www.amproicalculator.com" target="_blank">
+              <div class="flex left ">
+              <input type="url" name="url" class="login mr2" placeholder="http://" required>
+              <input type="submit" class="white ampstart-btn right mb1" value="Estimate your ROI">
+              </div>
+              </form>
+    - template: col2
+      columns:
+        - template: text
+          content@:
+            <amp-img src="/static/img/home-reengage.png" width="481" height="426" layout="fixed" class="right mt4">
+        - template: text
+          content@:
+              <h2>Re-engage</h2>
+              <p class="intro">Progressive Web Apps offers all the goodness of websites with new app-like capabilities:</p>
+                <ol class="mt4">
+                  <h3><li>Access via Homescreen icon on device</h3>
+                    Enable users to seamlessly re-engage with your content by adding your app to their home screen, without download time and installation process.
+                  </li>
+                  <h3><li>Push Notifications</h3>
+                    Send instant or recurring system level notifications, like apps, even when the browser is closed.
+                  </li>
+                  <h3><li>Offline support</h3>
+                    Provide a good experience on flaky or no network connections.
+                  </li>
+                </ul>
     - template: col2
       columns:
         - template: text

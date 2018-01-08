@@ -1,6 +1,0 @@
-$path: /docs/tutorials/create/{base}
-$view: /views/doc.html
-$localization:
-  path: /{locale}/docs/tutorials/create/{base}
-$title@: Create Your First AMP Page
-index_path: /docs/tutorials

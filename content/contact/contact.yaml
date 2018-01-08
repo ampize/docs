@@ -23,7 +23,6 @@ rows:
         - template: hero
           size: 6
           title@: Contact
-          titleclass: green
           content@:
               <p class="mb4">AMPize is part of the Founders Program of Station F, the world's biggest startup campus.</p>
               <p>WebTales</p>
