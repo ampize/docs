@@ -1,3 +1,4 @@
+<section class="hero">
 {% if data.title %}
 <h1 class="{% if data.titleclass %}{{data.titleclass}}{% endif %}">{{data.title}}</h1>
 {% endif %}
@@ -7,12 +8,13 @@
 {% if data.cta or data.cta2%}
 <div class="flex left mt4">
     {% if data.cta2 %}
-    <a class="ampstart-btn-secondary mb1 mr2" href="{{g.doc(data.cta2_url, locale=doc.locale).url.path}}">
+    <a class="btn-secondary mb1 mr2" href="{{g.doc(data.cta2_url, locale=doc.locale).url.path}}">
       {{_(data.cta2)}}
     </a>
     {% endif %}
     {% if data.cta %}
-        <a class="white ampstart-btn right mb1" href="{{g.doc(data.cta_url, locale=doc.locale).url.path}}">{{_(data.cta)}}</a>
+        <a class="white btn right mb1" href="{{g.doc(data.cta_url, locale=doc.locale).url.path}}">{{_(data.cta)}}</a>
     {% endif %}
 </div>
 {% endif %}
+</section>

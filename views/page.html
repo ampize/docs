@@ -1,0 +1,13 @@
+{% extends "/views/base.html" %}
+{% block main %}
+<main>
+    {% for row in doc.rows %}
+        {% if row.template %}
+            {% include "/views/partials/" + row.template + ".html" %}
+        {% endif %}
+    {% endfor %}
+</main>
+  <div class="doc-footer">
+    {% include "/views/partials/footer.html" %}
+  </div>
+{% endblock %}

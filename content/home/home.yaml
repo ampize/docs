@@ -9,15 +9,15 @@ rows:
               <h1>Supercharge<br>your mobile web</h1>
               <p class="intro">Give your customers the perfect user journey they expect today on the mobile web and get the profit you deserve by increasing  traffic, engagement and loyalty.</p>
               <form method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
-                  <div class="flex left mt4">
-                  <input type="email" name="email" class="login mr2" placeholder="Your work e-mail" required>
-                  <input type="submit" class="white ampstart-btn right mb1" value="Start your FREE Plan">
+                  <div class="flex mt4">
+                  <input type="email" name="email" class="input mr2" placeholder="Your work e-mail" required>
+                  <input type="submit" class="white btn right mb1" value="Start your FREE Plan">
                   </div>
               </form>
               <div><a href="https://app.hubspot.com/meetings/didier-fanchon" target="_blank">Request a demo</a></div>
         - template: image
           class: mark
-          src: /static/img/home-metrics.png
+          src: /static/img/home-hero.png
           width: 960
           height: 540
           layout: responsive
@@ -58,7 +58,7 @@ rows:
       columns:
         - template: text
           content@:
-            <amp-img src="/static/img/test.png" width="355" height="398" layout="fixed" class="right mt4">
+            <amp-img src="/static/img/home-attract.png" width="355" height="398" layout="fixed" class="right mt4">
         - template: text
           content@:
               <h2>Attract</h2>
@@ -79,17 +79,17 @@ rows:
           content@:
               <h2>Convert</h2>
               <p class="intro">No matter what, faster is better and less is more. It's no secret that users expect a fast mobile experience. If there is too much friction, the will abandon your site and move on.</p>
-              <p><amp-img src="/static/img/thespeedproblem.png" width="1441" height="317" layout="responsive"></p>
-              <p class="ampstart-pullquote">Publishers whose mobile sites load in 5 seconds earn up to 2x more mobile ad revenue than those whose sites load in 19 seconds.</p>
+              <p><amp-img src="/static/img/thespeedproblem.png" width="1219" height="315" layout="responsive"></p>
+              <p class="pullquote">Publishers whose mobile sites load in 5 seconds earn up to 2x more mobile ad revenue than those whose sites load in 19 seconds.</p>
         - template: text
           class: home-hero2 home-test
           content@:
               <h3>>> Estimate your ROI <<</h3>
               <p>Learn what you could expect from shifting to AMP/PWA and using AMPize with our deep learning based ROI calculator:</p>
-              <form method="get" action="https://www.amproicalculator.com" target="_blank">
-              <div class="flex left ">
-              <input type="url" name="url" class="login mr2" placeholder="http://" required>
-              <input type="submit" class="white ampstart-btn right mb1" value="Estimate your ROI">
+              <form method="get" action="https://roi.ampize.me" target="_blank">
+              <div class="flex mt4">
+              <input type="url" name="url" class="input mr2" placeholder="http://" required>
+              <input type="submit" class="white btn right mb1" value="Estimate your ROI">
               </div>
               </form>
     - template: col2
@@ -116,9 +116,9 @@ rows:
       columns:
         - template: text
           title@: A collaborative project
-          content@: Just like the AMP project, AMPize embodies the values of open development, sharing and co-operation, and was initiated by a consortium of international media companies including French, Belgian and British publishers.
+          content@: <p class="intro">Just like the AMP project, AMPize embodies the values of open development, sharing and co-operation, and was initiated by a consortium of international media companies including French, Belgian and British publishers.</p>
         - template: text
           title@: Funded by Google's DNI
-          content@: The AMPize project received a financial support from the <a href="https://digitalnewsinitiative.com/" target="_blank">Google Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.
+          content@: <p class="intro">The AMPize project received a financial support from the <a href="https://digitalnewsinitiative.com/" target="_blank">Google Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.</p>
 components:
   - youtube

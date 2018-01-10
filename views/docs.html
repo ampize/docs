@@ -1,0 +1,38 @@
+{% extends "/views/base.html" %}
+
+{% block main %}
+
+{% set documents = g.docs('/content/docs/' + doc.base) %}
+  <main>
+      <div class="flex flex-wrap items-stretch">
+          {% for document in documents %}
+          {% if doc.url.path == "/docs/components" %}
+          <div class="px1 py1 col-12 sm-col-12 md-col-3 lg-col-3 overflow-hidden">
+            <div class="card flex-column flex justify-between">
+              <div class="flex justify-between">
+                <h4 class="caps blue bold">{{document.title}}</h4>
+                <div class="tag">{{document.category}}</div>
+              </div>
+              <p>{{document.description}}</p>
+              <a href="{% if document.isDraft %}#{% else %}{{document.href}}{% endif %}"
+                 class="block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}READ{% endif %}</a>
+            </div>
+          </div>
+          {% else %}
+          <div class="px1 py1 col-12 sm-col-12 md-col-3 lg-col-3 overflow-hidden">
+            <div class="card flex-column flex justify-between">
+              <h4 class="caps blue bold">{{document.title}}</h4>
+              <p>{{doc.description}}</p>
+              <a href="{% if document.isDraft %}#{% else %}{{doc.url.path}}/{{document.base}}{% endif %}"
+                 class="block text-decoration-none caps h5 center pt2">{% if document.isDraft %}COMING SOON{% else %}GET STARTED{% endif %}</a>
+            </div>
+          </div>
+          {% endif %}
+          {% endfor %}
+    </div>
+  </main>
+
+  <div class="doc-footer">
+    {% include "/views/partials/footer.html" %}
+  </div>
+{% endblock %}

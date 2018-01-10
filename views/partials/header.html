@@ -1,7 +1,7 @@
-<header class="ampize-header">
+<header class="header">
   <div class="md-col-10 mx-auto px2">
     <div class="ampize-nav-left flex">
-        <a href="{{g.doc('/content/home/home.html', locale=doc.locale).url.path}}" class="ampize-menu-logo">
+        <a href="{{g.doc('/content/home/home.html', locale=doc.locale).url.path}}" class="menu-logo">
             <svg width="130px" height="100%" viewBox="3 -8 275 63" version="1.1" xmlns="http:/www.w3.org/2000/svg" xmlns:xlink="http:/www.w3.org/1999/xlink">
                 <text stroke="none" fill="none" font-size="52.4903461" font-weight="bold">
                     <tspan x="3.03326649" y="43.12557" fill="#EF5425">AMP</tspan>
@@ -10,18 +10,18 @@
                 </text>
             </svg>
         </a>
-        <div role="button" on="tap:ampize-menu-sidebar.toggle" tabindex="0" class="ampize-sidebar-trigger md-hide lg-hide pl1">☰</div>
+        <div role="button" on="tap:menu-sidebar.toggle" tabindex="0" class="ampize-sidebar-trigger md-hide lg-hide pl1">☰</div>
         <div class="flex flex-wrap flex-auto justify-center xs-hide sm-hide">
             {% for entry in menu %}
-            <div class="flex ampize-menu-tab {% if doc.url.path.find(entry.base) != -1 %}active{% endif %}">
+            <div class="flex menu-tab {% if doc.url.path.find(entry.base) != -1 %}active{% endif %}">
                 {% if entry.href %}
                 <a href="{{entry.href}}">{{_(entry.get('copy'))}}</a>
                 {% else %}
                 <a href="#">{{_(entry.get('copy'))}}</a>
                 {% endif %}
                 {% if entry.children %}
-                <div class="ampize-menu-tab-list">
-                    <div class="ampize-menu-tab-list-shadow"></div>
+                <div class="menu-tab-list">
+                    <div class="menu-tab-list-shadow"></div>
                     <ul>
                         {% for subEntry in entry.children %} {% if subEntry.href %}
                         <li><a href="{{subEntry.href}}">{{_(subEntry.get('copy'))}}</a></li>
@@ -32,38 +32,38 @@
             </div>
             {% endfor %}
         </div>
-        <div class="flex ampize-menu-tab xs-hide sm-hide"><a href="https://cloud.ampize.me/sign-in">Log In</a></div>
-        <div class="flex ampize-menu-tab xs-hide sm-hide"><a href="https://cloud.ampize.me/sign-up?plan=business">Sign Up <i class="fa fa-arrow-right ml1" aria-hidden="true"></i></a></div>
+        <div class="flex menu-tab xs-hide sm-hide"><a href="https://cloud.ampize.me/sign-in">Log In</a></div>
+        <div class="flex menu-tab xs-hide sm-hide"><a href="https://cloud.ampize.me/sign-up?plan=business">Sign Up <i class="fa fa-arrow-right ml1" aria-hidden="true"></i></a></div>
     </div>
 </div>
 </header>
-<amp-sidebar id="ampize-menu-sidebar" side="right" layout="nodisplay">
-    <form action="/" target="_top" novalidate class="ampize-menu-sidebar-layer">
-        <div role="button" on="tap:ampize-menu-sidebar.toggle" tabindex="0" class="ampize-menu-sidebar-close">✕</div>
-        <div class="ampize-menu-sidebar-items">
-            <a href="{{g.doc('/content/home/home.html', locale=doc.locale).url.path}}" class="ampize-menu-sidebar-item  active ">Home</a>
+<amp-sidebar id="menu-sidebar" side="right" layout="nodisplay">
+    <form action="/" target="_top" novalidate class="menu-sidebar-layer">
+        <div role="button" on="tap:menu-sidebar.toggle" tabindex="0" class="menu-sidebar-close">✕</div>
+        <div class="menu-sidebar-items">
+            <a href="{{g.doc('/content/home/home.html', locale=doc.locale).url.path}}" class="menu-sidebar-item  active ">Home</a>
             {% for entry in menu %}
                 {% if entry.children %}
-                    <label class="ampize-menu-sidebar-item has-children">
+                    <label class="menu-sidebar-item has-children">
                         <input type="checkbox">{{_(entry.get('copy'))}}
-                        <span class="ampize-menu-sidebar-item-expand"> > </span>
-                        <div class="ampize-menu-sidebar-submenu">
-                            <div class="ampize-menu-sidebar-submenu-return">< Back</div>
-                            <div class="ampize-menu-sidebar-submenu-items">
+                        <span class="menu-sidebar-item-expand"> > </span>
+                        <div class="menu-sidebar-submenu">
+                            <div class="menu-sidebar-submenu-return">< Back</div>
+                            <div class="menu-sidebar-submenu-items">
                             {% for subEntry in entry.children %} {% if subEntry.href %}
-                                <a class="ampize-menu-sidebar-item ampize-menu-sidebar-submenu-item" href="{{subEntry.href}}">{{_(subEntry.get('copy'))}}</a>
+                                <a class="menu-sidebar-item menu-sidebar-submenu-item" href="{{subEntry.href}}">{{_(subEntry.get('copy'))}}</a>
                             {% endif %} {% endfor %}
                             </div>
                         </div>
                     </label>
                 {% else %}
-                    <a class="ampize-menu-sidebar-item " href="{{entry.href}}">{{_(entry.get('copy'))}}</a>
+                    <a class="menu-sidebar-item " href="{{entry.href}}">{{_(entry.get('copy'))}}</a>
                 {% endif %}
             {% endfor %}
-            <a class="ampize-menu-sidebar-item ampize-menu-sidebar-submenu-item" href="https://cloud.ampize.me/sign-in"><strong>Log In</strong></a>
-            <a class="ampize-menu-sidebar-item ampize-menu-sidebar-submenu-item" href="https://cloud.ampize.me/sign-up?plan=business"><strong>Sign Up</strong></a>
+            <a class="menu-sidebar-item menu-sidebar-submenu-item" href="https://cloud.ampize.me/sign-in"><strong>Log In</strong></a>
+            <a class="menu-sidebar-item menu-sidebar-submenu-item" href="https://cloud.ampize.me/sign-up?plan=business"><strong>Sign Up</strong></a>
         </div>
     </form>
 </amp-sidebar>
 
-<main id="content" role="main" class="">
+<main id="content" role="main">

@@ -25,7 +25,7 @@ rows:
             <p class="center mb1">Limited data sources</p>
             <p class="center mb1">No publishing</p>
             <p class="mb4">&nbsp;</p>
-            <p class="center"><a class="ampstart-btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true" target="_blank">Create your account</a></p>
+            <p class="center"><a class="btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true" target="_blank">Create your account</a></p>
             </div>
         - template: text
           content@:
@@ -35,7 +35,7 @@ rows:
             <p class="center mb1">Unlimited data sources</p>
             <p class="center mb1">Unlimited AMPsites</p>
             <p class="center mb4">Up to 5M page views per month</p>
-            <p class="center"><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up" target="_blank">Try Free for 30 days</a></p>
+            <p class="center"><a class="white btn mb1" href="https://cloud.ampize.me/sign-up" target="_blank">Try Free for 30 days</a></p>
             </div>
         - template: text
           content@:
@@ -120,11 +120,11 @@ rows:
                       </td>
                       <td>
                         <b>Developer</b>
-                        <p><a class="ampstart-btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true">Create your account</a></p>
+                        <p><a class="btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true">Create your account</a></p>
                       </td>
                       <td>
                         <b>Pro</b>
-                        <p><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up">Try Free for 30 days</a></p>
+                        <p><a class="white btn mb1" href="https://cloud.ampize.me/sign-up">Try Free for 30 days</a></p>
                       </td>
                       <td>
                         <b>Business</b>

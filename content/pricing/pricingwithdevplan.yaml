@@ -24,7 +24,7 @@ rows:
             <p class="center mb1">Limited page views</p>
             <p class="center mb1">Self Service</p>
             <p class="center mb1">Forum Support</p>
-            <p class="center mt4"><a class="ampstart-btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true" target="_blank">Create your account</a></p>
+            <p class="center mt4"><a class="btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true" target="_blank">Create your account</a></p>
             </div>
         - template: text
           content@:
@@ -35,7 +35,7 @@ rows:
             <p class="center mb1"><span class="bold">250,000</span> page views&#42;</p>
             <p class="center mb1">Self Service</p>
             <p class="center mb1">Mail support</p>
-            <p class="center mt4"><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=pro" target="_blank">Try Free for 30 days</a></p>
+            <p class="center mt4"><a class="white btn mb1" href="https://cloud.ampize.me/sign-up?plan=pro" target="_blank">Try Free for 30 days</a></p>
             </div>
             <p class="center mb1">&#42; + €0.5 per 1,000 MPV extra</p>
         - template: text
@@ -47,7 +47,7 @@ rows:
             <p class="center mb1"><span class="bold">1,000,000</span> page views&#42;&#42;</p>
             <p class="center mb1">Managed Service</p>
             <p class="center mb1">Account Manager</p>
-            <p class="center mt4"><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=business" target="_blank">Try Free for 30 days</a></p>
+            <p class="center mt4"><a class="white btn mb1" href="https://cloud.ampize.me/sign-up?plan=business" target="_blank">Try Free for 30 days</a></p>
             </div>
             <p class="center mb1">&#42;&#42; + €0.4 per 1,000 MPV extra</p>
         - template: text
@@ -153,15 +153,15 @@ rows:
                       </td>
                       <td>
                         <b>Discovery</b>
-                        <p><a class="ampstart-btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true">Create your account</a></p>
+                        <p><a class="btn-secondary mb1" href="https://cloud.ampize.me/sign-up?isDeveloper=true">Create your account</a></p>
                       </td>
                       <td>
                         <b>Pro</b>
-                        <p><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=pro">Try Free for 30 days</a></p>
+                        <p><a class="white btn mb1" href="https://cloud.ampize.me/sign-up?plan=pro">Try Free for 30 days</a></p>
                       </td>
                       <td>
                         <b>Business</b>
-                        <p><a class="white ampstart-btn mb1" href="https://cloud.ampize.me/sign-up?plan=business">Try Free for 30 days</a></p>
+                        <p><a class="white btn mb1" href="https://cloud.ampize.me/sign-up?plan=business">Try Free for 30 days</a></p>
                       </td>
                       <td>
                         <b>Premium</b>
