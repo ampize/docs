@@ -8,55 +8,56 @@ rows:
           content@:
               <h1>Supercharge<br>your mobile web</h1>
               <p class="intro">Give your customers the perfect user journey they expect today on the mobile web and get the profit you deserve by increasing  traffic, engagement and loyalty.</p>
-              <form method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
+              <form name="SignUp" method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
                   <div class="flex mt4">
                   <input type="email" name="email" class="input mr2" placeholder="Your work e-mail" required>
-                  <input type="submit" class="white btn right mb1" value="Start your FREE Plan">
+                  <input type="submit" class="white btn right mb1" value="Start your FREE Trial">
                   </div>
               </form>
               <div><a href="https://app.hubspot.com/meetings/didier-fanchon" target="_blank">Request a demo</a></div>
         - template: image
-          class: mark
+          class: sm-hide xs-hide
           src: /static/img/home-hero.png
           width: 960
           height: 540
           layout: responsive
     - template: col
-      class: logos mt4 center
+      class: sm-hide xs-hide mt4 center
       columns:
         - template: image
           src: /static/img/logo-dni.png
-          width: 1451
-          height: 485
+          width: 200
+          height: 67
           layout: responsive
         - template: image
           src: /static/img/logo-nrco.png
-          width: 227
-          height: 59
+          width: 200
+          height: 52
           layout: responsive
         - template: image
           src: /static/img/logo-laprovence.png
-          width: 640
-          height: 144
+          width: 200
+          height: 45
           layout: responsive
         - template: image
           src: /static/img/logo-lavenir.png
-          width: 400
-          height: 97
+          width: 200
+          height: 48
           layout: responsive
         - template: image
           src: /static/img/logo-nicematin.png
-          width: 350
-          height: 58
+          width: 200
+          height: 39
           layout: responsive
         - template: image
           src: /static/img/logo-publihebdos.png
-          width: 400
-          height: 170
+          width: 200
+          height: 85
           layout: responsive
     - template: col
       columns:
         - template: text
+          class: sm-hide xs-hide
           content@:
             <amp-img src="/static/img/home-attract.png" width="355" height="398" layout="fixed" class="right mt4">
         - template: text
@@ -79,22 +80,23 @@ rows:
           content@:
               <h2>Convert</h2>
               <p class="intro">No matter what, faster is better and less is more. It's no secret that users expect a fast mobile experience. If there is too much friction, the will abandon your site and move on.</p>
-              <p><amp-img src="/static/img/thespeedproblem.png" width="1219" height="315" layout="responsive"></p>
+              <p><amp-img src="/static/img/thespeedproblem.png" width="600" height="126" layout="responsive"></p>
               <p class="pullquote">Publishers whose mobile sites load in 5 seconds earn up to 2x more mobile ad revenue than those whose sites load in 19 seconds.</p>
         - template: text
-          class: home-hero2 home-test
           content@:
               <h3>>> Estimate your ROI <<</h3>
               <p>Learn what you could expect from shifting to AMP/PWA and using AMPize with our deep learning based ROI calculator:</p>
-              <form method="get" action="https://roi.ampize.me" target="_blank">
+              <form name="ROICalculator" method="get" action="https://roi.ampize.me" target="_blank">
               <div class="flex mt4">
-              <input type="url" name="url" class="input mr2" placeholder="http://" required>
-              <input type="submit" class="white btn right mb1" value="Estimate your ROI">
+              <input type="url" name="url" class="input mr2" placeholder="http://www.yoursite.com" required>
+              <input type="submit" class="white btn-secondary right mb1" value="Estimate your ROI">
               </div>
               </form>
-    - template: col2
+              <amp-img src="/static/img/home-convert-2.png" width="482" height="162" layout="responsive">
+    - template: col
       columns:
         - template: text
+          class: sm-hide xs-hide
           content@:
             <amp-img src="/static/img/home-reengage.png" width="481" height="426" layout="fixed" class="right mt4">
         - template: text
@@ -120,5 +122,3 @@ rows:
         - template: text
           title@: Funded by Google's DNI
           content@: <p class="intro">The AMPize project received a financial support from the <a href="https://digitalnewsinitiative.com/" target="_blank">Google Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.</p>
-components:
-  - youtube
