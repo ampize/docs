@@ -85,7 +85,7 @@ rows:
         - template: text
           content@:
               <h3>>> Estimate your ROI <<</h3>
-              <p>Learn what you could expect from shifting to AMP/PWA and using AMPize with our deep learning based ROI calculator:</p>
+              <p>Learn what you could expect from shifting to AMP/PWA and using AMPize with our AMP ROI calculator:</p>
               <form name="ROICalculator" method="get" action="https://roi.ampize.me" target="_blank">
               <div class="flex mt4">
               <input type="url" name="url" class="input mr2" placeholder="http://www.yoursite.com" required>
