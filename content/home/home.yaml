@@ -7,7 +7,7 @@ rows:
           title@:
           content@:
               <h1>Supercharge<br>your mobile web</h1>
-              <p class="intro">Give your customers the perfect user journey they expect today on the mobile web and get the profit you deserve by increasing  traffic, engagement and loyalty.</p>
+              <p class="intro">Give your customers the perfect user journey that they expect from today's mobile web. Increase your website's traffic, engagement and loyalty, while getting the profit you deserve from ad revenue. </p>
               <form name="SignUp" method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
                   <div class="flex mt4">
                   <input type="email" name="email" class="input mr2" placeholder="Your work e-mail" required>
@@ -65,13 +65,13 @@ rows:
               <h2>Attract</h2>
                 <ol class="mt4">
                   <h3><li>Get featured in “Top Stories”</h3>
-                    AMP pages can be displayed  in the “Top stories” section at the top of the search results page, giving you an instant SEO boost, whatever your actual ranking may be.
+                    AMP pages can be displayed  in the “Top stories” section at the top of the search results page, giving you an instant SEO boost, despite your actual ranking.
                   </li>
                   <h3><li>Easy identification</h3>
-                    The AMP logo allows mobile users to quickly identify constantly fast loading mobile pages.
+                    The AMP logo allows mobile users to identify reliably fast-loading mobile pages.
                   </li>
-                  <h3><li>Rich Snipets</h3>
-                    AMP pages for a topic or search are grouped into rich carousels, in a visual attractive way.
+                  <h3><li>Rich Snippets</h3>
+                    When conducting a search, AMP pages are grouped into Google's 'rich card carousels' making them more visually attractive, and increasing their CTR. 
                   </li>
                 </ul>
     - template: col
@@ -79,13 +79,13 @@ rows:
         - template: text
           content@:
               <h2>Convert</h2>
-              <p class="intro">No matter what, faster is better and less is more. It's no secret that users expect a fast mobile experience. If there is too much friction, the will abandon your site and move on.</p>
+              <p class="intro">It's no secret that users expect a fast mobile experience. If there is too much friction, they will abandon your site and move on. High-speed AMP pages will decrease your bounce rate, increase visitor session time, and ultimately increase your conversion rates.</p>
               <p><amp-img src="/static/img/thespeedproblem.png" width="600" height="126" layout="responsive"></p>
-              <p class="pullquote">Publishers whose mobile sites load in 5 seconds earn up to 2x more mobile ad revenue than those whose sites load in 19 seconds.</p>
+              <p class="pullquote">Publishers whose mobile sites load in 5 seconds earn up to 2x more in mobile ad revenue than those whose sites load in 19 seconds.</p>
         - template: text
           content@:
               <h3>>> Estimate your ROI <<</h3>
-              <p>Learn what you could expect from shifting to AMP/PWA either with custom development or by using AMPize.me Saas offer with our AMP ROI calculator:</p>
+              <p>Try our AMP ROI calculator below to see what you could expect from shifting to AMP/PWA:</p>
               <form name="ROICalculator" method="get" action="https://roi.ampize.me" target="_blank">
               <div class="flex mt4">
               <input type="url" name="url" class="input mr2" placeholder="http://www.yoursite.com" required>
@@ -102,13 +102,13 @@ rows:
         - template: text
           content@:
               <h2>Re-engage</h2>
-              <p class="intro">Progressive Web Apps offers all the goodness of websites with new app-like capabilities:</p>
+              <p class="intro">Progressive Web Apps offer you all the goodness of a traditional website, but with new app-like capabilities:</p>
                 <ol class="mt4">
                   <h3><li>Access via Homescreen icon on device</h3>
-                    Enable users to seamlessly re-engage with your content by adding your app to their home screen, without download time and installation process.
+                    Enable users to seamlessly re-engage with your content by adding your 'app' to their home screen, without time-consuming download and installation processes.
                   </li>
                   <h3><li>Push Notifications</h3>
-                    Send instant or recurring system level notifications, like apps, even when the browser is closed.
+                    Send instant or recurring push notifications, just like traditional applications, even when the browser is closed.
                   </li>
                   <h3><li>Offline support</h3>
                     Provide a good experience on flaky or no network connections.
@@ -121,4 +121,4 @@ rows:
           content@: <p class="intro">Just like the AMP project, AMPize embodies the values of open development, sharing and co-operation, and was initiated by a consortium of international media companies including French, Belgian and British publishers.</p>
         - template: text
           title@: Funded by Google's DNI
-          content@: <p class="intro">The AMPize project received a financial support from the <a href="https://digitalnewsinitiative.com/" target="_blank">Google Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.</p>
+          content@: <p class="intro">The AMPize project received financial support from the <a href="https://digitalnewsinitiative.com/" target="_blank">Google Digital News Initiative</a>, a fund created to support and stimulate innovation in digital news journalism.</p>
