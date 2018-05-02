@@ -12,16 +12,16 @@ rows:
           size: 8
           title@: About us
           content@:
-              <p class="mb2">AMPize.me is a software developed by WebTales, a french startup created in 2012 and specialized in making open and innovative publishing products for web and mobile.</p>
-              <p>We're dedicated to make a better web for all, and we welcome any friendly collaboration to make this dream come true.</p>
+              <p class="mb2">AMPize.me is a software developed by WebTales, a french startup created in 2012 which specializes in making open and innovative publishing products for web and mobile.</p>
+              <p>We're dedicated to making a better web for all, and we welcome any friendly collaboration to make this dream come true.</p>
     - template: col
       columns:
         - template: hero
           size: 7
           title@: AMPize.me
           content@:
-              <p class="mb2">AMPize.me has been developed with the help of a number of european publishers who provided precious feedback and advice during the initial setup phase of the project (S1 2017).</p>
-              <p>A warm thank-you to all of them for supporting and challenging us to create a world class product.</p>
+              <p class="mb2">AMPize.me has been developed with the help of a number of European publishers who have provided precious feedback and advice during the initial setup phase of the project (Q1 2017).</p>
+              <p>A warm thank-you to all of them for their support and for challenging us to create a world class product.</p>
         - template: image
           size: 5
           src: /static/img/logo-partners-dni.png
@@ -40,4 +40,4 @@ rows:
           size: 7
           title@: Proudly supported by
           content@:
-              <p>The project has received an initial funding from the Google DNI Fund, and is also supported by prestigious partners.</p>
+              <p>AMPize.me has received initial funding from the Google DNI Fund, and is also supported by prestigious partners.</p>
