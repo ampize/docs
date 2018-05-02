@@ -13,10 +13,10 @@ rows:
           title@: Connect
           titleclass: green
           content@:
-              <p >AMPize is not a CMS and doesn’t come with content (articles, posts) editing tools.</p>
+              <p >AMPize is not a CMS and doesn’t come with content (i.e. article or post) editing tools.</p>
               <p>Instead, it aims to use your existing data sources, whatever they could be&#58;</p>
               <ul><li>Databases</li><li>API’s</li><li>or even live websites</li></ul>
-              <p class="mb4">The AMPize Data Stack makes use of the powerful Facebook GraphQL framework to build a unified, abstract layer to query and feed data to your AMP pages. Thanks to AMPize connectors, pluging a data-source is easy and straight-forward.<p>
+              <p class="mb4">The AMPize Data Stack makes use of the powerful Facebook GraphQL framework to build a unified, abstract layer to query and feed data to your AMP pages. Thanks to AMPize connectors, plugging a data-source is easy and straight-forward.<p>
           cta2@: Read our Tutorials
           cta2_url: /content/docs/tutorials/plug.md
     - template: col
