@@ -8,7 +8,7 @@ The last step is to describe the API data model through a JSON file which you ca
 
 <amp-img src="/static/img/plug_model_0.png" width="898"height="721" layout="responsive" class="screenshot">  
 
-The JSON file describes how to get data (API endpoints and parameters) and the response we get. For example, you will find below the JSON file for the Guardian API. 
+The JSON file describes how to get data (API endpoints and parameters) and the response you will get. For example, you will find below the JSON file for the Guardian API. 
 
 <amp-gist
     data-gistid="a1d6f1a358767008797de8ab2b4e51d3"
