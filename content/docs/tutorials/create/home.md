@@ -2,13 +2,13 @@
 $title@: Complete the homepage
 $order: 3
 ---
-We can add a few more components to the homepage, for example:
+You can add components to the homepage as desired, for example:
 
-- a YouTube video ("Media" category)
-- a Twitter block ("Social")
-- and an ad component ("Monetize")
+- In the right panel under 'Components', select 'Media' > 'YouTube'. In the new 'Youtube' block in the left panel select the settings icon to make modification.
+- Similarly, under 'Components' > 'Social' > 'Twitter', you can add a Twitter block 
+- Under 'Components' > 'Monetize' > 'Ad' you can add an ad component 
 
-Each component can be resized and moved by drag'n'drop, and has specific properties that can be managed through the "Settings" icon.
+Each component can be resized and moved by drag'n'drop, they each have specific properties which can be managed through their respective "Settings" icon, in their component block.
 For example, for the ad componenant, we can choose among the many available ad networks, and display the ad on a sticky mode at the bottom of the page.
 
 <amp-img src="/static/img/adsettings.png" width="1441" height="840" layout="responsive" class="screenshot">  
