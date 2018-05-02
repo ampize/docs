@@ -10,12 +10,12 @@ description: >
 href: /docs/guides/sitebuilder
 ---
 ## Overview
-The site builder allows you to control every single aspect of your website. It handles anything form the general settings of the entire website to the fine tuning the options of a specific component on one of your pages
+The site builder allows you to control every single aspect of your website. It handles anything from the general settings of the entire website to fine tuning the options of a specific component on one of your pages
 
 Let's take a look at the interface :
 <amp-img src="/static/img/site-builder/interface.png"  width="1362"  height="418"  layout="responsive"  alt="site builder interface"></amp-img>
 
-It is comprised of two panels : the main panel made up of the toolbar and the page editor and the side panel.
+It is comprised of two panels : 1) the main panel (left) made up of the toolbar and the page editor and 2) the right panel.
 
 The toolbar in the main panel houses the following features from left to right :
 
@@ -31,32 +31,32 @@ The side panel has two tabs : a "components" tab containing an accordion list of
 
 <amp-img class="col-6 md-col-3" src="/static/img/site-builder/tree.png"  width="336"  height="392"  layout="responsive"  alt="page tree"></amp-img>
 
-The page tree can be easily managed by drag and drop. Each page has an icon in order to distinguish the homepage, top-level pages and subpages. Moving the pages up and down changes their order in menus. Moving them left an right changes their hierarchy. Simply click on a pages name to select it in the main panel.
+The page tree can be easily managed by drag and drop. Each page has an icon in order to distinguish the homepage, top-level pages and subpages. Moving the pages up and down changes their order in the corresponding menus. Moving them left and right changes their hierarchy. Simply click on a pages name to display it in the main panel.
 
 Adding a new page is simple : simply click on the plus button at the bottom of the list in order to add a new top-level page and then move it to the desired place in the tree. You can also add a page directly as a child of a specific page using the right-side menu of that page (appears when hovering above page in tree). This menu can also be used to rename and delete pages.
 
-Any top-level page can be set to be the homepage from the right-side menu. The current homepage cannot be deleted. When you first open a website in the site builder it wil already have an empty homepage
+Any top-level page can be set as the homepage from the right-side menu. The current homepage cannot be deleted. When you first open a website in the site builder it will already have an empty homepage
 
 ## Page and site settings
 
-Both site settings and page settings apply to the currently selected website/page. Remember that any changes made to those settings will not apply to the live version of your website until you publish so feel free to test them in the preview. This is especially usefull for CSS changes where the dual-screen approach (site builder on one screen and preview on the other) is very convenient. Some of the page settings such as analytics vars are overrides to be merged into site settings for that particular page while ohters are stand-alone configs or are simply added after the site settongs (like CSS code). Here is a list of those settings tab by tab and what they do : 
+Both site settings and page settings apply to the currently selected website/page. Remember that any changes made to those settings will not apply to the live version of your website until you publish so feel free to test them in the preview. This is especially usefull for CSS changes where the dual-screen approach (site builder on one screen and preview on the other) is very convenient. Some of the page settings such as analytics vars are overrides to be merged into site settings for that particular page whilst others are stand-alone configs or are simply added after the site settings (like CSS code). Here is a list of those settings tab by tab and what they do : 
 
 Site settings
 
-* Style : allows configuration of the favicon URL, responsive breakpoint (screen width threshold underneath which all columns stack instead of allign themselves on the same row resulting in a much more mobile-friendly layout), the date format which will be applied to all dates rendered on the website and the CSS code to be injected into every page of the website. The last one is already initialised with the defualt CSS code for your website. We recommend editing or adding on top of what is already there as emptying the field and starting from scratch can cause some components such as the menu to malfunction.
+* Style : allows configuration of the favicon URL, responsive breakpoint (screen width threshold underneath which all columns stack instead of allign themselves on the same row resulting in a much more mobile-friendly layout), the date format which will be applied to all dates rendered on the website and the CSS code to be injected into every page of the website. The last one is already initialized with the defualt CSS code for your website. We recommend editing or adding on top of what is already there as emptying the field and starting from scratch can cause some components such as the menu to malfunction.
 * URLs : this is where you define the domain of your website. If you only have a trial account, this is limited to subdomains of ampize.me. Please keep in mind that for any other domains such as mywebsitedomain.com we do not offer domain registration services so you wil have to obtain it from your domain registrar and have it point at the designated IP adress (displayed right under the field).
-* SEO : provides basic SEO settings such as title, description and keywords to be added on every page which does not have its own equivalent settings as well as a bot indexing switch (disabled by default in order to avoid accidental indexing of unfinished websites), language settings, default settings for JSON-LD markup and a choice on wether to use the original URL as the canonical on detail rendering. Please check our [SEO guide](/docs/guides/seo) for more information on canonical URLs, JSON-LD markup and making your AMP pages discoverable. 
+* SEO : provides basic SEO settings such as title, description and keywords to be added on every page which does not have its own equivalent settings as well as a bot indexing switch (disabled by default in order to avoid accidental indexing of unfinished websites), language settings, default settings for JSON-LD markup and a choice on whether to use the original URL as the canonical on detail rendering. Please check our [SEO guide](/docs/guides/seo) for more information on canonical URLs, JSON-LD markup and making your AMP pages discoverable. 
 * Progressive Web App : provides a json field in which you can configure the manifest of your web app and enable Android and Windows Mobile users to add your website to their home screen for an app-like experience. Please consult the [official docs](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) for the basics and specifics of configuring a web app manifest.
 * Analytics : allows configuration of analytics type and vars json. For more details please read our [analytics guide](/docs/guides/analytics).
 * Access : allows configuration of AMP-access json. For more details please read the [official docs](https://ampbyexample.com/components/amp-access/).
-* A/B Testing : allows enabling/disabling a/b testing as well as making the choice sticky (if the first time the users sees variant A the he will always see variant A) and changing the probabilty of getting one variant or the other. Please note that you need to manually assign components in pages to different variants in order for a/b testing to work.
+* A/B Testing : allows enabling/disabling of a/b testing as well as making the choice sticky (if the first time the users sees variant A the he will always see variant A) and changing the probabilty of getting one variant or the other. Please note that you need to manually assign components in pages to different variants in order for a/b testing to work.
 * GitHub : provides configuration options for syncing your website with a GitHub repository. For more details please read our [versioning guide](/docs/guides/versioning)
 * Menu : has the same configuration options as the menu component that can be added in any page. If activated, it will be injected into any page that does not already have one or does not explicitly disable this in its own settings.
 * Footer : has the same configuration options as the HTML component that can be added in any page. If configured and activated, it will be injected into any page that does not explicitly disable this in its own settings.
 
 Page settings
 
-* Style : allows disabling of automatic inclusion of menu and/or footer if they were defined and activated in the site settings as well as a CSS code editor in which you can add CSS that will be injected in the page after the CSS code defined in the site settings. This can be very usefull for styles that only apply to the current page.
+* Style : allows disabling of automatic inclusion of menu and/or footer if they were defined and activated in the site settings as well as a CSS code editor in which you can add CSS that will be injected in the page after the CSS code defined in the site settings. This can be very useful for styles that only apply to the current page.
 * URLs : allows changing the URL segment of the current page (without affecting its name or title) or even applying a full vanity URL (this option overrides the first)
 * SEO : provides basic SEO settings such as title, description and keywords as well as the canonical URL field. Please check our [SEO guide](/docs/guides/seo) for more information on canonical URLs and making your AMP pages discoverable. 
 * Analytics : analytics vars to be merged into those from the site settings overriding/enriching them for the current page
@@ -69,7 +69,7 @@ Whenever you click on a component in the "components" tab of the side panel it i
 
 That's the basis of page layout. With this simple and intuitive method you can build any responsive grid-based layout. There are however a few special cases :
 
-* The "Menu" and "User notification" components won't be rendered within the grid as they are floating components. This means that if they were placed in a specific place in the page editor they will automatically leave that place and move to the top of the page on render. As this can potentially disrupt the layout of the line in which tey were it is best to place them alone in a full line either at the top or bottom of the page editor.
+* The "Menu" and "User notification" components won't be rendered within the grid as they are floating components. This means that if they were placed in a specific place in the page editor they will automatically leave that place and move to the top of the page on render. As this can potentially disrupt the layout of the line in which they were, it is best to place them alone in a full line either at the top or bottom of the page editor.
 * Components can also be resized vertically. This is used to create more complex layouts as it considers any components within the height range of that component as being on the same line wth it. The most basic use case fo this is having 3 components stacked in the center of the page with a component on the side that runs for several lines (or even the whole page) : simply add the side component, stretch it for 3 lines and the desired column width and set it on the right of the page, add the 3 components to its left having one line each.
 
 ## Component settings
@@ -78,7 +78,7 @@ Depending on its type, each component has a variety of settings. When your mouse
 
 Specialized tools handle settings that a simple form cannot such as rich text, HTML code, and datasource queries and templates. The rich text editor displays a full-screen WYSIWYG editor in which the CSS code of your website and current page are automatically applied in order to make the preview as close as possible to the rendered result. The HTML editor works in a similar way but uses a raw HTML editor instead of a WYSIWYG editor. In both cases the resulting HTML will be automatically converted to valid AMP HTML on render. This means you don't have to worry about learning AMP in order to use these editors : rich text or HTML editing skills will do just fine.
 
-Components that display content form your datasources such as lists, details and carousels also have query and template settings. Both are handled by the query builder tool. It displays a wizzard with three steps : building your query, choosing a custom template or an existing one and fianally result preview/custom template editing. The last step also uses the CSS code of your website and current page in order to ensure the preview is as close as possible to the rendered result. Once these settings are complete and if you chose to use a custom template, the component will also display a template tool wich allows direct access to the last stage of this wizard in edit mode for convenience. Because of the highly specific nature of its settings, components that use the query builder tool require configuration before they can be rendered unlike the majority of components which come with valid default settings. Please check our other guides for more information on [templating](/docs/guides/templating) and [the query builder](/docs/guides/querybuilder).
+Components that display content from your datasources such as lists, details and carousels also have query and template settings. Both are handled by the query builder tool. It displays a wizard with three steps : building your query, choosing a custom template or an existing one and fianally result preview/custom template editing. The last step also uses the CSS code of your website and current page in order to ensure the preview is as close as possible to the rendered result. Once these settings are complete and if you chose to use a custom template, the component will also display a template tool wich allows direct access to the last stage of this wizard in edit mode for convenience. Because of the highly specific nature of its settings, components that use the query builder tool require configuration before they can be rendered unlike the majority of components which come with valid default settings. Please check our other guides for more information on [templating](/docs/guides/templating) and [the query builder](/docs/guides/querybuilder).
 
 ## Preview
 
@@ -86,4 +86,4 @@ The page preview shows what the current page looks like on mobile, tablet or des
 
 You can also open the preview in a new window (one of the size adjustment buttons in the preview). This can be useful in a dual screen configuration with editor on one side and result on the other.
 
-Please note that seo-related components and settings do not work in preview mode in order to avoid producing unwanted data. The same applies to PWA features and the web app manifest.
+Please note that SEO-related components and settings do not work in preview mode in order to avoid producing unwanted data. The same applies to PWA features and the web app manifest.
