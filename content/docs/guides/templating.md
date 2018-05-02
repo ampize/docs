@@ -15,7 +15,7 @@ Together with the CSS code fields in page and site settings they are the main to
 
 ## Overview
 
-Mustache templates are simple and easy to use. Being logic-less, they don't have any advanced features such as conditionals and yet they can cover the vast majority of use cases.
+Mustache templates are simple and easy to use. Being logic-less, they don't have any advanced features such as conditionals, and yet they can cover the vast majority of use cases.
 
 AMPize automatically generates basic templates for every use case directly in the query builder so you never need to start from scratch.
 This makes templating productive as most of the time you can either leave the auto-generated templates as they are or do some minor tinkering.
@@ -38,7 +38,7 @@ Once you are satisfied with the template clicking the "SAVE" button in the botto
 
 ### Reusable templates and centralized updates
 
-In many use cases different components can use the same template and it would be unnecessarily tedious to have to maintain the all separately. This is why templates can be saved and reused in other components. In order to do this simply configure a new component (or edit an existing one) and click the floppy-disk-shaped icon right beneath the code editor. This will display a form which you can use to name and save your template.
+In many use cases different components can use the same template and it would be unnecessarily tedious to have to maintain them all separately. This is why templates can be saved and reused in other components. In order to do this simply configure a new component (or edit an existing one) and click the floppy-disk-shaped icon right beneath the code editor. This will display a form which you can use to name and save your template.
 
 Once the template is saved, it can no longer be edited directly from the component. This means that the last stage of the query builder wil no longer display the edit button and code editor and that the "template" button is no longer available on the toolbar of that component. The template can only be edited from the centralized template editing interface.
 
@@ -110,7 +110,7 @@ One thing that is not very clear in the docs is how to output a non-associative 
 
 Depending on what type of component your template is used in, certain special elements can be used. In our list template those would be the detail link and the pager.
 
-In all list templates a field called "ampizeDetailUrl" is injected at the root of every result item. It is automatically field with the detail URL of that item (if a detail page is configured in the component settings).You should remove the entire `<a class="ampize-primary-color" href="{{ampizeDetailUrl}}">Read more</a>` link if you don't want this behaviour (otherwise you just get empty links).
+In all list templates a field called "ampizeDetailUrl" is injected at the root of every result item. It is automatically filled with the detail URL of that item (if a detail page is configured in the component settings).You should remove the entire `<a class="ampize-primary-color" href="{{ampizeDetailUrl}}">Read more</a>` link if you don't want this behaviour (otherwise you just get empty links).
 
 The entire "ampizePaging" section is used for paging and will only be displayed if paging is activated in the component settings. Please note the use of the "prevPage" section as a form of conditional display: if it is not defined the "previous page" link is not rendered.
 
@@ -118,4 +118,4 @@ The entire "ampizePaging" section is used for paging and will only be displayed 
 
 Template overrides go beyond Mustache to give you full control of the way a component is rendered.
 The template override tool allows you to change the code of the Blade template used to render that component. For more about Laravel Blade please check out the [official docs](https://laravel.com/docs/5.3/blade).
-Please note that editing Blade directives (code starting with @) and output code such as `[[ something ]]` or `{!! something !!}` can result in page-breaking php errors so it its best to stick to the html code unless you know Blade.
+Please note that editing Blade directives (code starting with @) and output code such as `[[ something ]]` or `{!! something !!}` can result in page-breaking php errors so it is best to stick to the html code unless you know Blade.
