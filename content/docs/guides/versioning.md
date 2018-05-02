@@ -10,7 +10,7 @@ description: >
 href: /docs/guides/versioning
 ---
 
-You can benefit from the versionning system of git by plugging your site with a github repository (only compatible with github for now).
+You can benefit from the versioning system of git by plugging your site with a github repository (only compatible with github for now).
 
 ## Github settings
 
@@ -25,13 +25,13 @@ There are 4 parameters:
  * Repository URL : your github repository URL (can be with ".git" or not). e.g: "https://github.com/ampize/git-sample" or "https://github.com/ampize/git-sample.git"
  * Token : a github token with write/read access to your repository (see below «How to create a github token»)
  * Branch : "master" by default, this is the main branch which will be synchronized with your site
- * Automatically push when publishing site : when this parameter is checked, each time you will publish your site, ampize will ask you if you want to push it to github
+ * Automatically push when publishing site : when this parameter is checked, each time you will publish your site, AMPize will ask you if you want to push it to github
 
 ## Pushing your site to github
 
-Once your github repository configured, you can push your site to github.
+Once your github repository is configured, you can push your site to github.
 
-In the site-builder, just on the left of your site's name, access to the menu like you would access to the site settings. An entry «Push to Github» should now be there :
+In the site-builder, just on the left of your site's name, select the menu as you would access for the site settings. An entry «Push to Github» should now be there :
 
 <amp-img class="col-6 md-col-3" src="/static/img/github-open-menu.png"  width="238"  height="135"  layout="responsive"  alt="open menu"></amp-img>
 
@@ -63,7 +63,7 @@ Note that this will not publish your site, but all the configuration that has no
 
 This is an example of how to create a github token.
 
-Connect to an account which has access to the github repository that you want to synchronize with ampize. Ideally, this account only have access to this repository because github does not give access per repository but for all the account.
+Connect to an account which has access to the github repository that you want to synchronize with AMPize. Ideally, this account only have access to this repository because github does not give access per repository but for all the account.
 
 Go to https://github.com/settings/tokens and on the top right click on «Generate new token»
 
@@ -73,4 +73,4 @@ Then select all "repo" in «Select scopes»
 
 <amp-img class="col-12 md-col-8" src="/static/img/github-scope.png"  width="894"  height="497"  layout="responsive"  alt="github scopes"></amp-img>
 
-Then generate the token and copy paste it to ampize
+Then generate the token and copy paste it to AMPize
