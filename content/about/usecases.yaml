@@ -10,14 +10,14 @@ rows:
           size: 10
           title@: Check out our common use cases
           sections:
-              - title@: UC1 - Boost your Search Visibility
+              - title@: UC1 - Boost Your Search Visibility
                 titleclass: h2 caps
                 template: text
                 displaytitle: false
                 content:
                   <div class="clearfix m0 bg-green">
                       <div class="caps bigtext white p2 m2">
-                        <div>Be featured in Google “Top Stories” carousel</div>
+                        <div>Be featured in Google's “Top Stories” carousels </div>
                         <hr class="mb1 md-hide lg-hide col-12 mb1"></hr>
                         <div>Appear in search results with rich result features</div>
                       </div>
@@ -26,12 +26,12 @@ rows:
                     <div class="ml2 mt3"><h3>Expected Benefits:</h3></div>
                     <div class="flex flex-wrap p3 ml2 benefits">
                         <hr class="mb1 md-hide lg-hide col-12"></hr>
-                        <div class="caps md-col-3 col-9 benefits-title">Traffic<br>Retention<br>User&nbsp;Experience<br>Costs&nbsp;Savings
+                        <div class="caps md-col-3 col-9 benefits-title">Traffic<br>Retention<br>User&nbsp;Experience<br>Cost&nbsp;Savings
                         </div>
                         <div class="md-col-1 col-3 grey caps benefits-plus"><span class="bold green">+</span>++<br>+++<br>+++<br><span class="bold green">+</span>++</div>
                         <hr class="mb1 md-hide lg-hide col-12 mb1"></hr>
                         <div class="md-col-8" col-12>
-                            <p>Being featured in Google "Top Stories" requires that your content be published in AMP and include a structured data markup. In AMPize.me this can be done in two simple steps, independently from your web language or CMS&#58;</p>
+                            <p>Being featured in Google's "Top Stories" requires that your content be published in AMP and include a structured data markup. In AMPize.me this can be done independently from your web language or CMS in two simple steps:&#58;</p>
                             <ol type="1">
                             <li>Plug your website or data source</li>
                             <li>Create an article page</li>
@@ -40,32 +40,32 @@ rows:
                         </div>
                     </div>
                   </div>
-              - title@: UC2 - Convert your website to Mobile
+              - title@: UC2 - Convert Your Website to Mobile
                 titleclass: h2 caps
                 template: text
                 displaytitle: false
                 content:
                   <div class="clearfix m0 bg-green">
                       <div class="caps bigtext white p2 m2">
-                        <div>Provide instant load experience to your readers</div>
+                        <div>Provide an instant load experience to your readers</div>
                         <hr class="mb1 md-hide lg-hide col-12 mb1"></hr>
-                        <div>Anticipate the “mobile-first” Google index</div>
+                        <div>Anticipate and adopt Google's “mobile-first indexing”</div>
                       </div>
                   </div>
                   <div class="clearfix bg-white m0">
                     <div class="ml2 mt3"><h3>Expected Benefits:</h3></div>
                     <div class="flex flex-wrap p3 ml2 benefits">
                       <hr class="mb1 md-hide lg-hide col-12"></hr>
-                      <div class="caps md-col-3 col-9 benefits-title">Traffic<br>Retention<br>User&nbsp;Experience<br>Costs&nbsp;Savings
+                      <div class="caps md-col-3 col-9 benefits-title">Traffic<br>Retention<br>User&nbsp;Experience<br>Cost&nbsp;Savings
                       </div>
                       <div class="md-col-1 col-3 grey caps benefits-plus"><span class="bold green">++</span>+<br><span class="bold green">++</span>+<br><span class="bold green">++</span>+<br><span class="bold green">+++</span></div>
                       <hr class="mb1 md-hide lg-hide col-12 mb1"></hr>
                       <div class="md-col-8" col-12>
-                          <p>Creating a full AMP site will provide your readers all the benefits of AMP, even outside specific mobile search contexts. Your AMP pages will be accessible from everywhere (mobile, desktop, links, ...) and will provide your readers a consistent instant load experience. The mobile traffic will be integrally absorbed by AMPize.me, saving you high infrastructures costs.</p>
+                          <p>Creating a full AMP site will provide your readers all the benefits of AMP, even outside specific mobile search contexts. Your AMP pages will be accessible from everywhere (mobile, desktop, links, ...) and will provide your readers a consistent instant load experience. The mobile traffic will be integrally absorbed by AMPize.me, saving you high infrastructure costs.</p>
                       </div>
                     </div>
                   </div>
-              - title@: UC3 - Replace your mobile Apps
+              - title@: UC3 - Replace Traditional Apps with PWAs 
                 titleclass: h2 caps
                 template: text
                 displaytitle: false
@@ -83,12 +83,12 @@ rows:
                     <div class="ml2 mt3"><h3>Expected Benefits:</h3></div>
                     <div class="flex flex-wrap p3 ml2 benefits">
                       <hr class="mb1 md-hide lg-hide col-12"></hr>
-                      <div class="caps md-col-3 col-9 benefits-title">Traffic<br>Retention<br>User&nbsp;Experience<br>Costs&nbsp;Savings
+                      <div class="caps md-col-3 col-9 benefits-title">Traffic<br>Retention<br>User&nbsp;Experience<br>Cost&nbsp;Savings
                       </div>
                       <div class="md-col-1 col-3 grey caps benefits-plus"><span class="bold green">+++</span><br><span class="bold green">+++</span><br><span class="bold green">+++</span><br><span class="bold green">+++</span></div>
                       <hr class="mb1 md-hide lg-hide col-12 mb1"></hr>
                       <div class="md-col-8" col-12>
-                          <p>Combining the power of AMP with the Progressive Web App technology (PWA) makes it possible to replace your existing Apps on Android Phones. The "add to home screen" feature will add a shortcut to your AMPsite, directly on the user home screen. The PWA will use a local cache to support network outages. Push notifications will also be supported soon in AMpize.me.</p>
+                          <p>Combining the power of AMP with the Progressive Web App technology (PWA) makes it possible to replace your existing Apps on Android Phones. The "add to home screen" feature will add a shortcut to your AMPsite, directly on the user's home screen. The PWA will use a local cache to support network outages. Push notifications will also be supported soon in AMPize.me.</p>
                       </div>
                     </div>
                   </div>
