@@ -2,11 +2,15 @@
 $title@: API source
 $order: 1
 ---
-This tutorial will show you how to plug a REST API data-source.
+This tutorial will show you how to plug a REST API data-source. (For this example, we will use a REST API from The Guardian)
 
-1. In the hamburger menu, click on the "Data sources" entry
-2. Create a new REST API and name it "test"
-3. Fill in the common base URL to all API's endpoints: [http://content.guardianapis.com](http://content.guardianapis.com)
+1. In the hamburger menu, click on the "Data Sources"    
+2. Create a new REST API by clicking on the red plus sign at the bottom right corner of your screen, and selecting 'Rest API'. 
+3. Complete the fields unique to your API. 
+
+Source:
+a) Name your Data Source 
+b) Fill in the common base URL to all API's endpoints: (For example; http://content.guardianapis.com )
 
 <amp-img src="/static/img/plug_first.png" width="899"height="450" layout="responsive" class="screenshot">  
 
