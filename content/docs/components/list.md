@@ -10,7 +10,7 @@ description: >
     Dynamically displays list of items using a predefined or custom template
 href: /docs/components/list
 ---
-<p>The List Component dynamically displays list of items using a predefined or custom template.</p>
+<p>The List Component dynamically displays a list of items using a predefined or custom template.</p>
 <div class="md-col-5 col-12">
 <amp-img width=446 height=794 src="/static/img/components/list.png" layout="responsive"></amp-img>
 </div>
