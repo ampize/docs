@@ -36,5 +36,5 @@ Page of the site (containing a Detail component) to which the user should be red
 Number of slides displayed in the carousel
 <h3 class="mb3 mt3">Offset</h3>
 The number of items to skip in the query results.
-<h3 class="mb3 mt3">Display controls arrows on mobile</h3>
+<h3 class="mb3 mt3">Display control arrows on mobile</h3>
 Indicates whether left and right arrows are displayed for the user to navigate carousel items on mobile devices.
