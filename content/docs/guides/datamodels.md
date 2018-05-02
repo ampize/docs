@@ -59,7 +59,7 @@ The Alambic Type system extends the GraphQL initial format by adding information
 
 ### Custom Object Types
 
-Every object field that compose your custom Type must belongs to one of internal or custom Types:
+Every object field that composes your custom Type must belong to one of the internal or custom Types:
 
 ```json
 {
@@ -96,7 +96,7 @@ Every object field that compose your custom Type must belongs to one of internal
 }
 ```
 
-* the key "Product" is the name of the Type, it MUST be unique across all datasources
+* the key "Product" is the name of the Type, it MUST be unique across all data sources
 * the "name" value MUST be equal to the Type key
 * each field is described by a number of properties
 
@@ -260,7 +260,7 @@ In Alambic every foreign field Type declared without the "relation" property is 
 
 ## Connectors settings
 
-Once you described the data structure (Types, fields) and the relations between Types, you'll need to set up a few more more attributes in your model to specify how to fetch data from the original source.
+Once you described the data structure (Types, fields) and the relations between Types, you'll need to set up a few more attributes in your model to specify how to fetch data from the original source.
 
 | Attribute | Description |
 |----------|------|
