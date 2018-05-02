@@ -27,7 +27,7 @@ href: /docs/components/reddit
 - Comment
 
 <h3 class="mb3 mt3">Permalink uri</h3>
-The permamlink uri for the post or comment.
+The permalink uri for the post or comment.
 <h3 class="mb3 mt3">Embed Comment UUID</h3>
 The provided UUID for the comment embed.
 <h3 class="mb3 mt3">Embed Comment datetime string</h3>
