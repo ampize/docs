@@ -12,7 +12,7 @@ description: >
     Displays multiple similar pieces of content along a horizontal axis, all slides being shown.
 href: /docs/components/carousel
 ---
-<p>The Carousel components displays multiple similar pieces of content along a horizontal axis, all slides being shown.</p>
+<p>The Carousel components display multiple similar pieces of content along a horizontal axis, all slides being shown.</p>
 <amp-carousel height="300"
   layout="fixed-height"
   type="carousel">
