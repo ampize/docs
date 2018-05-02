@@ -31,4 +31,4 @@ You can add as many API HTTP headers as you need.
 
 ## Data model
 
-You source must be represented by its data model: it is a basic JSON configuration to describe the data structure (Types: objects and relations between these objects) and how data can be fetched (Connectors). See [Data Models](/docs/guides/datamodels) guide for more info.
+Your source must be represented by its data model: it is a basic JSON configuration to describe the data structure (Types: objects and relations between these objects) and how data can be fetched (Connectors). See [Data Models](/docs/guides/datamodels) guide for more info.
