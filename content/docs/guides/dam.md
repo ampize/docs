@@ -37,7 +37,7 @@ There are two main sections in the library: Search and Import
 
 <amp-img class="col-12 md-col-8" src="/static/img/image-library/search-image-library.png"  width="863"  height="547" layout="responsive"  alt="search image library"></amp-img>
 
-On the left sidenav you can find all your sources which contains images. The first one is "Uploaded" : images that you manually upload thanks to the import.
+On the left side nav you can find all your sources which contains images. The first one is "Uploaded" : images that you manually upload thanks to the import.
 The others are all your data sources containing an image field.
 
 #### Selecting a source
@@ -57,8 +57,8 @@ In the import tab you can upload your own images. You just have to drag and drop
 
 <amp-img class="col-12 md-col-8" src="/static/img/image-library/import-image-library.png"  width="853"  height="498" layout="responsive"  alt="import image library"></amp-img>
 
-Once the upload is finished a green chip appears on each images that have been correctly uploaded. You can now find and select them on the "Uploaded" source.
+Once the upload is finished a green chip appears on each image that has been correctly uploaded. You can now find and select them on the "Uploaded" source.
 
 ## Note about images
 
-The AMP specification requires each image to have an explicit size. Hopefully, you don't have to manually set the width and height on each image, as Ampize will deduce them automatically for you.
+The AMP specification requires each image to have an explicit size. You shouldn't have to manually set the width and height on each image, as Ampize will deduce them automatically for you.
