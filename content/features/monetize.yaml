@@ -13,8 +13,8 @@ rows:
           title@: Monetize
           titleclass: green
           content@:
-              <p>AMPize is designed as a complete eco-system to publish and monetize valuable contents.</p>
-              <p class="mt2">Seamless integration of AMP Ads and carefully selected monetization solutions (paywalls, micro-payment, video advertising) gives you the opportunity to test drive and choose the optimal business model, for you and your customers.</p>
+              <p>AMPize is designed as a complete eco-system to publish and monetize valuable content.</p>
+              <p class="mt2">Seamless integration of AMP Ads and carefully selected monetization solutions (paywalls, micro-payment, video advertising, etc.) gives you the opportunity to test drive and choose the optimal business model for you and your customers.</p>
     - template: col
       columns:
         - template: text
@@ -22,8 +22,8 @@ rows:
           subtitle@: Deliver a fast and compelling ad experience that users appreciate and advertisers value
           subtitleclass: squaretitle
           content@:
-            <p>AMP currently supports about 130 ad networks, and various ad formats standard, sticky, flying carpet.</p>
-            <p class="mt2">AMPize can also integrates with your custom paywall and registration process.<p>
+            <p>AMP currently supports over 120 ad networks, and various ad formats standards (i.e. sticky, flying carpet, etc.).</p>
+            <p class="mt2">AMPize can also integrate with your custom paywall and registration process.<p>
           contentclass: box
         - template: text
           title@:
