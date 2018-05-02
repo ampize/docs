@@ -14,10 +14,10 @@ rows:
           titleclass: green
           content@:
               <p>One of the core principles of AMP is to provide a consistently FAST experience to end-users.</p>
-              <p>The Google AMP Cache is a one of the key ingredients to deliver a near instant experience.</p>
-              <p>This Content Delivery Network is designed to fetch, optimize and serve any valid AMP Content</p>
-              <p>with reduced latencies, images and network optimizations.</p>
-              <p class="mt2 squaretitle">The AMPize.me architecture integrates deeply with the AMP Cache to provide a fast-loading experience, independantly from the original scaling capabilities of your data-sources.</p>
+              <p>The Google AMP Cache is a one of the key ingredients to delivering a near instant experience.</p>
+              <p>This Content Delivery Network is designed to collect, optimize and serve any valid AMP Content</p>
+              <p>with reduced latencies, and with image and network optimizations.</p>
+              <p class="mt2 squaretitle">The AMPize.me architecture integrates deeply with the AMP Cache to provide a fast-loading experience, independant from the original scaling capabilities of your data-sources.</p>
     - template: col
       columns:
         - template: hero
@@ -27,11 +27,11 @@ rows:
           content@:
               <ol>
                 <li class="mb2">The incoming request hits the AMPize server</li>
-                <li class="mb2">AMPize requires contents from the AMP Cache</li>
-                <li class="mb2">Existing contents are directly served from the cache</li>
-                <li class="mb2">The AMP Cache gets automatically refreshed, every 15 seconds (minimum time that is likely to evolve over time), from the original data-source</li>
+                <li class="mb2">AMPize retrieves the content from the AMP Cache</li>
+                <li class="mb2">Existing contents are directly served from the AMP Cache</li>
+                <li class="mb2">The AMP Cache gets automatically updated, every 15 seconds from the original data-source. (Auto-Update time-frames will evolve over time.)</li>
               </ol>
-              <p class="squaretitle">As a result, your data-source is protected by the cache and your site easily scale with incoming traffic</p>
+              <p class="squaretitle">As a result, your AMP website will be easily scalable, and able to handle all of the incoming traffic while your original data-source will be protected by the AMP Cache.</p>
 
         - template: image
           size: 6
