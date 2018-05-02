@@ -17,7 +17,7 @@ By plugging a website as a datasource, you can extract structured items from a s
 
 You can optionally set crawl jobs to repeat automatically.
 
-During crawls, only new items are extracted. Items are updated when displayed by a visitor in the AMP site, and will be deleted if the source page doesn't exist anymore.
+During crawls, only new items are extracted. Items are updated when viewed by a visitor in the AMP site, and will be deleted if the source page doesn't exist anymore.
 
 ## Settings
 
@@ -71,7 +71,7 @@ The maximum depth (number of clicks you need to reach a specific page from the s
 
 ### Target Crawl Concurrency
 
-Average number of requests send in parallel to your website.
+Average number of requests sent in parallel to your website.
 
 ### Repeat crawl
 
@@ -97,7 +97,7 @@ The extraction template will help you define the structure of your data. You can
 To add a field to your structure, just click on an element of the page and select the attribute (text, html, src, href, alt...) you want to be used for this field. You can use several attributes for the same element if you want (for example, for an image you can add an 'image' field for the 'src' attribute and a 'caption' field for the 'alt' attribute).
 
 You can also manually edit the CSS selector if you cannot reach an element using the interface.
-For each field, the following propertiers are available:
+For each field, the following properties are available:
 
 - Field name (mandatory)
 - Format (for 'text' attributes only): 'text' or 'date'. If 'date', the value will be converted to a timestamp
