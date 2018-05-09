@@ -9,8 +9,8 @@ This tutorial will show you how to plug a REST API data-source. (For this exampl
 3. Complete the fields unique to your API. 
 
 Source:
-a) Name your Data Source 
-b) Fill in the common base URL to all API's endpoints: (For example; http://content.guardianapis.com )
+- Name your Data Source 
+- Fill in the common base URL to all API's endpoints: (For example; http://content.guardianapis.com )
 
 <amp-img src="/static/img/plug_first.png" width="899"height="450" layout="responsive" class="screenshot">  
 
