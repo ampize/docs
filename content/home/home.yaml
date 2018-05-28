@@ -14,7 +14,7 @@ rows:
                   <input type="submit" class="white btn right mb1" value="Start your FREE Trial">
                   </div>
               </form>
-              <div><a href="https://app.hubspot.com/meetings/didier-fanchon" target="_blank">Request a demo</a></div>
+              <div><a href="https://app.hubspot.com/meetings/hanna-johnson" target="_blank">Request a demo</a></div>
         - template: image
           class: sm-hide xs-hide
           src: /static/img/home-hero.png
