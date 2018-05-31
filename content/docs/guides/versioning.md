@@ -22,7 +22,7 @@ To configure the github repository you need to go in « Site Settings » then in
 
 There are 4 parameters:
 
- * Repository URL : your github repository URL (can be with ".git" or not). e.g: "https://github.com/ampize/git-sample" or "https://github.com/ampize/git-sample.git"
+ * Repository URL : your github repository URL (can be with ".git" or not). e.g: "https://github.com/ampize/git-sample" or "https://github.com/ampize/git-sample.git". Please note that this repository must not be empty when you push to github for the fist time (it should contain at least a simple README.md file for example)
  * Token : a github token with write/read access to your repository (see below «How to create a github token»)
  * Branch : "master" by default, this is the main branch which will be synchronized with your site
  * Automatically push when publishing site : when this parameter is checked, each time you will publish your site, AMPize will ask you if you want to push it to github
