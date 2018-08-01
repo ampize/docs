@@ -10,4 +10,6 @@ description: >
     Allows to include HTML content in a page, converting HTML tags to valid AMP HTML.
 href: /docs/components/html
 ---
-<p>The Content component allows you to include HTML content in a page, converting HTML tags to valid AMP HTML.</p>
+This component allows you to include standard HTML content in a page.
+
+The HTML tags will be automatically converted to valid AMP HTML at rendering time.</p>
