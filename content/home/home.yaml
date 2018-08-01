@@ -8,7 +8,7 @@ rows:
           content@:
               <h1>Supercharge<br>your mobile web</h1>
               <p class="intro">Give your customers the perfect user journey that they expect from today's mobile web. Increase your website's traffic, engagement and loyalty, while getting the profit you deserve from ad revenue. </p>
-              <form name="SignUp" method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
+              <form name="SignUp" class="signup" method="get" action="https://cloud.ampize.me/sign-up?plan=business" target="_blank">
                   <div class="flex mt4">
                   <input type="email" name="email" class="input mr2" placeholder="Your work e-mail" required>
                   <input type="submit" class="white btn right mb1" value="Start your FREE Trial">
@@ -71,7 +71,7 @@ rows:
                     The AMP logo allows mobile users to identify reliably fast-loading mobile pages.
                   </li>
                   <h3><li>Rich Snippets</h3>
-                    When conducting a search, AMP pages are grouped into Google's 'rich card carousels' making them more visually attractive, and increasing their CTR. 
+                    When conducting a search, AMP pages are grouped into Google's 'rich card carousels' making them more visually attractive, and increasing their CTR.
                   </li>
                 </ul>
     - template: col
