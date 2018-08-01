@@ -58,11 +58,11 @@ rows:
       columns:
         - template: text
           title@: <span class="fa fa-server"></span> Easy Deployement
-          subtitle@: "AMPize.me comes to you in two flavours: open-source and cloud"
+          subtitle@: "AMPize.me comes to you in two flavours: cloud or on-premise"
           subtitleclass: squaretitle intro
           content@:
-            <p class="mt2">Opensource: For those who want to get hands-on, the open-source version of AMPize can be installed anywhere and connected to existing databases or API's within hours.</p>
-            <p class="mt2">Cloud: The Cloud version delivers a complete "AMP as a service" solution with extended features such a crawling, versionning, caching, monetizing, offline support ... and much more!</p>
+            <p class="mt2">The Cloud version delivers a complete "AMP as a service" solution with extended features such a crawling, versionning, caching, monetizing, offline support ... and much more!</p>
+            <p class="mt2">For those who want to get hands-on, a full-featured version of AMPize can be installed anywhere and connected to existing databases or API's within hours.</p>
           contentclass: box
         - template: text
           title@: <span class="fa fa-line-chart"></span> SEO Booster
