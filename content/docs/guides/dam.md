@@ -42,20 +42,20 @@ The others are all your data sources containing an image field.
 
 #### Selecting a source
 
-<amp-img class="col-12 md-col-8" src="/static/img/image-library/filter-image-library.png"  width="1179"  height="618"  layout="responsive"  alt="filter image library"></amp-img>
+<amp-img class="col-12 md-col-8" src="/static/img/image-library/filter-image-library.png"  width="1601"  height="685"  layout="responsive"  alt="filter image library"></amp-img>
 
 Once you have a chosen a source, you can then filter and/or sort images from this source to help you find the asset that you need.
 If you had launched the image library from a field you can then choose the image that you want, while if you had launched it globally you can only consult them.
 
 Moreover, images uploaded can be deleted.
 
-<amp-img class="col-6 md-col-4" src="/static/img/image-library/choose-image-library.png"  width="342"  height="246"  layout="responsive"  alt="select image"></amp-img>
+<amp-img class="col-6 md-col-4" src="/static/img/image-library/choose-image-library.png"  width="323"  height="270"  layout="responsive"  alt="select image"></amp-img>
 
 ### Import
 
 In the import tab you can upload your own images. You just have to drag and drop or select from your compute images that you want to upload and then click on the «Import» button.
 
-<amp-img class="col-12 md-col-8" src="/static/img/image-library/import-image-library.png"  width="853"  height="498" layout="responsive"  alt="import image library"></amp-img>
+<amp-img class="col-12 md-col-8" src="/static/img/image-library/import-image-library.png"  width="1041"  height="471" layout="responsive"  alt="import image library"></amp-img>
 
 Once the upload is finished a green chip appears on each image that has been correctly uploaded. You can now find and select them on the "Uploaded" source.
 
