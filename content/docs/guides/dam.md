@@ -15,7 +15,7 @@ Moreover this interface allows you to choose an image for all image fields.
 
 ## Launching the image library
 
-You can access the image library from 2 locations: "globally" from the burger menu or in an "image field".
+You can access the image library from different locations: "globally" from the burger menu, in an "image field" or from the Rich Text Editor.
 
 ### Globally
 
@@ -27,7 +27,11 @@ You can access the image library from 2 locations: "globally" from the burger me
 
 <amp-img class="col-12 md-col-3" src="/static/img/image-library/inline-image-library.png"  width="361"  height="408" layout="responsive"  alt="inline image library"></amp-img>
 
-Launching the library from the menu makes it appear in a page, while launching it from a field makes it appear in a modal.
+### Rich Text Editor
+
+<amp-img class="col-12 md-col-6" src="/static/img/image-library/image-rte.png"  width="606"  height="71"  layout="responsive" alt="image from the rich text editor"></amp-img>
+
+Launching the library from the menu makes it appear in a page, while launching it from a field or from the Rich Text Editor makes it appear in a modal.
 
 ## Using the library
 
