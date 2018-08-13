@@ -23,3 +23,5 @@ Indicates whether the list should be paginated.
 Number of slides displayed in the carousel
 <h3 class="mb3 mt3">Offset</h3>
 The number of items to skip in the query results.
+<h3 class="mb3 mt3">Hide on detail page</h3>
+This option allows you to add a list component and a detail component on the very same page. In this case, you should active this option so that the list component is hidden on a detail context.
